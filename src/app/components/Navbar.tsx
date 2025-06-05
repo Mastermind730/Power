@@ -20,7 +20,7 @@ export default function Navbar() {
 
           {/* Navigation Links */}
           <div className="hidden lg:flex items-center space-x-8">
-            <Link href="/about" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/pillars" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               About
             </Link>
             <Link href="/app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
@@ -45,7 +45,7 @@ export default function Navbar() {
 
           {/* Contact Button with User Icon */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Link href="/contact" className="group flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300">
+            <Link href="/contact_us" className="group flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300">
               <span>Contact Us</span>
               <svg className="w-4 h-4 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
