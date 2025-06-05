@@ -1,286 +1,224 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import React from 'react';
-
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+
+
 
 const Pillars = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
       {/* Navigation */}
-     <Navbar/>
+      <Navbar/>
      
-
       {/* Hero Section */}
-      <section className="pt-24 pb-20 px-6">
+      <section className="pt-28 pb-24 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl  text-gray-900 mb-8 leading-tight">
-        PILLARS OF
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gray-900 mb-8 leading-tight">
+            PILLARS OF
             <br />
-            <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">
               POWER
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
-Embrace energy unification. Automate and  optimise your home consumption, carbon emissions 
-and cost whilst also enjoying AI vehicle charging.
+            Embrace energy unification. Automate and optimize your home consumption, 
+            reduce carbon emissions and costs while enjoying intelligent vehicle charging.
           </p>
-          <div className="text-lg text-gray-500 mb-16 italic">
-            An all-in-one energy solution.
+          <div className="text-lg text-emerald-600 mb-16 font-medium">
+            An all-in-one energy solution for modern living
           </div>
         </div>
       </section>
 
-      {/* Feature Section 1 - Phone Left, Content Right */}
-      <section className="py-20 px-6">
+      {/* Feature Section 1 - Unification */}
+      <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Phone Mockup */}
+            {/* Image */}
             <div className="flex justify-center lg:justify-start">
-              <div className="relative">
-                <div className="w-80 h-[640px] bg-black rounded-[3rem] p-3 shadow-2xl">
-                  <div className="w-full h-full bg-gray-900 rounded-[2.5rem] p-6 overflow-hidden">
-                    {/* Status Bar */}
-                    <div className="flex justify-between items-center mb-8 text-white text-sm">
-                      <span>9:41</span>
-                      <div className="text-center font-medium">Usage</div>
-                      <div className="flex space-x-1">
-                        <div className="w-4 h-2 border border-white rounded-sm">
-                          <div className="w-3 h-1 bg-green-400 rounded-sm"></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Main Chart */}
-                    <div className="mb-8">
-                      <div className="h-48 relative">
-                        <svg className="w-full h-full" viewBox="0 0 300 180">
-                          <path 
-                            d="M 20 140 Q 50 120 80 110 Q 120 100 150 90 Q 180 80 220 70 Q 250 65 280 60" 
-                            stroke="#22c55e" 
-                            strokeWidth="3" 
-                            fill="none"
-                            className="animate-pulse"
-                          />
-                          <circle cx="280" cy="60" r="4" fill="#22c55e" className="animate-pulse"/>
-                          <text x="280" y="45" fill="#22c55e" fontSize="12" textAnchor="middle">27kW</text>
-                        </svg>
-                      </div>
-                    </div>
-
-                    {/* Rooms Section */}
-                    <div className="mb-8">
-                      <h3 className="text-white text-lg mb-4">Rooms</h3>
-                      <div className="space-y-3">
-                        <div className="flex justify-between items-center">
-                          <div className="flex items-center space-x-3">
-                            <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-                              <div className="w-4 h-4 bg-white rounded-sm"></div>
-                            </div>
-                            <span className="text-gray-300">Living Room</span>
-                          </div>
-                          <span className="text-green-400 font-bold">348W</span>
-                        </div>
-                        <div className="flex justify-between items-center">
-                          <div className="flex items-center space-x-3">
-                            <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                              <div className="w-4 h-4 bg-white rounded-full"></div>
-                            </div>
-                            <span className="text-gray-300">Bedroom</span>
-                          </div>
-                          <span className="text-white">201W</span>
-                        </div>
-                        <div className="flex justify-between items-center">
-                          <div className="flex items-center space-x-3">
-                            <div className="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center">
-                              <div className="w-3 h-3 bg-white rounded-sm"></div>
-                            </div>
-                            <span className="text-gray-300">Kitchen</span>
-                          </div>
-                          <span className="text-white">111W</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Bottom Stats */}
-                    <div className="grid grid-cols-2 gap-6">
-                      <div className="text-center">
-                        <div className="text-green-400 text-2xl font-bold">£17.33</div>
-                        <div className="text-gray-400 text-sm">Today</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-green-400 text-2xl font-bold">2.73</div>
-                        <div className="text-gray-400 text-sm">Footprint</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -top-4 -right-4 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg animate-bounce">
-                  <div className="w-6 h-6 bg-white rounded-full"></div>
-                </div>
+              <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
+                <Image
+                  src={"/UnificationImage"}
+                  alt="Energy unification dashboard"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-opacity duration-500 hover:opacity-90"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
             </div>
 
             {/* Content */}
             <div className="space-y-8">
-              <div>
-                <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
+                  <span className="text-emerald-600 text-xl font-bold">1</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
                   Unification
-                  <br />
                 </h2>
-                <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Power is a comprehensive energy management platform that brings all your energy-related tasks 
-                  together. Power features all your devices,consumption data, optimisation metrics, and energy-saving schemes
-                  all in one place.
-                </p>
-               
               </div>
-              
-              {/* <div className="flex space-x-6">
-                <div className="flex-1 bg-white rounded-2xl p-6 shadow-lg">
-                  <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
-                    <div className="w-6 h-6 bg-green-500 rounded-full"></div>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Power brings all your energy systems together in one intuitive platform. 
+                Monitor and manage every device, track consumption patterns, and optimize 
+                energy flows across your entire property.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center">
+                      <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Real-Time Control</h3>
-                  <p className="text-gray-600">Monitor and control every device in your home with precision.</p>
-                </div>
-                <div className="flex-1 bg-white rounded-2xl p-6 shadow-lg">
-                  <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                    <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
+                  <p className="ml-3 text-gray-600">Centralized control for all energy devices</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center">
+                      <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Cost Optimization</h3>
-                  <p className="text-gray-600">Automatically optimize energy usage to minimize costs.</p>
-                </div>
-              </div> */}
+                  <p className="ml-3 text-gray-600">Real-time energy flow visualization</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center">
+                      <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p className="ml-3 text-gray-600">Seamless integration with existing smart home systems</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Feature Section 2 - Content Left, Phone Right */}
-      <section className="py-20 px-6 bg-gradient-to-r from-green-50 to-emerald-50">
+      {/* Feature Section 2 - Optimization */}
+      <section className="py-24 px-6 bg-gradient-to-r from-emerald-50 to-green-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Content */}
             <div className="space-y-8 lg:order-1">
-              <div>
-                <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                  Advanced
-                  <br />
-                  <span className="text-emerald-500">Analytics</span>
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
+                  <span className="text-emerald-600 text-xl font-bold">2</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Optimization
                 </h2>
-                <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                The unique ability to control energy usage down to the appliance and device level sets it apart from other 
-                energy management solutions . This level of granular control allows consumers to optimize their energy usage,
-                {/* </p> */}
-                {/* <p className="text-lg text-gray-500 leading-relaxed"> */}
-                  identify energy-hungry devices, and make data-driven decisions to reduce their energy consumption.
-                </p>
               </div>
-              
-              {/* <div className="grid grid-cols-2 gap-6">
-                <div className="bg-white rounded-2xl p-6 shadow-lg">
-                  <div className="text-3xl font-bold text-emerald-500 mb-2">85%</div>
-                  <div className="text-gray-600">Energy Efficiency</div>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Our advanced algorithms analyze your energy patterns to deliver 
+                precise recommendations for reducing waste and maximizing efficiency.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                  <div className="text-emerald-600 text-3xl font-bold mb-2">30-50%</div>
+                  <div className="text-gray-600">Reduction in energy waste</div>
                 </div>
-                <div className="bg-white rounded-2xl p-6 shadow-lg">
-                  <div className="text-3xl font-bold text-emerald-500 mb-2">£340</div>
-                  <div className="text-gray-600">Monthly Savings</div>
+                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                  <div className="text-emerald-600 text-3xl font-bold mb-2">24/7</div>
+                  <div className="text-gray-600">Continuous performance monitoring</div>
                 </div>
-                <div className="bg-white rounded-2xl p-6 shadow-lg">
-                  <div className="text-3xl font-bold text-emerald-500 mb-2">2.1T</div>
-                  <div className="text-gray-600">CO₂ Reduced</div>
-                </div>
-                <div className="bg-white rounded-2xl p-6 shadow-lg">
-                  <div className="text-3xl font-bold text-emerald-500 mb-2">99.9%</div>
-                  <div className="text-gray-600">Uptime</div>
-                </div>
-              </div> */}
+              </div>
+              <p className="text-lg text-gray-500 leading-relaxed">
+                Set custom energy budgets, track progress toward goals, and receive 
+                intelligent alerts when adjustments are needed.
+              </p>
             </div>
 
-            {/* Phone Mockup */}
+            {/* Image */}
             <div className="flex justify-center lg:justify-end lg:order-2">
-              <div className="relative">
-                <div className="w-80 h-[640px] bg-white rounded-[3rem] p-3 shadow-2xl border border-gray-200">
-                  <div className="w-full h-full bg-gray-50 rounded-[2.5rem] p-6 overflow-hidden">
-                    {/* Header */}
-                    <div className="text-center mb-8">
-                      <h3 className="text-gray-900 text-xl font-bold mb-4">Energy Analytics</h3>
-                      <div className="w-full bg-gray-200 rounded-full h-3">
-                        <div className="bg-gradient-to-r from-green-400 to-emerald-500 h-3 rounded-full" style={{width: '78%'}}></div>
-                      </div>
-                      <p className="text-gray-600 text-sm mt-2">78% Efficiency Today</p>
-                    </div>
-                    
-                    {/* Chart Area */}
-                    <div className="bg-white rounded-2xl p-6 mb-8 shadow-sm">
-                      <div className="h-40 relative">
-                        <div className="absolute bottom-0 left-0 w-8 bg-green-200 rounded-t-lg" style={{height: '60%'}}></div>
-                        <div className="absolute bottom-0 left-12 w-8 bg-green-300 rounded-t-lg" style={{height: '75%'}}></div>
-                        <div className="absolute bottom-0 left-24 w-8 bg-green-400 rounded-t-lg" style={{height: '90%'}}></div>
-                        <div className="absolute bottom-0 left-36 w-8 bg-green-500 rounded-t-lg" style={{height: '85%'}}></div>
-                        <div className="absolute bottom-0 left-48 w-8 bg-emerald-400 rounded-t-lg" style={{height: '95%'}}></div>
-                        <div className="absolute bottom-0 left-60 w-8 bg-emerald-500 rounded-t-lg" style={{height: '80%'}}></div>
-                        
-                        {/* Trend Line */}
-                        <svg className="absolute inset-0 w-full h-full" viewBox="0 0 240 160">
-                          <path 
-                            d="M 16 100 L 28 80 L 40 60 L 52 65 L 64 50 L 76 55" 
-                            stroke="#10b981" 
-                            strokeWidth="2" 
-                            fill="none"
-                            strokeDasharray="4,4"
-                          />
-                        </svg>
-                      </div>
-                      <div className="flex justify-between text-xs text-gray-500 mt-4">
-                        <span>Mon</span>
-                        <span>Tue</span>
-                        <span>Wed</span>
-                        <span>Thu</span>
-                        <span>Fri</span>
-                        <span>Sat</span>
-                      </div>
-                    </div>
-                    
-                    {/* Stats */}
-                    <div className="space-y-4">
-                      <div className="flex items-center justify-between bg-white rounded-xl p-4">
-                        <div className="flex items-center space-x-3">
-                          <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                            <div className="w-5 h-5 bg-green-500 rounded-full"></div>
-                          </div>
-                          <div>
-                            <div className="text-gray-900 font-medium">Peak Hour</div>
-                            <div className="text-gray-500 text-sm">2:30 PM</div>
-                          </div>
-                        </div>
-                        <div className="text-green-600 font-bold">4.2kW</div>
-                      </div>
-                      
-                      <div className="flex items-center justify-between bg-white rounded-xl p-4">
-                        <div className="flex items-center space-x-3">
-                          <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                            <div className="w-5 h-5 bg-emerald-500 rounded-full"></div>
-                          </div>
-                          <div>
-                            <div className="text-gray-900 font-medium">Total Savings</div>
-                            <div className="text-gray-500 text-sm">This month</div>
-                          </div>
-                        </div>
-                        <div className="text-emerald-600 font-bold">£127.45</div>
-                      </div>
-                    </div>
+              <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
+                <Image 
+                  src={"/OptimizationImage"}
+                  alt="Energy optimization analytics"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-opacity duration-500 hover:opacity-90"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Feature Section 3 - Intervention */}
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Image */}
+            <div className="flex justify-center lg:justify-start">
+              <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
+                <Image 
+                  src={"/ControlImage"}
+                  alt="Energy control interface"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-opacity duration-500 hover:opacity-90"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="space-y-8">
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
+                  <span className="text-emerald-600 text-xl font-bold">3</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Intervention
+                </h2>
+              </div>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Take precise control of your energy ecosystem with granular device 
+                management and automated scheduling.
+              </p>
+              <div className="space-y-5 pt-2">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900">Instant Control</h3>
+                    <p className="text-gray-600">Adjust any device remotely with a single tap</p>
                   </div>
                 </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-emerald-400 rounded-full flex items-center justify-center shadow-xl">
-                  <div className="text-white font-bold text-sm">AI</div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900">Smart Scheduling</h3>
+                    <p className="text-gray-600">Automate devices based on time or conditions</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900">Utility Integration</h3>
+                    <p className="text-gray-600">Manage your provider account directly</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -288,134 +226,124 @@ and cost whilst also enjoying AI vehicle charging.
         </div>
       </section>
 
-      {/* Feature Section 3 - Phone Left, Content Right */}
-      <section className="py-20 px-6">
+      {/* Feature Section 4 - Intelligence */}
+      <section className="py-24 px-6 bg-gradient-to-r from-emerald-50 to-green-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Phone Mockup */}
-            <div className="flex justify-center lg:justify-start">
-              <div className="relative">
-                <div className="w-80 h-[640px] bg-gradient-to-br from-gray-900 to-black rounded-[3rem] p-3 shadow-2xl">
-                  <div className="w-full h-full bg-gray-800 rounded-[2.5rem] p-6 overflow-hidden">
-                    {/* Header */}
-                    <div className="text-center mb-8">
-                      <h3 className="text-white text-xl font-bold mb-6">System Control</h3>
-                      
-                      {/* Battery Indicator */}
-                      <div className="bg-gray-700 rounded-2xl p-6 mb-6">
-                        <div className="flex items-center justify-between mb-4">
-                          <span className="text-gray-300">Battery Status</span>
-                          <span className="text-green-400 font-bold text-xl">87%</span>
-                        </div>
-                        <div className="w-full bg-gray-600 rounded-full h-4 mb-2">
-                          <div className="bg-gradient-to-r from-green-400 to-green-500 h-4 rounded-full" style={{width: '87%'}}></div>
-                        </div>
-                        <div className="flex justify-between text-xs text-gray-400">
-                          <span>12.4 kWh stored</span>
-                          <span>2h charging</span>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    {/* Control Buttons */}
-                    <div className="space-y-4 mb-8">
-                      <button className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-4 rounded-2xl font-semibold shadow-lg">
-                        <div className="flex items-center justify-center space-x-2">
-                          <div className="w-3 h-3 bg-white rounded-full animate-pulse"></div>
-                          <span>Auto Mode ON</span>
-                        </div>
-                      </button>
-                      <button className="w-full bg-gray-700 hover:bg-gray-600 text-gray-300 py-4 rounded-2xl font-semibold transition-colors">
-                        Manual Override
-                      </button>
-                      <button className="w-full bg-gray-700 hover:bg-gray-600 text-gray-300 py-4 rounded-2xl font-semibold transition-colors">
-                        Energy Storage Mode
-                      </button>
-                    </div>
-                    
-                    {/* Quick Stats */}
-                    <div className="grid grid-cols-2 gap-4 mb-8">
-                      <div className="bg-gray-700 rounded-xl p-4 text-center">
-                        <div className="text-green-400 font-bold text-lg">3.11</div>
-                        <div className="text-gray-400 text-sm">Vehicles</div>
-                      </div>
-                      <div className="bg-gray-700 rounded-xl p-4 text-center">
-                        <div className="text-green-400 font-bold text-lg">11.44</div>
-                        <div className="text-gray-400 text-sm">Generation</div>
-                      </div>
-                    </div>
-                    
-                    {/* Status Indicator */}
-                    <div className="flex items-center justify-center">
-                      <div className="flex items-center space-x-3 bg-gray-700 rounded-full px-6 py-3">
-                        <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                        <span className="text-green-400 font-medium">System Active</span>
-                      </div>
-                    </div>
+            {/* Content */}
+            <div className="space-y-8 lg:order-1">
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
+                  <span className="text-emerald-600 text-xl font-bold">4</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Intelligence
+                </h2>
+              </div>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Our AI analyzes your energy patterns to deliver personalized 
+                recommendations that eliminate waste and improve efficiency.
+              </p>
+              <div className="pt-4">
+                <div className="inline-block bg-white rounded-full px-4 py-2 shadow-sm mb-4">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
+                    <span className="text-emerald-600 font-medium">AI-Powered Insights</span>
                   </div>
                 </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-xl">
-                  <div className="text-white font-bold">EV</div>
+                <p className="text-lg text-gray-500 leading-relaxed">
+                  Get tailored suggestions for upgrades, behavioral changes, and 
+                  system optimizations based on your actual usage data.
+                </p>
+              </div>
+            </div>
+
+            {/* Image */}
+            <div className="flex justify-center lg:justify-end lg:order-2">
+              <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
+                <Image 
+                  src={"/IntelligenceImage"}
+                  alt="AI energy intelligence"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-opacity duration-500 hover:opacity-90"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 shadow-md">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                    <span className="text-sm font-medium text-gray-800">Analyzing patterns...</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Feature Section 5 - Automation */}
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Image */}
+            <div className="flex justify-center lg:justify-start">
+              <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
+                <Image 
+                  src={"/AutomationImage"}
+                  alt="Energy automation interface"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-opacity duration-500 hover:opacity-90"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 shadow-md">
+                  <div className="flex items-center space-x-2">
+                    <svg className="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                    </svg>
+                    <span className="text-sm font-medium text-gray-800">Automation active</span>
+                  </div>
                 </div>
               </div>
             </div>
 
             {/* Content */}
             <div className="space-y-8">
-              <div>
-                <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                  Complete
-                  <br />
-                  <span className="text-blue-500">Control Hub</span>
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
+                  <span className="text-emerald-600 text-xl font-bold">5</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Automation
                 </h2>
-                <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Our AI-assisted intervention capabilities take energy management to the next level by proactively identifying opportunities to reduce carbon emissions.
-                </p>
-                <p className="text-lg text-gray-500 leading-relaxed">
-             Power&apos;s advanced algorithms analyse energy usage patterns and predict energy demand,
-             enabling us to intervene and optimise energy consumption in real-tie.
-                </p>
               </div>
-              
-              {/* <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Automated Systems</h3>
-                    <p className="text-gray-600">AI-powered automation that learns your patterns and optimizes energy usage without manual intervention.</p>
-                  </div>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Create intelligent routines that adapt to your lifestyle while 
+                maximizing energy efficiency throughout your home.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Smart Scenes</h3>
+                  <p className="text-gray-600">
+                    &quot;Goodnight&quot; turns off lights, lowers thermostat, and arms security
+                  </p>
                 </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-6 h-6 bg-purple-500 rounded-full"></div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">EV Integration</h3>
-                    <p className="text-gray-600">Seamlessly integrate your electric vehicle charging with your home energy system for maximum efficiency.</p>
-                  </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Geo-Fencing</h3>
+                  <p className="text-gray-600">
+                    Automatically adjust settings when you leave or arrive home
+                  </p>
                 </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-6 h-6 bg-green-500 rounded-full"></div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Smart Storage</h3>
-                    <p className="text-gray-600">Intelligent battery management that stores energy when rates are low and releases it when you need it most.</p>
-                  </div>
-                </div>
-              </div> */}
+              </div>
+              <p className="text-lg text-gray-500 leading-relaxed">
+                Integrates with all major smart home platforms for whole-house coordination.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-    
+     
 
       <Footer/>
     </div>
