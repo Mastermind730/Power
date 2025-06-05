@@ -1,14 +1,10 @@
 "use client";
 import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Image from 'next/image';
 
 const EnergyLandingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
-      {/* Navigation */}
-     <Navbar/>
 {/* Hero Image Section */}
       <div className="w-full h-[600px] relative overflow-hidden">
         <Image
@@ -431,7 +427,7 @@ const EnergyLandingPage = () => {
 
     
 
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };

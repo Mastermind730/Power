@@ -2,16 +2,11 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 
 
 const Pillars = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
-      {/* Navigation */}
-      <Navbar/>
      
       {/* Hero Section */}
       <section className="pt-28 pb-24 px-6">
@@ -345,7 +340,7 @@ const Pillars = () => {
 
      
 
-      <Footer/>
+      
     </div>
   );
 };
