@@ -154,7 +154,7 @@ const EnergyLandingPage = () => {
                 </p>
               </div>
               
-              <div className="flex space-x-6">
+              {/* <div className="flex space-x-6">
                 <div className="flex-1 bg-white rounded-2xl p-6 shadow-lg">
                   <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
                     <div className="w-6 h-6 bg-green-500 rounded-full"></div>
@@ -169,7 +169,7 @@ const EnergyLandingPage = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Cost Optimization</h3>
                   <p className="text-gray-600">Automatically optimize energy usage to minimize costs.</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -188,17 +188,15 @@ const EnergyLandingPage = () => {
                   <span className="text-emerald-500">Analytics</span>
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Gain deep insights into your energy consumption patterns with AI-powered analytics. 
-                  Our platform learns from your usage habits and provides intelligent recommendations 
-                  to optimize your energy efficiency.
-                </p>
-                <p className="text-lg text-gray-500 leading-relaxed">
-                  Track your environmental impact, monitor savings, and receive predictive insights 
-                  that help you make informed decisions about your energy future.
+                The unique ability to control energy usage down to the appliance and device level sets it apart from other 
+                energy management solutions . This level of granular control allows consumers to optimize their energy usage,
+                {/* </p> */}
+                {/* <p className="text-lg text-gray-500 leading-relaxed"> */}
+                  identify energy-hungry devices, and make data-driven decisions to reduce their energy consumption.
                 </p>
               </div>
               
-              <div className="grid grid-cols-2 gap-6">
+              {/* <div className="grid grid-cols-2 gap-6">
                 <div className="bg-white rounded-2xl p-6 shadow-lg">
                   <div className="text-3xl font-bold text-emerald-500 mb-2">85%</div>
                   <div className="text-gray-600">Energy Efficiency</div>
@@ -215,7 +213,7 @@ const EnergyLandingPage = () => {
                   <div className="text-3xl font-bold text-emerald-500 mb-2">99.9%</div>
                   <div className="text-gray-600">Uptime</div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Phone Mockup */}
@@ -387,17 +385,15 @@ const EnergyLandingPage = () => {
                   <span className="text-blue-500">Control Hub</span>
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Take full control of your energy ecosystem with our comprehensive management platform. 
-                  From home energy systems to electric vehicle charging, manage everything from a single, 
-                  intuitive interface.
+                  Our AI-assisted intervention capabilities take energy management to the next level by proactively identifying opportunities to reduce carbon emissions.
                 </p>
                 <p className="text-lg text-gray-500 leading-relaxed">
-                  Advanced automation ensures optimal performance while giving you the flexibility 
-                  to override and customize settings according to your specific needs and preferences.
+             Power&apos;s advanced algorithms analyse energy usage patterns and predict energy demand,
+             enabling us to intervene and optimise energy consumption in real-tie.
                 </p>
               </div>
               
-              <div className="space-y-6">
+              {/* <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
                     <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
@@ -427,32 +423,13 @@ const EnergyLandingPage = () => {
                     <p className="text-gray-600">Intelligent battery management that stores energy when rates are low and releases it when you need it most.</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-green-600 to-emerald-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold text-white mb-8">
-            Ready to Transform Your Energy Future?
-          </h2>
-          <p className="text-xl text-green-100 mb-12 leading-relaxed">
-            Join thousands of homeowners who have already embraced the future of energy management. 
-            Start your journey towards complete energy independence today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-white text-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
-              Get Started Free
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-green-600 transition-all">
-              Schedule Demo
-            </button>
-          </div>
-        </div>
-      </section>
+    
 
       <Footer/>
     </div>
