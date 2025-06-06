@@ -12,10 +12,7 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Center - Red dot indicator */}
-          <div className="flex-1 flex justify-center">
-            <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-          </div>
+          
 
           {/* Right side - Navigation links */}
           <nav className="flex items-center space-x-8">

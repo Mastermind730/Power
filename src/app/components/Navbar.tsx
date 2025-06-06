@@ -58,7 +58,7 @@ export default function Navbar() {
             <Link href="/our_app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               App
             </Link>
-            <Link href="/home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Smart Home
             </Link>
             <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
