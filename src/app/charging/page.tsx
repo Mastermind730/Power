@@ -172,7 +172,7 @@ export default function EVCharging() {
               </h4>
               <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
                 Our AI algorithm continuously monitors your energy usage and adjusts
-                the price in real-time. This means you'll never have to worry about
+                the price in real-time. This means you&apos;ll never have to worry about
                 surprise bills or hidden fees again.
               </p>
             </div>

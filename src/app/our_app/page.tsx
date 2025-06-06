@@ -25,7 +25,7 @@ export default function PowerApplication() {
             <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
               Power is a revolutionary new platform that brings together all your
               <span className="text-gray-900 font-medium">
-                energy-related tasks in one place. It's like having a personal
+                energy-related tasks in one place. It&apos;s like having a personal
                 energy assistant that helps you manage your energy
               </span>
               usage, save money, and live more sustainably.
@@ -70,7 +70,7 @@ export default function PowerApplication() {
               
               <div className="text-center">
                 <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-                  With Power, you'll have all the tools you need in one place to
+                  With Power, you&apos;ll have all the tools you need in one place to
                   manage, monitor, and optimize your energy consumption
                   effortlessly. From tracking solar panel output to managing
                   battery storage and scheduling energy use, Power makes it easy
@@ -204,7 +204,7 @@ export default function PowerApplication() {
               <div className="text-center">
                 <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto space-y-4">
                   <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Charge your EV while you're shopping or running errands
+                    <span className="mr-2">•</span> Charge your EV while you&apos;re shopping or running errands
                   </li>
                   <li className="flex items-center justify-center">
                     <span className="mr-2">•</span> Find charging stations near you
@@ -213,7 +213,7 @@ export default function PowerApplication() {
                     <span className="mr-2">•</span> Schedule charging sessions in advance
                   </li>
                   <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Monitor your EV's charging status in real-time
+                    <span className="mr-2">•</span> Monitor your EV&apos;s charging status in real-time
                   </li>
                   <li className="flex items-center justify-center">
                     <span className="mr-2">•</span> Handle payments for charging sessions seamlessly
