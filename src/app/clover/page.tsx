@@ -212,35 +212,43 @@ export default function Clover() {
           </div>
         </section>
 
-        {/* Community CTA */}
-        <section className="px-5 md:px-[2.5%]">
-          <div className="relative">
-            <Image
-              src="/ev-benefit1.png"
-              alt="Community Background"
-              width={1500}
-              height={500}
-              className="hidden md:block w-full"
-            />
-            <Image
-              src="/ev-benefit2.png"
-              alt="Community Background Mobile"
-              width={800}
-              height={300}
-              className="block md:hidden w-full"
-            />
-            
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-              <h2 className="text-white font-semibold uppercase text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl mb-4">
-                Join the <span className="text-primary">community</span>
-              </h2>
-              <p className="text-white font-light text-lg md:text-xl 2xl:text-3xl leading-relaxed">
-                Clover is a solo and multiplayer mission.<br />
-                Join your community and compete to reach net zone together
-              </p>
-            </div>
-          </div>
-        </section>
+      <section className="px-5 md:px-[2.5%]">
+  <div className="relative">
+    {/* Desktop Background Image */}
+    <Image
+      src="/new_bg.png"
+      alt="Community Background"
+      width={1500}
+      height={500}
+      className="hidden md:block w-full"
+    />
+
+
+    {/* Bottom-Centered Image ON Mobile (Overlayed) */}
+    {/* <div className="md:hidden absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10">
+      <Image
+        src="/ev-benefit2.png"
+        alt="Overlay at Bottom Center"
+        width={300}
+        height={150}
+        className="w-auto"
+      />
+    </div> */}
+
+    {/* Text Overlay */}
+    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 z-20">
+      <h2 className="text-white font-semibold uppercase text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl mb-4">
+        Join the <span className="text-primary">community</span>
+      </h2>
+      <p className="text-white font-light text-lg md:text-xl 2xl:text-3xl leading-relaxed">
+        Clover is a solo and multiplayer mission.<br />
+        Join your community and compete to reach net zone together
+      </p>
+    </div>
+  </div>
+</section>
+
+
 
         {/* Mobile App Section */}
         <section className="px-5 md:px-[5%] py-20 md:py-48">
@@ -346,7 +354,7 @@ export default function Clover() {
             </p>
           </div>
           
-          <div className="flex flex-col 2xl:flex-row items-center 2xl:items-start gap-16 mt-20">
+          <div className="flex  2xl:flex-row items-center 2xl:items-start gap-16 mt-20">
             <div className="2xl:w-1/2">
               <Image 
                 src="/clover-graph.png" 
@@ -386,7 +394,7 @@ export default function Clover() {
                 }
               ].map((item, index) => (
                 <div key={index}>
-                  <h3 className={`font-normal text-3xl md:text-4xl ${item.color}`}>{item.title}</h3>
+                  <h3 className={`font-normal text-xl md:text-2xl ${item.color}`}>{item.title}</h3>
                   <p className="text-white font-light text-base md:text-xl leading-relaxed">
                     {item.description}
                   </p>

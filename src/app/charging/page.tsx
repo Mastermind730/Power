@@ -13,59 +13,45 @@ export default function EVCharging() {
 
       <main className="max-w-7xl mx-auto">
         {/* Hero Section */}
-        <section className="px-6 md:px-8 lg:px-10 xl:px-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-12 py-12 lg:py-24">
-            <div className="md:w-1/2 space-y-6">
-              <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-gray-900 uppercase leading-tight">
-                Embrace <span className="text-green-500">AI Charging</span>
-              </h1>
-              <p className="text-gray-600 text-lg lg:text-xl xl:text-2xl leading-relaxed">
-                Imagine a world where electric vehicle charging is seamless, efficient, and cost-effective. 
-                Power is making that a reality with our cutting-edge AI-powered commercial EV charging solution.
-              </p>
-            </div>
-            
-            <div className="md:w-1/2 relative aspect-video rounded-2xl overflow-hidden shadow-xl">
-              <Image 
-                src="/ev-herocard.png"
-                alt="Smart EV charging station"
-                layout="fill"
-                objectFit="cover"
-                className="hidden md:block"
-              />
-              <Image 
-                src="/ev2.png"
-                alt="Smart EV charging station mobile"
-                layout="fill"
-                objectFit="cover"
-                className="block md:hidden"
-              />
-              <div className="absolute bottom-6 left-6 lg:bottom-12 lg:left-12 w-4/5 md:w-2/3">
-                <div className="relative aspect-square">
-                  <Image
-                    src="/ev3png.png"
-                    alt="EV charging app interface"
-                    layout="fill"
-                    objectFit="contain"
-                  />
-                </div>
+        <section className="px-6 md:px-12 lg:px-24 pt-16 md:pt-24">
+          <div className="max-w-7xl mx-auto">
+            {/* Top Row - Heading Left, Text Right */}
+            <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16 mb-12 lg:mb-16">
+              {/* Left Column - Heading */}
+              <div className="lg:w-1/2">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+                  <span className="text-gray-900">Embrace</span>{' '}
+                  <span className="text-green-500">AI Charging</span>
+                </h1>
+              </div>
+              
+              {/* Right Column - Paragraph */}
+              <div className="lg:w-1/2 lg:pt-4">
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+                  Imagine a world where electric vehicle charging is seamless, efficient, 
+                  and cost-effective. Power is making that a reality with our cutting-edge 
+                  AI-powered commercial EV charging solution.
+                </p>
               </div>
             </div>
-          </div>
-          
-          <div className="py-12 lg:py-24 space-y-8 max-w-4xl mx-auto">
-            <p className="text-gray-600 text-lg lg:text-xl leading-relaxed text-center">
-              With real-time monitoring and analytics, operators can track charging
-              activity, identify trends, and make data-driven decisions to improve
-              the customer experience. Our AI-driven charging profiles provide 
-              personalized experiences for individual vehicles, ensuring optimal 
-              charging conditions and minimizing wear and tear on the battery.
-            </p>
-            <p className="text-gray-600 text-lg lg:text-xl leading-relaxed text-center">
-              Power is revolutionizing the commercial EV charging industry,
-              providing a competitive advantage for operators and setting a new
-              standard for efficiency, cost-effectiveness, and customer satisfaction.
-            </p>
+            
+            {/* Full Width Image Below */}
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/ev-herobg.png"
+                alt="AI Charging System in Action"
+                fill
+                className="object-cover"
+                priority
+              />
+              {/* Overlay Card */}
+              <div className="absolute bottom-6 left-6 right-6 md:bottom-12 md:left-12 bg-white bg-opacity-90 p-6 rounded-lg max-w-2xl shadow-md">
+                <h3 className="text-xl md:text-2xl font-semibold mb-2">Smart Charging Analytics</h3>
+                <p className="text-gray-600">
+                  Real-time monitoring and optimization for maximum efficiency
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -104,7 +90,7 @@ export default function EVCharging() {
           
           <div className="mt-20 lg:mt-32 rounded-2xl overflow-hidden shadow-lg">
             <Image 
-              src="/assets/img/ev-comunity.png"
+              src="/ev-comunity.png"
               alt="EV charging network"
               width={1200}
               height={600}
@@ -121,7 +107,7 @@ export default function EVCharging() {
               <span className="text-green-500">Smart</span> Pricing Model
             </h2>
             <p className="text-gray-600 text-lg lg:text-xl leading-relaxed">
-              Our adaptive "Bolt-style" pricing algorithm intelligently adjusts kWh rates based on time of day, 
+              Our adaptive &quot;Bolt-style&quot; pricing algorithm intelligently adjusts kWh rates based on time of day, 
               season, and demand patterns. This ensures you always get the most cost-effective charging 
               without surprise fees or hidden costs.
             </p>
@@ -133,7 +119,7 @@ export default function EVCharging() {
             </h3>
             <div className="bg-white p-6 rounded-2xl shadow-lg">
               <Image 
-                src="/assets/img/ev-graph.png"
+                src="/ev-graph.png"
                 alt="Pricing graph throughout day"
                 width={1000}
                 height={500}
@@ -147,12 +133,12 @@ export default function EVCharging() {
         {/* How It Works Section */}
        <section className="px-5 md:px-[5%] py-[70px] lg:py-[200px]">
           <h3 className="text-green-500 font-normal text-[25px] md:text-[32px] lg:text-[40px] md:text-center uppercase mb-5 md:mb-8 lg:mb-20">
-            How it's work
+            How it&apos;s work
           </h3>
           
           <div className="flex items-center justify-start">
             <div className="md:basis-1/2 xl:basis-1/3">
-              <img src="/assets/img/clock.png" alt="Off-peak hours" />
+              <Image src="/clock.png" alt="Off-peak hours" width={60} height={60} />
               <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">
                 Off-peak hours
               </h4>
@@ -165,22 +151,22 @@ export default function EVCharging() {
           </div>
           
           <div className="flex items-center justify-center lg:my-10 xl:my-24">
-            <img src="/assets/img/arrow-left.png" className="hidden md:block md:w-1/4" alt="Arrow left" />
+            <Image src="/arrow-left.png" className="hidden md:block md:w-1/4" alt="Arrow left" width={100} height={100} />
             <div className="md:basis-1/2 xl:basis-1/3 md:pl-12 my-7 md:my-0">
-              <img src="/assets/img/graph-i.png" alt="Peak hours" />
+              <Image src="/graph-i.png" alt="Peak hours" width={60} height={60} />
               <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">Peak hours</h4>
               <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
                 As the charging hub becomes busier, the price per kWh adjusts
-                accordingly. This ensures that you're always getting a fair deal and
+                accordingly. This ensures that you&apos;re always getting a fair deal and
                 not paying more than you need too.
               </p>
             </div>
-            <img src="/assets/img/arrow-right.png" className="hidden md:block md:w-1/4 -ml-32 -mt-32" alt="Arrow right" />
+            <Image src="/arrow-right.png" className="hidden md:block md:w-1/4 -ml-32 -mt-32" width={100} height={100} alt="Arrow right" />
           </div>
           
           <div className="flex items-center justify-end">
             <div className="md:basis-1/2 xl:basis-1/3">
-              <img src="/assets/img/energy-i.png" alt="Real-time adjustments" />
+              <Image src="/energy-i.png" alt="Real-time adjustments" width={60} height={60} />
               <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">
                 Real-time adjustments
               </h4>
@@ -204,10 +190,10 @@ export default function EVCharging() {
           <div className="flex flex-col xl:flex-row items-stretch gap-12">
             <div className="xl:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-                {img: '/assets/img/ev-benefit1.png', text: 'Save Off-Peak', desc: 'Lower rates during low-demand periods'},
-                {img: '/assets/img/ev-benefit2.png', text: 'Fair Pricing', desc: 'Algorithm ensures reasonable rates'},
-                {img: '/assets/img/ev-benefit3.png', text: 'Real-Time Billing', desc: 'Instant, transparent billing'},
-                {img: '/assets/img/ev-benefit4.png', text: 'Control Costs', desc: 'Predictable charging expenses'},
+                {img: '/ev-benefit1.png', text: 'Save Off-Peak', desc: 'Lower rates during low-demand periods'},
+                {img: '/ev-benefit2.png', text: 'Fair Pricing', desc: 'Algorithm ensures reasonable rates'},
+                {img: '/ev-benefit3.png', text: 'Real-Time Billing', desc: 'Instant, transparent billing'},
+                {img: '/ev-benefit4.png', text: 'Control Costs', desc: 'Predictable charging expenses'},
               ].map((item, index) => (
                 <div key={index} className="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow">
                   <div className="w-16 h-16">
@@ -224,62 +210,71 @@ export default function EVCharging() {
               ))}
             </div>
             
-            <div className="xl:w-1/2 relative rounded-2xl overflow-hidden shadow-xl">
-              <Image 
-                src="/assets/img/ev-benefitbg2.png"
-                alt="Benefits illustration"
-                layout="fill"
-                objectFit="cover"
-                className="hidden md:block"
-              />
-              <Image 
-                src="/assets/img/ev-benefitbg21.png"
-                alt="Benefits illustration mobile"
-                layout="fill"
-                objectFit="cover"
-                className="block md:hidden"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center p-12">
-                <p className="text-white text-xl lg:text-2xl leading-relaxed text-center">
-                  Our transparent, adaptive pricing model makes energy management 
-                  simpler and more affordable for all our customers.
-                </p>
-              </div>
-            </div>
+         <div className="xl:w-1/2 relative rounded-2xl w-full h-[200px] overflow-hidden shadow-xl aspect-[4/3]">
+  {/* Background Image - Desktop */}
+  <Image 
+    src="/ev-benefitbg2.png"
+    alt="Benefits illustration"
+    fill
+    className="hidden md:block object-cover"
+    priority
+  />
+  
+  {/* Background Image - Mobile */}
+  <Image 
+    src="/ev-benefitbg2.png"  // Assuming you have a mobile-optimized version
+    alt="Benefits illustration"
+    fill
+    className="block md:hidden object-cover"
+    priority
+  />
+  
+  {/* Overlay Content */}
+  <div className="absolute inset-0 flex items-center justify-center p-6 md:p-12 bg-gradient-to-t from-black/60 to-black/30">
+    <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-md lg:max-w-xl">
+      Our transparent, adaptive pricing model makes energy management 
+      simpler and more affordable for all our customers.
+    </p>
+  </div>
+</div>
           </div>
           
           <div className="mt-20 relative rounded-3xl overflow-hidden shadow-2xl">
-            <Image 
-              src="/assets/img/ev-benefitbg.png"
-              alt="Business solution"
-              width={1500}
-              height={600}
-              layout="responsive"
-              className="hidden md:block object-cover"
-            />
-            <Image 
-              src="/assets/img/ev-benefitbg1.png"
-              alt="Business solution mobile"
-              width={800}
-              height={600}
-              layout="responsive"
-              className="block md:hidden object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-              <div className="text-center p-8 md:p-12 max-w-4xl space-y-6">
-                <h2 className="font-semibold text-white text-3xl md:text-4xl lg:text-5xl uppercase">
-                  Are you a business or landowner?
-                </h2>
-                <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed">
-                  Capitalize on the growing EV market with our AI-powered charging solution. 
-                  Generate revenue while providing essential infrastructure for the future.
-                </p>
-                <button className="mt-6 bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-full text-lg transition-colors">
-                  Learn About Commercial Solutions
-                </button>
-              </div>
-            </div>
-          </div>
+  {/* Desktop Image */}
+  <Image 
+    src="/benefit_bg.png"
+    alt="Business solution"
+    width={1500}
+    height={600}
+    className="hidden md:block w-full h-[600px] object-cover"
+  />
+
+  {/* Mobile Image */}
+  <Image 
+    src="/assets/img/ev-benefitbg1.png"
+    alt="Business solution mobile"
+    width={800}
+    height={600}
+    className="block md:hidden w-full h-[500px] object-cover"
+  />
+
+  {/* Overlay content */}
+  <div className="absolute inset-0  bg-opacity-30 flex items-center justify-center">
+    <div className="text-center p-8 md:p-12 max-w-4xl space-y-6">
+      <h2 className="font-semibold text-white text-3xl md:text-4xl lg:text-5xl uppercase">
+        Are you a business or landowner?
+      </h2>
+      <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed">
+        Capitalize on the growing EV market with our AI-powered charging solution. 
+        Generate revenue while providing essential infrastructure for the future.
+      </p>
+      <button className="mt-6 bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-full text-lg transition-colors">
+        Learn About Commercial Solutions
+      </button>
+    </div>
+  </div>
+</div>
+
         </section>
       </main>
     </div>

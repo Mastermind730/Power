@@ -55,13 +55,13 @@ export default function Navbar() {
             <Link href="/pillars" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               About
             </Link>
-            <Link href="/app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/our_app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               App
             </Link>
-            <Link href="/smart-home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Smart Home
             </Link>
-            <Link href="/vehicle-charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Vehicle Charging
             </Link>
             <Link href="/business" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
@@ -104,10 +104,10 @@ export default function Navbar() {
         <div className={`lg:hidden transition-all duration-500 overflow-hidden ${isOpen ? 'max-h-96 opacity-100 pb-6' : 'max-h-0 opacity-0'}`}>
           <div className="space-y-1 pt-4 border-t border-slate-700/50">
             {[
-              { href: '/about', label: 'About' },
-              { href: '/app', label: 'App' },
-              { href: '/smart-home', label: 'Smart Home' },
-              { href: '/vehicle-charging', label: 'Vehicle Charging' },
+              { href: '/pillars', label: 'About' },
+              { href: '/our_app', label: 'App' },
+              { href: '/smart_home', label: 'Smart Home' },
+              { href: '/charging', label: 'Vehicle Charging' },
               { href: '/business', label: 'Business' },
               { href: '/clover', label: 'Clover' },
               { href: '/team', label: 'Team' }
