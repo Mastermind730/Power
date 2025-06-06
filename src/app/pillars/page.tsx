@@ -36,7 +36,7 @@ const Pillars = () => {
             <div className="flex justify-center lg:justify-start">
               <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
                 <Image
-                  src={"/UnificationImage"}
+                  src={"/about1.png"}
                   alt="Energy unification dashboard"
                   layout="fill"
                   objectFit="cover"
@@ -136,7 +136,7 @@ const Pillars = () => {
             <div className="flex justify-center lg:justify-end lg:order-2">
               <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
                 <Image 
-                  src={"/OptimizationImage"}
+                  src={"/about2.png"}
                   alt="Energy optimization analytics"
                   layout="fill"
                   objectFit="cover"
@@ -157,7 +157,7 @@ const Pillars = () => {
             <div className="flex justify-center lg:justify-start">
               <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
                 <Image 
-                  src={"/ControlImage"}
+                  src={"/about3.png"}
                   alt="Energy control interface"
                   layout="fill"
                   objectFit="cover"
@@ -257,7 +257,7 @@ const Pillars = () => {
             <div className="flex justify-center lg:justify-end lg:order-2">
               <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
                 <Image 
-                  src={"/IntelligenceImage"}
+                  src={"/about4.png"}
                   alt="AI energy intelligence"
                   layout="fill"
                   objectFit="cover"
@@ -284,7 +284,7 @@ const Pillars = () => {
             <div className="flex justify-center lg:justify-start">
               <div className="relative w-full max-w-lg h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
                 <Image 
-                  src={"/AutomationImage"}
+                  src={"/about5.png"}
                   alt="Energy automation interface"
                   layout="fill"
                   objectFit="cover"
