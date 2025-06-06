@@ -19,12 +19,7 @@ export default function Footer() {
 
           {/* Right side - Navigation links */}
           <nav className="flex items-center space-x-8">
-            <Link 
-              href="/poem" 
-              className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
-            >
-              Poem
-            </Link>
+          
             <Link 
               href="/team" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
@@ -32,19 +27,19 @@ export default function Footer() {
               Team
             </Link>
             <Link 
-              href="/investors" 
+              href="/team" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
               Investors
             </Link>
             <Link 
-              href="/partners" 
+              href="/team" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
               Partners
             </Link>
             <Link 
-              href="/privacy" 
+              href="/" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
               Privacy
