@@ -27,14 +27,14 @@ export default function EVCharging() {
             
             <div className="md:w-1/2 relative aspect-video rounded-2xl overflow-hidden shadow-xl">
               <Image 
-                src="/assets/img/ev-herobg.png"
+                src="/ev-herocard.png"
                 alt="Smart EV charging station"
                 layout="fill"
                 objectFit="cover"
                 className="hidden md:block"
               />
               <Image 
-                src="/assets/img/ev-herobg1.png"
+                src="/ev2.png"
                 alt="Smart EV charging station mobile"
                 layout="fill"
                 objectFit="cover"
@@ -43,7 +43,7 @@ export default function EVCharging() {
               <div className="absolute bottom-6 left-6 lg:bottom-12 lg:left-12 w-4/5 md:w-2/3">
                 <div className="relative aspect-square">
                   <Image
-                    src="/assets/img/ev-herocard.png"
+                    src="/ev3png.png"
                     alt="EV charging app interface"
                     layout="fill"
                     objectFit="contain"

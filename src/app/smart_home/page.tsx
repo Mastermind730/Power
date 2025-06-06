@@ -1,5 +1,6 @@
 import React from 'react';
 import { Check, X } from 'lucide-react';
+import Image from 'next/image';
 
 const SmartHomePage = () => {
   const features = [
@@ -7,37 +8,37 @@ const SmartHomePage = () => {
       number: "01",
       title: "Seamless Integration",
       description: "Power seamlessly integrates with leading smart home platforms such as Google Home, Amazon Alexa, Apple Home, and Apple HomeKit. Delivering effortless device and energy consumption management you never experienced or a mobile app.",
-      image: "/images/integration.jpg"
+      image: "/smart3d1.png"
     },
     {
       number: "02", 
       title: "Make Informed Decisions",
       description: "With Power, residents gain tools to make intelligent energy decisions, saving on bills, and reducing their environmental impact. AI-driven analytics identify inefficient and unpredictable patterns and schedules those during off-peak times.",
-      image: "/images/analytics.jpg"
+      image: "/smart3d2.png"
     },
     {
       number: "03",
       title: "Environment Monitoring", 
       description: "In addition to managing your electricity consumption usage like traditional systems, Power will help you comprehend and manage your home efficiency, where you reduce your energy in some usage that even affected the quality of the air in your home.",
-      image: "/images/environment.jpg"
+      image: "/smart3d3.png"
     },
     {
       number: "04",
       title: "Machine Learning",
       description: "AI-drive algorithms Power constantly learns and algorithms effortless in energy monitoring, recommendations, and overall management solutions. By bringing the power of optimized real-time performance of smart technology promises the features designed to optimize efficiency.",
-      image: "/images/ai.jpg"
+      image: "/smart3d4.png"
     },
     {
       number: "05", 
       title: "Sustainability",
       description: "Power's efforts extends beyond financial savings. It's about contributing to energy consumption. Power will aid in creating a cleaner consumer - fostering a more sustainable future.",
-      image: "/images/sustainability.jpg"
+      image: "/smart3d5.png"
     },
     {
       number: "06",
       title: "Our Pledge",
       description: "Power is committed to ensuring renewable resource for home and energy",
-      image: "/images/pledge.jpg"
+      image: "/smart3d6.png"
     }
   ];
 
@@ -83,10 +84,12 @@ const SmartHomePage = () => {
           {/* Hero Image */}
           <div className="relative mb-16 overflow-hidden rounded-3xl shadow-xl">
             <div className="aspect-video bg-gray-100 flex items-center justify-center">
-              <img 
-                src="/images/hero-smart-home.jpg" 
+              <Image
+                src="/hero.png" 
                 alt="Modern smart home living room" 
                 className="w-full h-full object-cover"
+                width={900}
+                height={800}
               />
             </div>
           </div>
@@ -96,20 +99,25 @@ const SmartHomePage = () => {
       {/* Energy Intelligence Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-12">
-              <h2 className="text-4xl md:text-5xl font-light leading-tight tracking-tight">
-                EMBRACE<br />
-                ENERGY<br />
-                <span className="text-emerald-500">INTELLIGENCE</span>
-              </h2>
-              
-              <p className="text-gray-600 leading-relaxed text-lg max-w-lg">
-                Power transcends the traditional smart home device category. It's an AI-comprehensive energy management system crafted to integrate flawlessly into any home setup. With Power, residents can now monitor and control their energy usage with unprecedented accuracy.
-              </p>
-            </div>
-            
-            <div className="space-y-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center px-6 py-12 bg-white rounded-xl shadow-md">
+  {/* Left Column - Heading */}
+  <div>
+    <h2 className="text-4xl md:text-5xl font-light leading-tight tracking-tight text-gray-900">
+      EMBRACE<br />
+      ENERGY<br />
+      <span className="text-emerald-500">INTELLIGENCE</span>
+    </h2>
+  </div>
+
+  {/* Right Column - Paragraph */}
+  <div>
+    <p className="text-gray-600 leading-relaxed text-lg max-w-xl text-right lg:text-left">
+      Power transcends the traditional smart home device category. It's an AI-comprehensive energy management system crafted to integrate flawlessly into any home setup. With Power, residents can now monitor and control their energy usage with unprecedented accuracy.
+    </p>
+  </div>
+</div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center space-x-3">
@@ -118,59 +126,99 @@ const SmartHomePage = () => {
                   </div>
                   <span className="text-gray-400 text-xs bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center">i</span>
                 </div>
-                <div className="text-3xl font-light text-gray-800 mb-4">12.36 kWh</div>
-                <div className="relative h-12 bg-gray-50 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-emerald-100 to-emerald-300 rounded-lg">
-                    <img 
-                      src="/images/energy-graph.png" 
-                      alt="Energy usage graph" 
-                      className="w-full h-full object-cover opacity-80"
+                <div className="text-3xl font-light text-gray-800 mb-2">12.36</div>
+                <div className="text-xs text-emerald-500 mb-4">↑13%</div>
+                <div className="relative h-16 bg-gray-50 rounded-lg overflow-hidden">
+                  <svg className="w-full h-full" viewBox="0 0 200 60">
+                    <path
+                      d="M0,45 Q50,30 100,35 T200,25"
+                      stroke="#10b981"
+                      strokeWidth="2"
+                      fill="none"
                     />
-                  </div>
+                    <path
+                      d="M0,45 Q50,30 100,35 T200,25 L200,60 L0,60 Z"
+                      fill="url(#greenGradient)"
+                      opacity="0.3"
+                    />
+                    <defs>
+                      <linearGradient id="greenGradient" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stopColor="#10b981" />
+                        <stop offset="100%" stopColor="#d1fae5" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                 </div>
+                <div className="text-xs text-gray-400 mt-2">KWh/sq ft</div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-amber-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Carbon Emissions</span>
                   </div>
                   <span className="text-gray-400 text-xs bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center">i</span>
                 </div>
-                <div className="text-3xl font-light text-gray-800 mb-4">2.36 kg</div>
-                <div className="relative h-12 bg-gray-50 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-amber-100 to-amber-300 rounded-lg">
-                    <img 
-                      src="/images/carbon-graph.png" 
-                      alt="Carbon emissions graph" 
-                      className="w-full h-full object-cover opacity-80"
+                <div className="text-3xl font-light text-gray-800 mb-2">2.36</div>
+                <div className="text-xs text-red-500 mb-4">↓13%</div>
+                <div className="relative h-16 bg-gray-50 rounded-lg overflow-hidden">
+                  <svg className="w-full h-full" viewBox="0 0 200 60">
+                    <path
+                      d="M0,35 Q50,25 100,30 T200,20"
+                      stroke="#ef4444"
+                      strokeWidth="2"
+                      fill="none"
                     />
-                  </div>
+                    <path
+                      d="M0,35 Q50,25 100,30 T200,20 L200,60 L0,60 Z"
+                      fill="url(#redGradient)"
+                      opacity="0.3"
+                    />
+                    <defs>
+                      <linearGradient id="redGradient" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stopColor="#ef4444" />
+                        <stop offset="100%" stopColor="#fee2e2" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Consumption Today</span>
                   </div>
                   <span className="text-gray-400 text-xs bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center">i</span>
                 </div>
-                <div className="text-3xl font-light text-gray-800 mb-4">36.85%</div>
-                <div className="relative h-12 bg-gray-50 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-blue-300 rounded-lg">
-                    <img 
-                      src="/images/consumption-graph.png" 
-                      alt="Consumption graph" 
-                      className="w-full h-full object-cover opacity-80"
+                <div className="text-3xl font-light text-gray-800 mb-2">36.85</div>
+                <div className="text-xs text-red-500 mb-4">↓13%</div>
+                <div className="relative h-16 bg-gray-50 rounded-lg overflow-hidden">
+                  <svg className="w-full h-full" viewBox="0 0 200 60">
+                    <path
+                      d="M0,40 Q50,30 100,35 T200,25"
+                      stroke="#ef4444"
+                      strokeWidth="2"
+                      fill="none"
                     />
-                  </div>
+                    <path
+                      d="M0,40 Q50,30 100,35 T200,25 L200,60 L0,60 Z"
+                      fill="url(#redGradient2)"
+                      opacity="0.3"
+                    />
+                    <defs>
+                      <linearGradient id="redGradient2" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stopColor="#ef4444" />
+                        <stop offset="100%" stopColor="#fee2e2" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                 </div>
+                <div className="text-xs text-gray-400 mt-2">KWh/sq ft</div>
               </div>
             </div>
-          </div>
         </div>
       </section>
 
@@ -190,11 +238,11 @@ const SmartHomePage = () => {
                   <div className="flex items-start space-x-6">
                     <div className="flex-shrink-0">
                       <div className="relative">
-                        <div className="w-20 h-20 border-2 border-emerald-500 rounded-2xl flex items-center justify-center bg-white shadow-lg">
-                          <span className="text-emerald-500 font-light text-3xl">
-                            {feature.number}
-                          </span>
-                        </div>
+                        <div className="w-20 h-20 border-3 border-green-400 rounded-2xl flex items-center justify-center transform rotate-6 bg-white shadow-lg">
+                        <span className="text-green-400 font-light text-3xl transform -rotate-6">
+                          {feature.number}
+                        </span>
+                      </div>
                       </div>
                     </div>
                     <div className="flex-1 pt-2">
@@ -207,9 +255,11 @@ const SmartHomePage = () => {
                 {/* Image Side */}
                 <div className="flex-1 w-full">
                   <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-video">
-                    <img 
+                    <Image 
                       src={feature.image} 
                       alt={feature.title}
+                      width={200}
+                      height={380}
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>

@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="group flex items-center">
                <svg
-            class="w-[125px] h-[33px] 2xl:w-[144px] 2xl:h-[38px]"
+            className="w-[125px] h-[33px] 2xl:w-[144px] 2xl:h-[38px]"
             viewBox="0 0 192 50"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function Navbar() {
               x2="26.1175"
               y2="49.5588"
               stroke="#72E549"
-              stroke-width="0.882353"
+              strokeWidth="0.882353"
             />
           </svg>
             </Link>

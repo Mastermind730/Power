@@ -15,7 +15,7 @@ export default function Clover() {
         <section className="px-5 md:px-[5%] py-16">
           <div className="flex justify-center">
             <Image
-              src="/assets/img/clover-logo.png"
+              src="/clover-logo.png"
               alt="Clover Logo"
               width={400}
               height={150}
@@ -32,7 +32,7 @@ export default function Clover() {
         {/* Coin Image */}
         <div className="my-20 md:my-48">
           <Image 
-            src="/assets/img/coin.png" 
+            src="/coin.png" 
             alt="Clover Coin" 
             width={1500} 
             height={500}
@@ -54,7 +54,7 @@ export default function Clover() {
         <section className="px-5 md:px-[5%] py-20 md:py-48">
           <div className="flex flex-col md:flex-row items-center md:items-start lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
             <div className="max-w-md">
-              <Image src="/assets/img/fire.png" alt="Fire" width={100} height={100} className="w-24" />
+              <Image src="/fire.png" alt="Fire" width={100} height={100} className="w-24" />
               <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Fire</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Overall consumption reduction - Earn achievements by reducing your
@@ -63,7 +63,7 @@ export default function Clover() {
             </div>
             
             <div className="max-w-md">
-              <Image src="/assets/img/air.png" alt="Air" width={100} height={100} className="w-24" />
+              <Image src="/air.png" alt="Air" width={100} height={100} className="w-24" />
               <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Air</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Regulating or improving air quality - Achieve milestones by
@@ -75,7 +75,7 @@ export default function Clover() {
           
           <div className="my-20 lg:my-0 2xl:my-0 flex justify-center">
             <Image
-              src="/assets/img/clover-logob.png"
+              src="/clover-logob.png"
               alt="Clover Logo"
               width={200}
               height={200}
@@ -85,7 +85,7 @@ export default function Clover() {
           
           <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
             <div className="max-w-md">
-              <Image src="/assets/img/water.png" alt="Water" width={100} height={100} className="w-24" />
+              <Image src="/water.png" alt="Water" width={100} height={100} className="w-24" />
               <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Water</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Minimisation in water usage - Earn achievements by conserving water,
@@ -94,7 +94,7 @@ export default function Clover() {
             </div>
             
             <div className="max-w-md">
-              <Image src="/assets/img/earth.png" alt="Earth" width={100} height={100} className="w-24" />
+              <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
               <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Reduction of Carbon emissions - Level up by reducing your carbon
@@ -105,7 +105,7 @@ export default function Clover() {
           
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 p-8 md:p-12 2xl:p-16 bg-[#282828] rounded-[50px] mt-20 md:mt-48">
             <div className="lg:w-2/5">
-              <Image src="/assets/img/wheel.png" alt="Ether Wheel" width={300} height={300} />
+              <Image src="/wheel.png" alt="Ether Wheel" width={300} height={300} />
             </div>
             <div className="lg:w-3/5">
               <h2 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl uppercase">
@@ -144,7 +144,7 @@ export default function Clover() {
                   {text: "Gift cards to popular retailers and restaurants"}
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-4">
-                    <Image src="/assets/img/bullet.png" alt="Bullet" width={20} height={20} />
+                    <Image src="/bullet.png" alt="Bullet" width={20} height={20} />
                     <p className="text-white font-light text-lg md:text-xl 2xl:text-3xl leading-relaxed">
                       {item.text}
                     </p>
@@ -154,7 +154,7 @@ export default function Clover() {
             </div>
             
             <div>
-              <Image src="/assets/img/coin2.png" alt="Clover Coin" width={600} height={600} />
+              <Image src="/coin2.png" alt="Clover Coin" width={600} height={600} />
             </div>
             
             <div>
@@ -176,21 +176,21 @@ export default function Clover() {
         <section className="px-5 md:px-[5%] py-20 md:py-48">
           <div className="relative">
             <Image 
-              src="/assets/img/eather.png" 
+              src="/eather.png" 
               alt="Aether Coin" 
               width={1500} 
               height={600}
               className="hidden lg:block w-full"
             />
             <Image 
-              src="/assets/img/eather1.png" 
+              src="/eather1.png" 
               alt="Aether Coin Mobile" 
               width={800} 
               height={400}
               className="block md:hidden w-full"
             />
             <Image 
-              src="/assets/img/eather2.png" 
+              src="/eather2.png" 
               alt="Aether Coin Tablet" 
               width={1200} 
               height={500}
@@ -216,14 +216,14 @@ export default function Clover() {
         <section className="px-5 md:px-[2.5%]">
           <div className="relative">
             <Image
-              src="/assets/img/cm-benefitbg.png"
+              src="/ev-benefit1.png"
               alt="Community Background"
               width={1500}
               height={500}
               className="hidden md:block w-full"
             />
             <Image
-              src="/assets/img/ev-benefitbg1.png"
+              src="/ev-benefit2.png"
               alt="Community Background Mobile"
               width={800}
               height={300}
@@ -253,7 +253,7 @@ export default function Clover() {
             </div>
             <div className="md:w-1/2">
               <Image 
-                src="/assets/img/clover-app.png" 
+                src="/clover-app.png" 
                 alt="Clover App" 
                 width={500} 
                 height={800}
@@ -273,42 +273,42 @@ export default function Clover() {
             <div className="grid lg:grid-cols-2 gap-8 mt-14 md:mt-28">
               {[
                 {
-                  icon: "/assets/img/token1.png",
+                  icon: "/token1.png",
                   title: "Proving Power",
                   description: "Users share their energy usage data. Coins are awarded based on the value and frequency of their data contributions."
                 },
                 {
-                  icon: "/assets/img/token2.png",
+                  icon: "/token2.png",
                   title: "Green Behaviour",
                   description: "Users track and reduce energy consumption. They earn coins for eco-friendly actions and completing sustainability challenges."
                 },
                 {
-                  icon: "/assets/img/token3.png",
+                  icon: "/token3.png",
                   title: "Carbon Credits",
                   description: "Carbon credits are earned based on staking duration. Users redeem these credits for various rewards and benefits"
                 },
                 {
-                  icon: "/assets/img/token4.png",
+                  icon: "/token4.png",
                   title: "Energy Incentives",
                   description: "Gamification motivates customers to save energy through rewards, points, and challenges, leading to cost and environmental benefits."
                 },
                 {
-                  icon: "/assets/img/token5.png",
+                  icon: "/token5.png",
                   title: "Family Friendly",
                   description: "Clover token provides a fun and interactive way for children to learn about cryptocurrency and blockchain technology."
                 },
                 {
-                  icon: "/assets/img/token6.png",
+                  icon: "/token6.png",
                   title: "Customer Loyalty",
                   description: "Gamified experiences boost loyalty. Customers who join energy-saving challenges and earn rewards remain loyal to the retailer."
                 },
                 {
-                  icon: "/assets/img/token7.png",
+                  icon: "/token7.png",
                   title: "Carbon Quests and Challenges",
                   description: "Gamified challenges and quests reward users for eco-friendly actions, making sustainability fun, engaging, and rewarding."
                 },
                 {
-                  icon: "/assets/img/token8.png",
+                  icon: "/token8.png",
                   title: "Educational Opportunities",
                   description: "Retailers can use gamification, like quizzes and interactive games, to educate customers on energy efficiency and environmental impact."
                 }
@@ -349,7 +349,7 @@ export default function Clover() {
           <div className="flex flex-col 2xl:flex-row items-center 2xl:items-start gap-16 mt-20">
             <div className="2xl:w-1/2">
               <Image 
-                src="/assets/img/clover-graph.png" 
+                src="/clover-graph.png" 
                 alt="Progress Graph" 
                 width={600} 
                 height={600}

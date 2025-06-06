@@ -36,7 +36,7 @@ export default function EVChargingPage() {
             {/* Right Image */}
             <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/commercial-building.jpg" // Replace with your actual image path
+                src="/business1.png" // Replace with your actual image path
                 alt="Commercial building with EV charging"
                 fill
                 className="object-cover"
@@ -56,7 +56,7 @@ export default function EVChargingPage() {
             {/* Left Image - Charging stations */}
             <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/charging-stations.jpg" // Replace with your actual image path
+                src="/business2.png" // Replace with your actual image path
                 alt="EV charging stations"
                 fill
                 className="object-cover"
@@ -109,7 +109,7 @@ export default function EVChargingPage() {
             {/* Right Image - Parking layout */}
             <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/parking-layout.jpg" // Replace with your actual image path
+                src="/business3.png" // Replace with your actual image path
                 alt="EV parking layout"
                 fill
                 className="object-cover"
