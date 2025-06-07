@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50">
+    <nav className="fixed top-0 height-[100px]  left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -64,10 +64,10 @@ export default function Navbar() {
             <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
                Charging
             </Link>
-            {/* <Link href="/business" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
-              Business
-            </Link> */}
-            <Link href="https://4leaf.ai/" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/smart_factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+              Smart Factory
+            </Link>
+            <Link href="https://4leaf.ai/" target='_blank' className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Clover
             </Link>
             <Link href="/team" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">

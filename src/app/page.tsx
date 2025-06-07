@@ -5,7 +5,7 @@ import { ChartCandlestick, SmartphoneCharging, TruckElectric } from 'lucide-reac
 
 const EnergyLandingPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
+    <div className="min-h-screen bg-[#f4f4f4]">
 {/* Hero Image Section */}
     <div className="w-full h-[600px] relative overflow-hidden">
   {/* Background image */}
