@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Right side - Navigation links */}
           <nav className="flex items-center space-x-8">
           
-            <Link 
+            {/* <Link 
               href="/team" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
@@ -34,12 +34,12 @@ export default function Footer() {
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
               Partners
-            </Link>
+            </Link> */}
             <Link 
-              href="/" 
+              href="/poem" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
-              Privacy
+              Poem
             </Link>
           </nav>
         </div>

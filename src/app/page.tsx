@@ -1,23 +1,40 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import { ChartCandlestick, SmartphoneCharging, TruckElectric } from 'lucide-react';
 
 const EnergyLandingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
 {/* Hero Image Section */}
-      <div className="w-full h-[600px] relative overflow-hidden">
-        <Image
-          src="/overlay.png" // Replace with your actual image path
-          alt="Smart energy management system"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          priority
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-50/80 to-transparent"></div>
-      </div>
+    <div className="w-full h-[600px] relative overflow-hidden">
+  {/* Background image */}
+  <Image
+    src="/overlay.png"
+    alt="Smart energy management system"
+    layout="fill"
+    objectFit="cover"
+    quality={100}
+    priority
+    className="w-full h-full object-cover"
+  />
+  
+  {/* Gradient overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-slate-50/80 to-transparent"></div>
+  
+  {/* Logo positioned in center */}
+  <div className="absolute inset-0 flex items-center justify-center">
+    <Image
+      src="/Main_logo.png"
+      alt="Main Logo"
+      width={600}  // Adjust as needed
+      height={600}  // Adjust as needed
+      quality={100}
+      priority
+      // Remove objectFit="cover" as it's not needed for positioned logo
+    />
+  </div>
+</div>
       {/* Hero Section */}
       <section className="pt-24 pb-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
@@ -33,8 +50,8 @@ const EnergyLandingPage = () => {
             The ability to control your home&apos;s energy down to appliance and device level, 
             manage your utilities account to charging your EV car at a local shopping center.
           </p>
-          <div className="text-lg text-gray-500 mb-16 italic">
-            An all-in-one energy solution.
+          <div className="text-2xl text-gray-500 mb-16 italic">
+            A <span className='text-green-400'> powerful </span> all-in-one  solution.
           </div>
         </div>
       </section>
@@ -59,7 +76,7 @@ const EnergyLandingPage = () => {
                 
                 {/* Floating elements */}
                 <div className="absolute -top-4 -right-4 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg animate-bounce">
-                  <div className="w-6 h-6 bg-white rounded-full"></div>
+                  <SmartphoneCharging />
                 </div>
               </div>
             </div>
@@ -77,10 +94,10 @@ const EnergyLandingPage = () => {
                   in a single platform, providing a seamless and comprehensive experience for consumers 
                   to manage their energy usage, utilities accounts, and electric vehicle charging.
                 </p>
-                <p className="text-lg text-gray-500 leading-relaxed">
+                {/* <p className="text-lg text-gray-500 leading-relaxed">
                   This streamlined approach eliminates the need for multiple apps, accounts, and devices, 
                   making it a convenient and user-friendly solution for consumers.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -123,7 +140,7 @@ const EnergyLandingPage = () => {
                 
                 {/* Floating elements */}
                 <div className="absolute -top-4 -left-4 w-16 h-16 bg-emerald-400 rounded-full flex items-center justify-center shadow-xl">
-                  <div className="text-white font-bold text-sm">AI</div>
+                  <div className="text-white font-bold text-sm"><ChartCandlestick /></div>
                 </div>
               </div>
             </div>
@@ -151,7 +168,7 @@ const EnergyLandingPage = () => {
                 
                 {/* Floating elements */}
                 <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-xl">
-                  <div className="text-white font-bold">EV</div>
+                  <div className="text-white font-bold"><TruckElectric /></div>
                 </div>
               </div>
             </div>
@@ -162,14 +179,14 @@ const EnergyLandingPage = () => {
                 <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
                   Complete
                   <br />
-                  <span className="text-blue-500">Control Hub</span>
+                  <span className="text-green-500">Control Hub</span>
                 </h2>
-                <p className="text-xl text-gray-600 leading-relaxed mb-8">
+                {/* <p className="text-xl text-gray-600 leading-relaxed mb-8">
                   Our AI-assisted intervention capabilities take energy management to the next level by proactively identifying opportunities to reduce carbon emissions.
-                </p>
+                </p> */}
                 <p className="text-lg text-gray-500 leading-relaxed">
-             Power&apos;s advanced algorithms analyse energy usage patterns and predict energy demand,
-             enabling us to intervene and optimise energy consumption in real-time.
+This streamlined approach eliminates the need for multiple apps, accounts,  and devices, making it a convenient and 
+user-friendly solution for consumers.
                 </p>
               </div>
             </div>
