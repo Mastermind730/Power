@@ -244,7 +244,7 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
         {teamData[activeTab].map((member) => (
           <div key={member.id} className="mb-20">
             {member.imagePosition === 'left' ? (
-              <div className="flex flex-col md:flex-row gap-12 items-center">
+              <div className="flex flex-col md:flex-row gap-12 items-start">
                 <div className="w-full md:w-1/3">
                   <div className="relative aspect-square overflow-hidden rounded-xl shadow-lg">
                     <Image
