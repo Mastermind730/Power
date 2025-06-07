@@ -203,8 +203,8 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
     <span className="block">Dream</span>
     <span className="block text-green-600 mt-2">Team</span>
   </h1>
-  <div className="mt-8 max-w-2xl mx-auto">
-    <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">
+  <div className="mt-8   mx-auto">
+    <p className="text-lg sm:text-xl text-gray-600  leading-relaxed">
       At Power, our success is driven by a diverse team of passionate innovators, engineers, and industry experts who are dedicated to revolutionizing the energy sector. Each member of our team brings unique expertise and a commitment to excellence, working collaboratively to develop cutting-edge solutions that lead the way in sustainable energy management.
     </p>
     <p className="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed">
