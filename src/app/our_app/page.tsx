@@ -357,7 +357,7 @@ export default function PowerApplication() {
           height: 50px;
           border-radius: 50%;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-          transition: all 0.3s ease;
+          transition: all 30s ease;
         }
         
         .powerSwiper .swiper-button-next:hover,
