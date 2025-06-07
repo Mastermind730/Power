@@ -79,7 +79,15 @@ As Director at Britcham Brazil, he brings his expertise and leadership skills to
 Lala's expertise in graphic design is complemented by her strong academic background, which has honed her problem-solving skills and attention to detail. This combination allows her to approach design challenges with both creativity and a methodical mindset, ensuring that her work not only looks stunning but also effectively communicates the intended message.
 
 As a graphic designer, Lala has a keen eye for aesthetics and a deep understanding of how to translate concepts into visually engaging content.`
-  }
+  },
+  {
+  id: 5,
+  name: "Saurabh Tiwari",
+  title: "Co-Founder",
+  image: "/saurabh.jpg",
+  imagePosition: "left",
+  content: "Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. Regularly invited as jury for IIT Bombay's Eureka Challenge."
+}
 ],
     advisors:  [
   {
@@ -136,27 +144,27 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="bg-green-50 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            <span className="block">Our</span>
-            <span className="block text-green-600">Team</span>
-          </h1>
-          <p className="mt-5 max-w-xl mx-auto text-xl text-gray-600">
-            The brilliant minds driving our vision forward
-          </p>
-        </div>
+       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+    <span className="block">Dream</span>
+    <span className="block text-green-600 mt-2">Team</span>
+  </h1>
+  <div className="mt-8 max-w-2xl mx-auto">
+    <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">
+      At Power, our success is driven by a diverse team of passionate innovators, engineers, and industry experts who are dedicated to revolutionizing the energy sector. Each member of our team brings unique expertise and a commitment to excellence, working collaboratively to develop cutting-edge solutions that lead the way in sustainable energy management.
+    </p>
+    <p className="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed">
+      We believe in fostering a culture of continuous learning, creativity and integrity, where every idea is valued and every challenge is met with determination. Together, we&apos;re not just building technology — we&apos;re shaping the future of energy.
+    </p>
+  </div>
+</div>
       </div>
 
       {/* Tabs Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="border-b border-gray-200">
           <nav className="-mb-px flex space-x-8">
-            <button
-              onClick={() => setActiveTab('founders')}
-              className={`whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm ${activeTab === 'founders' ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
-            >
-              Founders
-            </button>
+           
             <button
               onClick={() => setActiveTab('advisors')}
               className={`whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm ${activeTab === 'advisors' ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
@@ -168,6 +176,12 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
               className={`whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm ${activeTab === 'nonExecutives' ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
             >
               Non-Executives
+            </button>
+             <button
+              onClick={() => setActiveTab('founders')}
+              className={`whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm ${activeTab === 'founders' ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
+            >
+              Founders
             </button>
           </nav>
         </div>
@@ -190,11 +204,13 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
                     />
                   </div>
                 </div>
-                <div className="w-full md:w-2/3">
-                  <h3 className="text-2xl font-bold text-gray-900">{member.name}</h3>
-                  <p className="text-green-600 font-medium mt-1">{member.title}</p>
-                  <p className="mt-4 text-gray-600 leading-relaxed">{member.content}</p>
-                </div>
+               <div className="w-full md:w-2/3">
+  <h3 className="text-2xl font-bold text-gray-900">{member.name}</h3>
+  <p className="text-green-600 font-medium mt-1">{member.title}</p>
+  <p className="mt-4 text-gray-600 leading-relaxed whitespace-pre-line">
+    {member.content}
+  </p>
+</div>
               </div>
             ) : (
               <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
@@ -209,11 +225,13 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
                     />
                   </div>
                 </div>
-                <div className="w-full md:w-2/3">
-                  <h3 className="text-2xl font-bold text-gray-900">{member.name}</h3>
-                  <p className="text-green-600 font-medium mt-1">{member.title}</p>
-                  <p className="mt-4 text-gray-600 leading-relaxed">{member.content}</p>
-                </div>
+               <div className="w-full md:w-2/3">
+  <h3 className="text-2xl font-bold text-gray-900">{member.name}</h3>
+  <p className="text-green-600 font-medium mt-1">{member.title}</p>
+  <p className="mt-4 text-gray-600 leading-relaxed whitespace-pre-line">
+    {member.content}
+  </p>
+</div>
               </div>
             )}
           </div>
