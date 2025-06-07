@@ -17,7 +17,7 @@ export default function PurposePoem() {
         {/* Header */}
         <div className="relative mb-16">
           <h1 className="text-4xl md:text-5xl font-light tracking-[0.3em] text-green-400">
-            POEM
+            PURPOSE
           </h1>
          
         </div>
