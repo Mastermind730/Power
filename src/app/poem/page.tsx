@@ -42,14 +42,14 @@ export default function PurposePoem() {
               Paul was a kind & loving son to my fearless, and amazing mum.
             </p>
             
-            <p className="text-base md:text-lg font-light mt-8">
+            <p className="text-base md:text-lg font-light mt-10">
               Mournfully, whilst saving his friend out of a river, Paul fell in,
             </p>
             <p className="text-base md:text-lg font-light">
               and sadly passed away.
             </p>
             
-            <p className="text-base md:text-lg font-light mt-8">
+            <p className="text-base md:text-lg font-light mt-10">
               My energy & Paul&apos;s memory will transcend a powerful message
             </p>
             <p className="text-base md:text-lg font-light">
