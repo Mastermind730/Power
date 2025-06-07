@@ -43,27 +43,27 @@ const SmartHomePage = () => {
   ];
 
   const comparisonData = [
-    { feature: "Energy Sensor", essential: true, light: false, trinity: true },
+    { feature: "EI  Sensor", essential: true, light: true, trinity: true },
     { feature: "Hub", essential: true, light: true, trinity: true },
     { feature: "Air Quality Sensor", essential: false, light: false, trinity: true },
-    { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
+    { feature: "Smart Thermostat", essential: true, light: true, trinity: true },
     { feature: "Water Leak Detection", essential: false, light: false, trinity: true },
     { feature: "Temperature Sensor", essential: false, light: false, trinity: true },
     { feature: "Humidity Sensor", essential: false, light: false, trinity: true },
-    { feature: "Smart Light Bulbs", essential: false, light: false, trinity: true },
-    { feature: "Smart Radiator Valves", essential: false, light: false, trinity: true },
+    { feature: "Smart Light Bulbs", essential: false, light: true, trinity: true },
+    { feature: "Smart Radiator Valves", essential: false, light: true, trinity: true },
     { feature: "Window Sensors", essential: false, light: false, trinity: true },
     { feature: "Occupancy Sensors", essential: false, light: false, trinity: true },
     { feature: "Smart Water Value", essential: false, light: false, trinity: true },
     { feature: "Smart Smoke Detectors", essential: false, light: false, trinity: true },
-    { feature: "Smart Plugs", essential: false, light: false, trinity: true }
+    // { feature: "Smart Plugs", essential: false, light: false, trinity: true }
   ];
 
   const efficiencyData = [
     { element: "Fire", essential: true, light: true, trinity: true },
     { element: "Earth", essential: true, light: true, trinity: true },
     { element: "Ether", essential: true, light: true, trinity: true },
-    { element: "Air", essential: false, light: false, trinity: true },
+    { element: "Air", essential: true, light: true, trinity: true },
     { element: "Water", essential: false, light: false, trinity: true }
   ];
 
@@ -73,7 +73,7 @@ const SmartHomePage = () => {
       <section className="bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-light mb-6 tracking-tight">
+            <h1 className="text-5xl text-gray-700 md:text-6xl font-light mb-6 tracking-tight">
               SMART <span className="text-emerald-500 font-normal">HOME</span>
             </h1>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
@@ -85,7 +85,7 @@ const SmartHomePage = () => {
           <div className="relative mb-16 overflow-hidden rounded-3xl shadow-xl">
             <div className="aspect-video bg-gray-100 flex items-center justify-center">
               <Image
-                src="/hero.png" 
+                src="/smart_home.jpg" 
                 alt="Modern smart home living room" 
                 className="w-full h-full object-cover"
                 width={900}
@@ -277,10 +277,10 @@ const SmartHomePage = () => {
           {/* Plug & Play Solution */}
           <div className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-light mb-4">
+              <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
                 PLUG & <span className="text-emerald-500">PLAY SOLUTION</span>
               </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
                 We&apos;re introducing a plug-and-play solution with various packages to cater to different needs.
               </p>
             </div>
@@ -288,9 +288,9 @@ const SmartHomePage = () => {
             <div className="bg-white rounded-xl shadow-sm overflow-hidden">
               <div className="grid grid-cols-4 gap-px bg-gray-200">
                 <div className="bg-gray-100 p-4"></div>
-                <div className="bg-white p-4 text-center font-medium">Essential</div>
-                <div className="bg-gray-900 p-4 text-center font-medium text-white">Light</div>
-                <div className="bg-white p-4 text-center font-medium">Trinity</div>
+                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Seed</div>
+                <div className="bg-white text-gray-700 hover:text-white hover:bg-black p-4 text-center font-medium ">Light</div>
+                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Core</div>
                 
                 {comparisonData.map((item, index) => (
                   <React.Fragment key={index}>
@@ -325,10 +325,10 @@ const SmartHomePage = () => {
           {/* Energy Efficiency Rewards */}
           <div>
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-light mb-4">
+              <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
                 ENERGY <span className="text-emerald-500">EFFICIENCY REWARDS</span>
               </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
                 Make your home smarter and more sustainable while earning rewards for reducing consumption, conserving resources, and promoting health.
               </p>
             </div>
@@ -336,10 +336,10 @@ const SmartHomePage = () => {
             <div className="bg-white rounded-xl shadow-sm overflow-hidden">
               <div className="grid grid-cols-4 gap-px bg-gray-200">
                 <div className="bg-gray-100 p-4"></div>
-                <div className="bg-white p-4 text-center font-medium">Essential</div>
-                <div className="bg-gray-900 p-4 text-center font-medium text-white">Light</div>
-                <div className="bg-white p-4 text-center font-medium">Trinity</div>
-                
+               <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Seed</div>
+                <div className="bg-white text-gray-700 hover:text-white hover:bg-black p-4 text-center font-medium ">Light</div>
+                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Core</div>
+                 
                 {efficiencyData.map((item, index) => (
                   <React.Fragment key={index}>
                     <div className="bg-gray-100 p-4 font-medium text-gray-800">{item.element}</div>
