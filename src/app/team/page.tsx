@@ -92,16 +92,61 @@ As a graphic designer, Lala has a keen eye for aesthetics and a deep understandi
     advisors:  [
   {
     id: 1,
-    name: 'Stephen Smith (L.L.B.(Hons) DipPFS)',
-    title: 'Managing Director & Financial Adviser',
-    image: '/stephen.png',
+    name: 'Partha Dip Mahanta',
+    title: '  Adviser',
+    image: '/partha.png',
     imagePosition: 'left',
-    content: `With over three decades of experience, Stephen Smith has established himself as a trusted financial adviser. As the Managing Director of Smith Eliot Financial Management Ltd, a Senior Partner Practice of St. James's Place Wealth Management, he's dedicated to helping individuals and families navigate complex financial landscapes.
-
-Stephen's legal background, coupled with his extensive financial knowledge, provides a unique perspective on wealth management. His expertise encompasses investment planning, inheritance tax mitigation, and retirement strategies, enabling him to deliver tailored solutions that align with his clients' specific goals.
-
-Outside of work, Stephen is a passionate sports enthusiast, with a particular fondness for classic cars, cricket, rugby, and the thrill of Le Mans. He also enjoys exploring the world of gourmet cuisine, sharing his culinary creations with loved ones.`
+    content: `Partha Dip Mahanta is an accomplished board adviser, spacecraft controller,
+licenced aircraft certifier and founder with a proven record of controlling critical
+space, managing aviation and innovative business operations. Based in the UK,
+he has provided strategic advisory services to a diverse range of clients—from UK
+government bodies in countries such as Switzerland to startup ventures across
+industries including energy, fashion and décor. His active memberships in the
+Institute of Directors (UK), the European Centre for Space Economy and
+Commerce and the Royal Aeronautical Society further illustrate his commitment to
+leadership and innovation.
+His qualifications include over two dozen training and workshops at the European
+Space Agency, DLR Germany, Goonhilly Earth Station, Universities of London,
+Southampton and Edinburgh in the space sector; Luiss Business School-
+Amsterdam, EPFL, ESSEC Business School, the University of Geneva, MIT and
+Yale University in specialised business and finance sector. Complementing this
+robust training, he has earned a MSc in Air Transport Operations and
+Management and a BEng in Aircraft Engineering from UHI developed in
+partnership with AST, the world’s oldest aviation maintenance organisation, holds
+former EASA and current UK CAA B1 and B3 aircraft licences and multiple
+European Space Agency ECSS certifications. His continuous professional
+development further includes investment banking virtual training with JP Morgan
+and Bank of America.
+Guided by a deep commitment to advancing the greater good of humanity, Partha
+brings a unique blend of technical precision and strategic vision to his endeavours.
+As a board adviser, he leverages his extensive experience to optimise operational
+performance enhancing shareholder value. By integrating technical proficiency
+with creative and strategic foresight, he consistently seeks to deliver
+transformative value—empowering boards to tackle complex challenges, drive
+operational excellence and secure long-term, sustainable growth. He relentlessly
+pursues opportunities that resonate with his core values, aiming to make a
+meaningful and lasting impact through his service.`
   },
+  {
+    id: 2,
+    name: 'Francesco Paolo Camarda',
+    title: '  Adviser',
+    image: '/franzesco.png',
+    imagePosition: 'right',
+    content: `Francesco Paolo Camarda is an highly accomplished strategic leader with over 15 years of experience in strategy development, innovation, and leadership roles within FTSE100 companies and startups. He has been working for EY and Value Partners on strategic advisory projects across Europe and Middle East, then moved to support Vodafone Group business growth through finance, innovation and marketing roles. In 2017, he kickstarted a new business unit within Vodafone Italy, launching the first Consumer IoT portfolio in the Italian market. Following a successful scale up, he moved to Vodafone Group where he led the international scale up of Consumer IoT, opening up 5 new markets.
+In his current role at Intertek, a FTSE100 company operating in 106 Countries with 46.000 employees, he is responsible of defining Group strategy, innovation needs, partnerships and M&A deals on the energy sector.
+When not playing tennis or enjoying photography, Francesco is a startup advisor providing Strategy guidance to foster innovation and growth, with a diversified portfolio of startups mostly operating in the Energy and Technology space.`
+  },
+  {
+
+    id: 3,
+    name: 'ROY HARRISON',
+    title: '  Adviser',
+    image: '/roy.png',
+    imagePosition: 'left',
+    content:`He was educated at Henley Grammar School and the University of Birmingham, where he was awarded a Bachelor of Science degree in chemistry in 1969, followed by a PhD in organic chemistry in 1972 and a Doctor of Science degree in environmental chemistry in 1989.[3][2] His PhD research investigated sigmatropic reactions of tropolone ethers.[5][6]`
+  },
+
 ],
     nonExecutives: [
   {
