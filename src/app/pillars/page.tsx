@@ -2,6 +2,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import { ArrowRight, Cable, SlidersHorizontal, Workflow } from 'lucide-react';
 
 
 const Pillars = () => {
@@ -64,30 +65,24 @@ const Pillars = () => {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
-                    <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center">
-                      <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
+                    <div className="w-8 h-8  rounded-full flex items-center justify-center">
+    <SlidersHorizontal className="w-7 h-7 text-green-500" />
                     </div>
                   </div>
                   <p className="ml-3 text-gray-600">Centralized control for all energy devices</p>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
-                    <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center">
-                      <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
+                   <div className="w-8 h-8  rounded-full flex items-center justify-center">
+    <Cable  className="w-7 h-7 text-green-500" />
                     </div>
                   </div>
                   <p className="ml-3 text-gray-600">Real-time energy flow visualization</p>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
-                    <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center">
-                      <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
+                    <div className="w-8 h-8  rounded-full flex items-center justify-center">
+    <Workflow className="w-7 h-7 text-green-500" />
                     </div>
                   </div>
                   <p className="ml-3 text-gray-600">Seamless integration with existing smart home systems</p>
@@ -118,7 +113,7 @@ const Pillars = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <div className="text-emerald-600 text-3xl font-bold mb-2">30-50%</div>
+                  <div className="text-emerald-600 text-3xl font-bold mb-2">21-33%</div>
                   <div className="text-gray-600">Reduction in energy waste</div>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -320,11 +315,11 @@ const Pillars = () => {
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Smart Scenes</h3>
                   <p className="text-gray-600">
-                    &quot;Goodnight&quot; turns off lights, lowers thermostat, and arms security
+  &quot;Leaving Home&quot; turns off all devices, locks doors, and arms security
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Geo-Fencing</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Geo-Forcefield</h3>
                   <p className="text-gray-600">
                     Automatically adjust settings when you leave or arrive home
                   </p>
