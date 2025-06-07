@@ -38,10 +38,10 @@ const EnergyLandingPage = () => {
       {/* Hero Section */}
       <section className="pt-24 pb-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl  text-gray-900 mb-8 leading-tight">
+          <h1 className="text-6xl md:text-8xl font-extralight text-gray-900 mb-8 leading-tight">
             EMBRACE ENERGY
             <br />
-            <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">
               UNIFICATION
             </span>
           </h1>
@@ -84,7 +84,7 @@ const EnergyLandingPage = () => {
             {/* Content */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2 className="text-5xl font-light text-gray-900 mb-6 leading-tight">
                   Smart Energy
                   <br />
                   <span className="text-green-500">Intelligence</span>
@@ -111,7 +111,7 @@ const EnergyLandingPage = () => {
             {/* Content */}
             <div className="space-y-8 lg:order-1">
               <div>
-                <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2 className="text-5xl font-light text-gray-900 mb-6 leading-tight">
                   Advanced
                   <br />
                   <span className="text-emerald-500">Analytics</span>
@@ -176,7 +176,7 @@ const EnergyLandingPage = () => {
             {/* Content */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2 className="text-5xl font-light text-gray-900 mb-6 leading-tight">
                   Complete
                   <br />
                   <span className="text-green-500">Control Hub</span>
