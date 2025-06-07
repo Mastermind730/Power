@@ -45,7 +45,7 @@ export default function EVCharging() {
         className="object-cover"
         priority
       />
-      public\ev-herocard.png
+      {/* public\ev-herocard.png */}
       {/* Overlay Card - Positioned at bottom left */}
       <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6">
         <Image
@@ -96,7 +96,7 @@ export default function EVCharging() {
           
           <div className="mt-20 lg:mt-32 rounded-2xl overflow-hidden shadow-lg">
             <Image 
-              src="/ev_new_hero.png"
+              src="/ev_new_hero.jpg"
               alt="EV charging network"
               width={1200}
               height={600}

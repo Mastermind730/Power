@@ -61,7 +61,7 @@ const EnergyLandingPage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Phone Image */}
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-around">
               <div className="relative">
                 <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
                   <Image
@@ -125,7 +125,7 @@ const EnergyLandingPage = () => {
             </div>
 
             {/* Phone Image */}
-            <div className="flex justify-center lg:justify-end lg:order-2">
+            <div className="flex justify-center lg:justify-around lg:order-2">
               <div className="relative">
                 <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden border border-gray-200">
                   <Image
@@ -153,7 +153,7 @@ const EnergyLandingPage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Phone Image */}
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-around">
               <div className="relative">
                 <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
                   <Image

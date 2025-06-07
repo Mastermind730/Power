@@ -197,9 +197,9 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
       {/* Hero Section */}
       <div className="bg-green-50 py-20">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-  <h1 className="text-4xl font-extralight text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+  <h1 className="text-4xl font-extralight flex justify-center gap-3 text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
     <span className="block">One </span>
-    <span className="block text-green-600 mt-2">Connected Team</span>
+    <span className="block text-green-600 ">Connected Team</span>
   </h1>
   <div className="mt-8   mx-auto">
     <p className="text-lg sm:text-xl text-gray-600  leading-relaxed">

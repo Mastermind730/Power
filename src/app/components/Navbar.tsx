@@ -58,21 +58,24 @@ export default function Navbar() {
             <Link href="/our_app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               App
             </Link>
-            <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
-              Smart Home
-            </Link>
-            <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+              <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
                Charging
             </Link>
-            <Link href="/smart_factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
-              Smart Factory
-            </Link>
-            <Link href="https://4leaf.ai/" target='_blank' className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+             <Link href="https://4leaf.ai/" target='_blank' className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Clover
             </Link>
+            <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+              Home
+            </Link>
+            <Link href="/smart_factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+              Manufactory
+            </Link>
+          
             <Link href="/team" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Team
             </Link>
+           
+            
           </div>
 
           {/* Contact Button with User Icon */}
