@@ -28,19 +28,17 @@ const TeamPage = () => {
     title: 'Founder',
     image: '/alex.png',
     imagePosition: 'left',
-    content: `Alexander is a driven and charismatic individual with a strong passion for leadership, communication, and personal growth. Currently enrolled in an MBA program, Alexander is committed to further developing his skills and knowledge to stay ahead of the curve in the ever-evolving business landscape.
+    content: `Alexander is a driven and charismatic individual with a strong passion for sustainibility and driving positive change and innovation.
 
-With a strong foundation in his educational background, Alexander holds a single GCSE in mathematics and a BTEC in Automotive Engineering, demonstrating his ability to overcome obstacles and achieve his goals.
+    Alexander holds a single GCSE in mathematics and a BTEC in Automotive Engineering has a great vision for the future and infinite appetite for scientific knowledge around the worlds health, technical innovations and trends.
+    He engages with his local community to make a positive impact .
+    Alexander is always looking for new opportunities to get involved and make a difference.
 
-When he's not focusing on his studies, Alexander enjoys staying active through his favourite hobbies, including running, cycling, and hitting the gym. He's also a foodie at heart and loves cooking up a storm in the kitchen. On weekends, you can find him cheering on his favourite football team or indulging in his love for comic books and superheroes.
+    With a professional background that includes serving as Commercial Director at Alfa Power and founding different sustainibilty companies.
+    Alexander demonstrates his entreprenurial sprint and commitment to leave a positive impact. His dedication to personal and professional development is evident in his efforts to learn Arabic and Portugese,
+    recognising the importance of language skills in international business.
 
-Alexander is deeply committed to engaging with his local community and making a positive impact. He is always looking for new opportunities to get involved and make a difference.
-
-Despite facing challenges with dyslexia and bipolar disorder, Alexander has developed a strong work ethic and a positive attitude. His excellent communication skills, confident demeanor, and ability to overcome obstacles have made him an asset to any team.
-
-With a professional background that includes serving as Commercial Director at Alfa Power and founding a charity fundraising platform and a sustainability company, Alexander has demonstrated his entrepreneurial spirit and commitment to making a positive impact. His dedication to personal and professional development is evident in his efforts to learn Arabic and Portuguese, recognizing the importance of language skills in international business.
-
-Alexander is a dynamic and versatile individual who is always looking for new challenges and opportunities to grow. He is passionate about leading by example and inspiring others to do the same. With his strong sense of motivation and enthusiasm, Alexander is poised to make a lasting impact in his professional and personal life.`
+Alexander is a dynamic and versatile individual .With his enthusiasm and motivation, Alexander is poised to make a lasting impact in his professional and  personal life.`
   },
   {
     id: 2,
