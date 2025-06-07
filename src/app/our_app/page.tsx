@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import Head from 'next/head';
 import { Swiper, SwiperSlide } from 'swiper/react';
