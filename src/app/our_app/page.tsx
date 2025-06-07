@@ -5,6 +5,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
+import { AlertCircle, BarChart2, BatteryCharging, BatteryMedium, BellRing, BookOpen, CalendarCheck, CalendarClock, Car, CreditCard, Gamepad2, Lightbulb, LineChart, MapPin, PlaySquare, SquareActivity, Tag, TrendingUp, Trophy, User2, UserCog, Users, Wallet, Zap } from 'lucide-react';
 
 export default function PowerApplication() {
   return (
@@ -20,7 +21,7 @@ export default function PowerApplication() {
         <div className="container mx-auto py-12 md:pt-28 max-w-6xl">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 uppercase tracking-tight">
-              Power<span className="text-blue-600"> Application</span>
+              Power<span className="text-green-600"> Application</span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
               Power is a revolutionary new platform that brings together all your
@@ -44,7 +45,7 @@ export default function PowerApplication() {
           loop={true}
         >
           {/* Slide 1 - All-in-One Solution */}
-          <SwiperSlide className="bg-white">
+          {/* <SwiperSlide className="bg-white">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="text-center mb-12">
                 <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -79,7 +80,7 @@ export default function PowerApplication() {
                 </p>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           {/* Slide 2 - Generation */}
           <SwiperSlide className="bg-gray-900">
@@ -108,21 +109,26 @@ export default function PowerApplication() {
               
               <div className="text-center">
                 <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto space-y-4">
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Monitor Solar Panel Performance and Energy Output
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Track Battery Storage Levels and Charging Status
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Schedule Energy Generation and Smart Storage
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Get Real-Time Alerts for Low Storage Levels
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Optimize Voltage Settings to Boost Efficiency
-                  </li>
+               <li className="flex items-center">
+  <SquareActivity className="w-4 h-4 mr-2 text-blue-500" />
+  Monitor Solar Panel Performance and Energy Output
+</li>
+<li className="flex items-center">
+  <BatteryMedium className="w-4 h-4 mr-2 text-green-500" />
+  Track Battery Storage Levels and Charging Status
+</li>
+             <li className="flex items-center">
+  <CalendarClock className="w-4 h-4 mr-2 text-blue-500" />
+  Schedule Energy Generation and Smart Storage
+</li>
+<li className="flex items-center">
+  <AlertCircle className="w-4 h-4 mr-2 text-amber-500" />
+  Get Real-Time Alerts for Low Storage Levels
+</li>
+<li className="flex items-center">
+  <Zap className="w-4 h-4 mr-2 text-green-500" />
+  Optimize Voltage Settings to Boost Efficiency
+</li>
                 </ul>
               </div>
             </div>
@@ -156,21 +162,26 @@ export default function PowerApplication() {
               
               <div className="text-center">
                 <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto space-y-4">
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Paying your bills online
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Viewing your energy usage history
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Scheduling appointments with your utility provider
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Receiving notifications when your bill is due
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Managing account details and preferences
-                  </li>
+                  <li className="flex items-center">
+  <CreditCard className="w-4 h-4 mr-2 text-blue-500" />
+  Paying your bills online
+</li>
+<li className="flex items-center">
+  <LineChart className="w-4 h-4 mr-2 text-green-500" />
+  Viewing your energy usage history
+</li>
+<li className="flex items-center">
+  <CalendarCheck className="w-4 h-4 mr-2 text-purple-500" />
+  Scheduling appointments with your utility provider
+</li>
+<li className="flex items-center">
+  <BellRing className="w-4 h-4 mr-2 text-amber-500" />
+  Receiving notifications when your bill is due
+</li>
+<li className="flex items-center">
+  <UserCog className="w-4 h-4 mr-2 text-indigo-500" />
+  Managing account details and preferences
+</li>
                 </ul>
               </div>
             </div>
@@ -203,21 +214,26 @@ export default function PowerApplication() {
               
               <div className="text-center">
                 <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto space-y-4">
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Charge your EV while you&apos;re shopping or running errands
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Find charging stations near you
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Schedule charging sessions in advance
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Monitor your EV&apos;s charging status in real-time
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Handle payments for charging sessions seamlessly
-                  </li>
+               <li className="flex items-center">
+  <Car className="w-4 h-4 mr-2 text-blue-500" />
+  Charge your EV while you&apos;re shopping or running errands
+</li>
+<li className="flex items-center">
+  <MapPin className="w-4 h-4 mr-2 text-green-500" />
+  Find charging stations near you
+</li>
+<li className="flex items-center">
+  <CalendarClock className="w-4 h-4 mr-2 text-purple-500" />
+  Schedule charging sessions in advance
+</li>
+<li className="flex items-center">
+  <BatteryCharging className="w-4 h-4 mr-2 text-amber-500" />
+  Monitor your EV's charging status in real-time
+</li>
+<li className="flex items-center">
+  <Wallet className="w-4 h-4 mr-2 text-indigo-500" />
+  Handle payments for charging sessions seamlessly
+</li>
                 </ul>
               </div>
             </div>
@@ -250,18 +266,22 @@ export default function PowerApplication() {
               
               <div className="text-center">
                 <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto space-y-4">
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Earn rewards and badges for achieving energy-saving milestones
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Participate in energy-saving challenges with friends and family
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Track your progress and compete with others to reduce your energy usage
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Unlock special offers and discounts from eco-friendly brands
-                  </li>
+                  <li className="flex items-center">
+  <Trophy className="w-4 h-4 mr-2 text-yellow-500" />
+  Earn rewards and badges for achieving energy-saving milestones
+</li>
+<li className="flex items-center">
+  <User2 className="w-4 h-4 mr-2 text-blue-500" />
+  Participate in energy-saving challenges with friends
+</li>
+<li className="flex items-center">
+  <BarChart2 className="w-4 h-4 mr-2 text-green-500" />
+  Track progress and compete to reduce energy usage
+</li>
+<li className="flex items-center">
+  <Tag className="w-4 h-4 mr-2 text-purple-500" />
+  Unlock special offers from eco-friendly brands
+</li>
                 </ul>
               </div>
             </div>
@@ -295,21 +315,26 @@ export default function PowerApplication() {
               
               <div className="text-center">
                 <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto space-y-4">
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Interactive energy-efficiency tutorials and videos
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Personalized energy-saving tips
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Energy literacy on usage
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Gamification to encourage sustainable energy habits
-                  </li>
-                  <li className="flex items-center justify-center">
-                    <span className="mr-2">•</span> Track progress and earn rewards for milestones
-                  </li>
+                <li className="flex items-center">
+  <PlaySquare className="w-4 h-4 mr-2 text-blue-500" />
+  Interactive energy-efficiency tutorials and videos
+</li>
+<li className="flex items-center">
+  <Lightbulb className="w-4 h-4 mr-2 text-amber-500" />
+  Personalized energy-saving tips
+</li>
+<li className="flex items-center">
+  <BookOpen className="w-4 h-4 mr-2 text-green-500" />
+  Energy literacy on usage
+</li>
+<li className="flex items-center">
+  <Gamepad2 className="w-4 h-4 mr-2 text-purple-500" />
+  Gamification to encourage sustainable habits
+</li>
+<li className="flex items-center">
+  <TrendingUp className="w-4 h-4 mr-2 text-teal-500" />
+  Track progress and earn rewards for milestones
+</li>
                 </ul>
               </div>
             </div>
