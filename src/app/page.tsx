@@ -139,7 +139,7 @@ const EnergyLandingPage = () => {
                 </div>
                 
                 {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-emerald-400 rounded-full flex items-center justify-center shadow-xl">
+                <div className="absolute -top-4 -left-4 w-16 h-16 bg-emerald-400 rounded-full flex items-center justify-center shadow-xl animate-bounce">
                   <div className="text-white font-bold text-sm"><ChartCandlestick /></div>
                 </div>
               </div>
@@ -167,7 +167,7 @@ const EnergyLandingPage = () => {
                 </div>
                 
                 {/* Floating elements */}
-                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-xl">
+                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center animate-bounce justify-center shadow-xl">
                   <div className="text-white font-bold"><TruckElectric /></div>
                 </div>
               </div>
