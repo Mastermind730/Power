@@ -146,6 +146,15 @@ When not playing tennis or enjoying photography, Francesco is a startup advisor
     imagePosition: 'left',
     content:`He was educated at Henley Grammar School and the University of Birmingham, where he was awarded a Bachelor of Science degree in chemistry in 1969, followed by a PhD in organic chemistry in 1972 and a Doctor of Science degree in environmental chemistry in 1989.[3][2] His PhD research investigated sigmatropic reactions of tropolone ethers.[5][6]`
   },
+   {
+
+    id: 4,
+    name: 'ABDULLAH BAJAHZAR',
+    title: '  Adviser',
+    image: '/abdul.png',
+    imagePosition: 'right',
+    content:``
+  },
 
 ],
     nonExecutives: [
