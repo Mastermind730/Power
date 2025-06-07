@@ -1,6 +1,7 @@
 // pages/ev-charging.js
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function EVCharging() {
   return (
@@ -246,6 +247,7 @@ export default function EVCharging() {
           
           <div className="mt-20 relative rounded-3xl overflow-hidden shadow-2xl">
   {/* Desktop Image */}
+  <Link href={"/business"}>
   <Image 
     src="/benefit_bg.png"
     alt="Business solution"
@@ -278,6 +280,7 @@ export default function EVCharging() {
       </button>
     </div>
   </div>
+  </Link>
 </div>
 
         </section>
