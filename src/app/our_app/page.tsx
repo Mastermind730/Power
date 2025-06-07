@@ -229,7 +229,7 @@ export default function PowerApplication() {
 </li>
 <li className="flex items-center">
   <BatteryCharging className="w-4 h-4 mr-2 text-amber-500" />
-  Monitor your EV's charging status in real-time
+  Monitor your EV&apos;s charging status in real-time
 </li>
 <li className="flex items-center">
   <Wallet className="w-4 h-4 mr-2 text-indigo-500" />
