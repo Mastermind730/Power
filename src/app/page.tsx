@@ -50,7 +50,7 @@ const EnergyLandingPage = () => {
             The ability to control your home&apos;s energy down to appliance and device level, 
             manage your utilities account to charging your EV car at a local shopping center.
           </p>
-          <div className="text-2xl text-gray-500 mb-16 italic">
+          <div className="text-2xl text-gray-500 mb-16 ">
             A <span className='text-green-400'> powerful </span> all-in-one  solution.
           </div>
         </div>
