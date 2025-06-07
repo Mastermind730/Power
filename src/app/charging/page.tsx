@@ -13,47 +13,52 @@ export default function EVCharging() {
 
       <main className="max-w-7xl mx-auto">
         {/* Hero Section */}
-        <section className="px-6 md:px-12 lg:px-24 pt-16 md:pt-24">
-          <div className="max-w-7xl mx-auto">
-            {/* Top Row - Heading Left, Text Right */}
-            <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16 mb-12 lg:mb-16">
-              {/* Left Column - Heading */}
-              <div className="lg:w-1/2">
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  <span className="text-gray-900">Embrace</span>{' '}
-                  <span className="text-green-500">AI Charging</span>
-                </h1>
-              </div>
-              
-              {/* Right Column - Paragraph */}
-              <div className="lg:w-1/2 lg:pt-4">
-                <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                  Imagine a world where electric vehicle charging is seamless, efficient, 
-                  and cost-effective. Power is making that a reality with our cutting-edge 
-                  AI-powered commercial EV charging solution.
-                </p>
-              </div>
-            </div>
-            
-            {/* Full Width Image Below */}
-            <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/ev-herobg.png"
-                alt="AI Charging System in Action"
-                fill
-                className="object-cover"
-                priority
-              />
-              {/* Overlay Card */}
-              <div className="absolute bottom-6 left-6 right-6 md:bottom-12 md:left-12 bg-white bg-opacity-90 p-6 rounded-lg max-w-2xl shadow-md">
-                <h3 className="text-xl md:text-2xl font-semibold mb-2">Smart Charging Analytics</h3>
-                <p className="text-gray-600">
-                  Real-time monitoring and optimization for maximum efficiency
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+      <section className="px-6 md:px-12 lg:px-24 pt-16 md:pt-24">
+  <div className="max-w-7xl mx-auto">
+    {/* Top Row - Heading Left, Text Right */}
+    <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16 mb-12 lg:mb-16">
+      {/* Left Column - Heading */}
+      <div className="lg:w-1/2">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+          <span className="text-gray-900">Embrace</span>{' '}
+          <span className="text-green-500">AI Charging</span>
+        </h1>
+      </div>
+      
+      {/* Right Column - Paragraph */}
+      <div className="lg:w-1/2 lg:pt-4">
+        <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+          Imagine a world where electric vehicle charging is seamless, efficient, 
+          and cost-effective. Power is making that a reality with our cutting-edge 
+          AI-powered commercial EV charging solution.
+        </p>
+      </div>
+    </div>
+    
+    {/* Full Width Image Below */}
+    <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+      <Image
+        src="/ev_hero.jpeg"
+        alt="AI Charging System in Action"
+        fill
+        className="object-cover"
+        priority
+      />
+      public\ev-herocard.png
+      {/* Overlay Card - Positioned at bottom left */}
+      <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6">
+        <Image
+          src={"/ev-herocard.png"}
+          alt="AI Charging System Card"
+          width={350}
+          height={250}
+          className="object-cover rounded-lg shadow-lg"
+          priority
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
         {/* Community Section */}
         <section className="px-6 md:px-8 lg:px-10 xl:px-12 bg-gray-50 py-16 lg:py-32 rounded-3xl mx-4 md:mx-8">
@@ -90,7 +95,7 @@ export default function EVCharging() {
           
           <div className="mt-20 lg:mt-32 rounded-2xl overflow-hidden shadow-lg">
             <Image 
-              src="/ev-comunity.png"
+              src="/ev_new_hero.png"
               alt="EV charging network"
               width={1200}
               height={600}
