@@ -9,6 +9,8 @@ import Image from 'next/image';
 import { AlertCircle, BarChart2, BatteryCharging, BatteryMedium, BellRing, BookOpen, CalendarCheck, CalendarClock, Car, CreditCard, Gamepad2, Lightbulb, LineChart, MapPin, PlaySquare, SquareActivity, Tag, TrendingUp, Trophy, User2, UserCog, Users, Wallet, Zap } from 'lucide-react';
 
 export default function PowerApplication() {
+  const commonDescription = "With Power, you'll have all the tools you need in one place to manage, monitor and optimize your energy consumption effortlessly. From tracking solar panel output to managing battery storage and scheduling energy use, Power makes it easy to reduce energy bills and embrace a more energy-efficient lifestyle.";
+
   return (
     <>
       <Head>
@@ -48,17 +50,17 @@ export default function PowerApplication() {
           {/* Slide 2 - Generation */}
           <SwiperSlide className="bg-gray-900">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
-              <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
                   <Image
                     src="/app2.png"
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={600}
                     alt="Generation"
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                     Generation
                   </h3>
@@ -66,7 +68,7 @@ export default function PowerApplication() {
                     Power is an all-in-one solution that helps you take control of
                     your energy usage, save money, and live more sustainably.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4">
+                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <SquareActivity className="w-4 h-4 mr-2 text-blue-500" />
                       Monitor Solar Panel Performance and Energy Output
@@ -88,6 +90,9 @@ export default function PowerApplication() {
                       Optimize Voltage Settings to Boost Efficiency
                     </li>
                   </ul>
+                  <p className="text-lg text-gray-400 italic">
+                    {commonDescription}
+                  </p>
                 </div>
               </div>
             </div>
@@ -96,17 +101,17 @@ export default function PowerApplication() {
           {/* Slide 3 - Utilities */}
           <SwiperSlide className="bg-white">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
-              <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
                   <Image
                     src="/app3.png"
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={600}
                     alt="Utilities"
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     Utilities
                   </h3>
@@ -115,7 +120,7 @@ export default function PowerApplication() {
                     including viewing and paying bills, tracking usage patterns,
                     updating account information, including:
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed space-y-4">
+                  <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <CreditCard className="w-4 h-4 mr-2 text-blue-500" />
                       Paying your bills online
@@ -137,6 +142,9 @@ export default function PowerApplication() {
                       Managing account details and preferences
                     </li>
                   </ul>
+                  <p className="text-lg text-gray-500 italic">
+                    {commonDescription}
+                  </p>
                 </div>
               </div>
             </div>
@@ -145,17 +153,17 @@ export default function PowerApplication() {
           {/* Slide 4 - Electric Vehicle Charging */}
           <SwiperSlide className="bg-gray-900">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
-              <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
                   <Image
                     src="/app4.png"
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={600}
                     alt="EV Charging"
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                     Electric Vehicle Charging
                   </h3>
@@ -163,7 +171,7 @@ export default function PowerApplication() {
                     Power also allows you to charge your electric vehicle (EV) at
                     convenient locations such as supermarkets, shopping centers, etc
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4">
+                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <Car className="w-4 h-4 mr-2 text-blue-500" />
                       Charge your EV while you&apos;re shopping or running errands
@@ -185,6 +193,9 @@ export default function PowerApplication() {
                       Handle payments for charging sessions seamlessly
                     </li>
                   </ul>
+                  <p className="text-lg text-gray-400 italic">
+                    {commonDescription}
+                  </p>
                 </div>
               </div>
             </div>
@@ -193,17 +204,17 @@ export default function PowerApplication() {
           {/* Slide 5 - Gamification */}
           <SwiperSlide className="bg-white">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
-              <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
                   <Image
                     src="/app5.png"
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={600}
                     alt="Gamification"
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     Gamification
                   </h3>
@@ -211,7 +222,7 @@ export default function PowerApplication() {
                     Enhancing energy management with gamification, encouraging
                     reduced consumption and a sustainable lifestyle.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed space-y-4">
+                  <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <Trophy className="w-4 h-4 mr-2 text-yellow-500" />
                       Earn rewards and badges for achieving energy-saving milestones
@@ -229,6 +240,9 @@ export default function PowerApplication() {
                       Unlock special offers from eco-friendly brands
                     </li>
                   </ul>
+                  <p className="text-lg text-gray-500 italic">
+                    {commonDescription}
+                  </p>
                 </div>
               </div>
             </div>
@@ -237,17 +251,17 @@ export default function PowerApplication() {
           {/* Slide 6 - Education */}
           <SwiperSlide className="bg-gray-900">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
-              <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
                   <Image
                     src="/app6.png"
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={600}
                     alt="Education"
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                     Education
                   </h3>
@@ -256,7 +270,7 @@ export default function PowerApplication() {
                     interactive tutorials, videos, and quizzes on energy-efficient
                     living.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4">
+                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <PlaySquare className="w-4 h-4 mr-2 text-blue-500" />
                       Interactive energy-efficiency tutorials and videos
@@ -278,6 +292,9 @@ export default function PowerApplication() {
                       Track progress and earn rewards for milestones
                     </li>
                   </ul>
+                  <p className="text-lg text-gray-400 italic">
+                    {commonDescription}
+                  </p>
                 </div>
               </div>
             </div>
