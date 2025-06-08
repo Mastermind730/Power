@@ -25,7 +25,7 @@ const EnergyLandingPage = () => {
   {/* Logo positioned in center */}
   <div className="absolute inset-0 flex items-center justify-center">
     <Image
-      src="/Main_logo.png"
+      src="/Green.svg"
       alt="Main Logo"
       width={600}  // Adjust as needed
       height={600}  // Adjust as needed
