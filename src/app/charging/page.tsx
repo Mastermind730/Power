@@ -39,7 +39,7 @@ export default function EVCharging() {
     {/* Full Width Image Below */}
     <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
       <Image
-        src="/ev_hero.jpeg"
+        src="/ev_car.jpg"
         alt="AI Charging System in Action"
         fill
         className="object-cover"
