@@ -90,11 +90,12 @@ export default function PowerApplication() {
                       Optimize Voltage Settings to Boost Efficiency
                     </li>
                   </ul>
-                  <p className="text-lg text-gray-400 italic">
-                    {commonDescription}
-                  </p>
+                
                 </div>
               </div>
+                <p className="text-lg text-gray-400 italic mt-10">
+                    {commonDescription}
+                  </p>
             </div>
           </SwiperSlide>
 
@@ -142,11 +143,12 @@ export default function PowerApplication() {
                       Managing account details and preferences
                     </li>
                   </ul>
-                  <p className="text-lg text-gray-500 italic">
-                    {commonDescription}
-                  </p>
+                
                 </div>
               </div>
+                <p className="text-lg text-gray-400 italic mt-10">
+                    {commonDescription}
+                  </p>
             </div>
           </SwiperSlide>
 
@@ -193,11 +195,12 @@ export default function PowerApplication() {
                       Handle payments for charging sessions seamlessly
                     </li>
                   </ul>
-                  <p className="text-lg text-gray-400 italic">
-                    {commonDescription}
-                  </p>
+                
                 </div>
               </div>
+                <p className="text-lg text-gray-400 italic mt-10">
+                    {commonDescription}
+                  </p>
             </div>
           </SwiperSlide>
 
@@ -240,11 +243,12 @@ export default function PowerApplication() {
                       Unlock special offers from eco-friendly brands
                     </li>
                   </ul>
-                  <p className="text-lg text-gray-500 italic">
-                    {commonDescription}
-                  </p>
+                 
                 </div>
               </div>
+                <p className="text-lg text-gray-400 italic mt-10">
+                    {commonDescription}
+                  </p>
             </div>
           </SwiperSlide>
 
@@ -292,11 +296,12 @@ export default function PowerApplication() {
                       Track progress and earn rewards for milestones
                     </li>
                   </ul>
-                  <p className="text-lg text-gray-400 italic">
-                    {commonDescription}
-                  </p>
+                 
                 </div>
               </div>
+               <p className="text-lg text-gray-400 italic mt-10">
+                    {commonDescription}
+                  </p>
             </div>
           </SwiperSlide>
         </Swiper>
