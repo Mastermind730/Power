@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function PurposePoem() {
   return (
@@ -19,7 +20,6 @@ export default function PurposePoem() {
           <h1 className="text-4xl md:text-5xl font-light tracking-[0.3em] text-green-400">
             PURPOSE
           </h1>
-         
         </div>
 
         {/* Main Content */}
@@ -58,6 +58,26 @@ export default function PurposePoem() {
             
             <p className="text-base md:text-lg font-medium mt-12">
               This is my brother&apos;s genesis.
+            </p>
+          </div>
+
+          {/* New Section */}
+          <div className="mt-20 space-y-8">
+            <h3 className="text-2xl md:text-3xl font-extralight text-gray-600">
+              This is Paul's genesis
+            </h3>
+            
+            <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+              <Image
+                src="/paul-image.jpg" // Replace with your actual image path
+                alt="Paul"
+                fill
+                className="object-cover"
+              />
+            </div>
+            
+            <p className="text-2xl font-light text-gray-500">
+              Paul
             </p>
           </div>
         </div>
