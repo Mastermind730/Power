@@ -14,19 +14,19 @@ const SmartHomePage = () => {
       number: "02", 
       title: "Make Informed Decisions",
       description: "With Power, residents gain tools to make intelligent energy decisions, saving on bills, and reducing their environmental impact. AI-driven analytics identify inefficient and unpredictable patterns and schedules those during off-peak times.",
-      image: "/smart3d2.png"
+      image: "/app2.png"
     },
     {
       number: "03",
       title: "Environment Monitoring", 
       description: "In addition to managing your electricity consumption usage like traditional systems, Power will help you comprehend and manage your home efficiency, where you reduce your energy in some usage that even affected the quality of the air in your home.",
-      image: "/smart3d3.png"
+      image: "/app4.png"
     },
     {
       number: "04",
       title: "Machine Learning",
       description: "AI-drive algorithms Power constantly learns and algorithms effortless in energy monitoring, recommendations, and overall management solutions. By bringing the power of optimized real-time performance of smart technology promises the features designed to optimize efficiency.",
-      image: "/smart3d4.png"
+      image: "/app6.png"
     },
     {
       number: "05", 
@@ -254,16 +254,15 @@ const SmartHomePage = () => {
 
                 {/* Image Side */}
                 <div className="flex-1 w-full">
-                  <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-video">
-                    <Image 
-                      src={feature.image} 
-                      alt={feature.title}
-                      width={200}
-                      height={380}
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                  </div>
+                  <div className=" relative overflow-hidden rounded-2xl shadow-xlw-full md:w-3/5 max-w-[500px] mx-auto">
+                                    <Image
+                                      src={feature.image}
+                                      width={500}
+                                      height={800}
+                                      alt="Education"
+                                      className="w-full h-auto object-contain"
+                                    />
+                                  </div>
                 </div>
               </div>
             ))}
