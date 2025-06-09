@@ -4,42 +4,42 @@ import Image from 'next/image';
 
 const SmartHomePage = () => {
   const features = [
+    // {
+    //   number: "01",
+    //   title: "Seamless Integration",
+    //   description: "Power seamlessly integrates with leading smart home platforms such as Google Home, Amazon Alexa, Apple Home, and Apple HomeKit. Delivering effortless device and energy consumption management you never experienced or a mobile app.",
+    //   image: "/smart3d1.png"
+    // },
     {
-      number: "01",
-      title: "Seamless Integration",
-      description: "Power seamlessly integrates with leading smart home platforms such as Google Home, Amazon Alexa, Apple Home, and Apple HomeKit. Delivering effortless device and energy consumption management you never experienced or a mobile app.",
-      image: "/smart3d1.png"
-    },
-    {
-      number: "02", 
+      number: "01", 
       title: "Make Informed Decisions",
       description: "With Power, residents gain tools to make intelligent energy decisions, saving on bills, and reducing their environmental impact. AI-driven analytics identify inefficient and unpredictable patterns and schedules those during off-peak times.",
       image: "/app2.png"
     },
     {
-      number: "03",
+      number: "02",
       title: "Environment Monitoring", 
       description: "In addition to managing your electricity consumption usage like traditional systems, Power will help you comprehend and manage your home efficiency, where you reduce your energy in some usage that even affected the quality of the air in your home.",
       image: "/app4.png"
     },
     {
-      number: "04",
+      number: "03",
       title: "Machine Learning",
       description: "AI-drive algorithms Power constantly learns and algorithms effortless in energy monitoring, recommendations, and overall management solutions. By bringing the power of optimized real-time performance of smart technology promises the features designed to optimize efficiency.",
       image: "/app6.png"
     },
-    {
-      number: "05", 
-      title: "Sustainability",
-      description: "Power's efforts extends beyond financial savings. It's about contributing to energy consumption. Power will aid in creating a cleaner consumer - fostering a more sustainable future.",
-      image: "/smart3d5.png"
-    },
-    {
-      number: "06",
-      title: "Our Pledge",
-      description: "Power is committed to ensuring renewable resource for home and energy",
-      image: "/smart3d6.png"
-    }
+    // {
+    //   number: "05", 
+    //   title: "Sustainability",
+    //   description: "Power's efforts extends beyond financial savings. It's about contributing to energy consumption. Power will aid in creating a cleaner consumer - fostering a more sustainable future.",
+    //   image: "/smart3d5.png"
+    // },
+    // {
+    //   number: "06",
+    //   title: "Our Pledge",
+    //   description: "Power is committed to ensuring renewable resource for home and energy",
+    //   image: "/smart3d6.png"
+    // }
   ];
 
   const comparisonData = [
