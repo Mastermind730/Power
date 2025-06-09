@@ -64,7 +64,7 @@ export default function PurposePoem() {
           {/* New Section */}
           <div className="mt-20 space-y-8">
             <h3 className="text-2xl md:text-3xl font-extralight text-gray-600">
-              This is Paul's genesis
+              This is Paul&apos;s genesis
             </h3>
             
             <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
