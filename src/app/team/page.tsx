@@ -138,11 +138,15 @@ When not playing tennis or enjoying photography, Francesco is a startup advisor
   {
 
     id: 3,
-    name: 'ROY HARRISON',
+    name: 'ROY HARRISON OBE',
     title: '  Adviser',
     image: '/roy.png',
     imagePosition: 'left',
-    content:`He was educated at Henley Grammar School and the University of Birmingham, where he was awarded a Bachelor of Science degree in chemistry in 1969, followed by a PhD in organic chemistry in 1972 and a Doctor of Science degree in environmental chemistry in 1989.[3][2] His PhD research investigated sigmatropic reactions of tropolone ethers.[5][6]`
+    content:`He was educated at Henley Grammar School and the University of Birmingham, where he was awarded a Bachelor of Science degree in chemistry in 1969, followed by a PhD in organic chemistry in 1972 and a Doctor of Science degree in environmental chemistry in 1989. His PhD research investigated sigmatropic reactions of tropolone ethers.
+Harrison is an expert on air pollution, specialising in the area of airborne particulates, including nanoparticles. His interests extend from source emissions, through atmospheric chemical and physical transformations, to human exposures and effects upon health. His most significant work has been in the field of vehicle emitted particles, including their chemical composition and atmospheric processing. This forms the basis of the current understanding of the relationship of emissions to roadside concentrations and size distributions.
+In addition to leading a large project on diesel exhaust particles, he is also engaged in major collaborative studies of processes determining air quality in Beijing and Delhi.
+Harrison's work has been recognised by award of the John Jeyes Medal and Environment Prize of the Royal Society of Chemistry and the Fitzroy Prize of the Royal Meteorological Society. He has served for many years as a chair and/or member of advisory committees of the Department for Environment, Food and Rural Affairs (Defra) and the Department of Health. He was appointed Order of the British Empire OBE in the 2004 New Year Honours for services to environmental science[13] and elected a Fellow of the Royal Society (FRS) in 2017.
+Harrison married Angela Copeman in 1981. After their divorce, he married Susan Stuart in 1989. Harrison has a son and a daughter from his first marriage, and a son from his second. He enjoys "mowing and other outdoor pursuits".`
   },
    {
 
