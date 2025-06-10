@@ -254,11 +254,11 @@ const SmartHomePage = () => {
 
                 {/* Image Side */}
                 <div className="flex-1 w-full">
-                  <div className=" relative overflow-hidden rounded-2xl shadow-xlw-full md:w-3/5 max-w-[500px] mx-auto">
+                  <div className=" relative overflow-hidden rounded-2xl shadow-xlw-full md:w-2/5 max-w-[500px] mx-auto">
                                     <Image
                                       src={feature.image}
-                                      width={500}
-                                      height={800}
+                                      width={400}
+                                      height={600}
                                       alt="Education"
                                       className="w-full h-auto object-contain"
                                     />
