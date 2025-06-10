@@ -20,7 +20,7 @@ const EnergyLandingPage = () => {
   />
   
   {/* Gradient overlay */}
-  <div className="absolute inset-0 bg-gradient-to-t from-slate-50/80 to-transparent"></div>
+  <div className="absolute inset-0 bg-white"></div>
   
   {/* Logo positioned in center */}
   <div className="absolute inset-0 flex items-center justify-center">

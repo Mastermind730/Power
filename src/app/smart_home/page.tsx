@@ -4,12 +4,7 @@ import Image from 'next/image';
 
 const SmartHomePage = () => {
   const features = [
-    // {
-    //   number: "01",
-    //   title: "Seamless Integration",
-    //   description: "Power seamlessly integrates with leading smart home platforms such as Google Home, Amazon Alexa, Apple Home, and Apple HomeKit. Delivering effortless device and energy consumption management you never experienced or a mobile app.",
-    //   image: "/smart3d1.png"
-    // },
+   
     {
       number: "01", 
       title: "Make Informed Decisions",
@@ -27,6 +22,12 @@ const SmartHomePage = () => {
       title: "Machine Learning",
       description: "AI-drive algorithms Power constantly learns and algorithms effortless in energy monitoring, recommendations, and overall management solutions. By bringing the power of optimized real-time performance of smart technology promises the features designed to optimize efficiency.",
       image: "/app6.png"
+    },
+     {
+      number: "04",
+      title: "Seamless Integration",
+      description: "Power seamlessly integrates with leading smart home platforms such as Google Home, Amazon Alexa, Apple Home, and Apple HomeKit. Delivering effortless device and energy consumption management you never experienced or a mobile app.",
+      image: "/app7.jpg"
     },
     // {
     //   number: "05", 
