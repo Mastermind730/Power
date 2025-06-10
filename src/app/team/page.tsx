@@ -132,7 +132,7 @@ meaningful and lasting impact through his service.`
     id: 2,
     name: 'Francesco Paolo Camarda',
     title: '  Adviser',
-    image: '/franzesco.png',
+    image: '/franzesco.jpg',
     imagePosition: 'right',
     content: `Francesco Paolo Camarda is an highly accomplished strategic leader with over 15 years of experience in strategy development, innovation, and leadership roles within FTSE100 companies and startups. He has been working for EY and Value Partners on strategic advisory projects across Europe and Middle East, then moved to support Vodafone Group business growth through finance, innovation and marketing roles. In 2017, he kickstarted a new business unit within Vodafone Italy, launching the first Consumer IoT portfolio in the Italian market.
     
@@ -146,7 +146,7 @@ When not playing tennis or enjoying photography, Francesco is a startup advisor
     id: 3,
     name: 'ROY HARRISON OBE',
     title: '  Adviser',
-    image: '/roy.png',
+    image: '/roy.jpg',
     imagePosition: 'left',
     content:`He was educated at Henley Grammar School and the University of Birmingham, where he was awarded a Bachelor of Science degree in chemistry in 1969, followed by a PhD in organic chemistry in 1972 and a Doctor of Science degree in environmental chemistry in 1989. His PhD research investigated sigmatropic reactions of tropolone ethers.
 
@@ -160,7 +160,7 @@ Harrison married Angela Copeman in 1981. After their divorce, he married Susan S
     id: 4,
     name: 'ABDULLAH BAJAHZAR',
     title: '  Adviser',
-    image: '/abdul.png',
+    image: '/abdul.jpg',
     imagePosition: 'right',
     content:``
   },
