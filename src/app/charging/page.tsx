@@ -193,58 +193,47 @@ export default function EVCharging() {
             </h3>
           </div>
           
-          <div className="flex flex-col xl:flex-row items-stretch gap-12">
-            <div className="xl:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[
-                {img: '/ev-benefit1.png', text: 'Save Off-Peak', desc: 'Lower rates during low-demand periods'},
-                {img: '/ev-benefit2.png', text: 'Fair Pricing', desc: 'Algorithm ensures reasonable rates'},
-                {img: '/ev-benefit3.png', text: 'Real-Time Billing', desc: 'Instant, transparent billing'},
-                {img: '/ev-benefit4.png', text: 'Control Costs', desc: 'Predictable charging expenses'},
-              ].map((item, index) => (
-                <div key={index} className="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow">
-                  <div className="w-16 h-16">
-                    <Image 
-                      src={item.img}
-                      alt={item.text}
-                      width={64}
-                      height={64}
-                    />
-                  </div>
-                  <h4 className="font-semibold text-xl text-gray-900">{item.text}</h4>
-                  <p className="text-gray-600">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-            
-         <div className="xl:w-1/2 relative rounded-2xl w-full h-[200px] overflow-hidden shadow-xl aspect-[4/3]">
-  {/* Background Image - Desktop */}
-  <Image 
-    src="/ev-benefitbg2.png"
-    alt="Benefits illustration"
-    fill
-    className="hidden md:block object-cover"
-    priority
-  />
-  
-  {/* Background Image - Mobile */}
-  <Image 
-    src="/ev-benefitbg2.png"  // Assuming you have a mobile-optimized version
-    alt="Benefits illustration"
-    fill
-    className="block md:hidden object-cover"
-    priority
-  />
-  
-  {/* Overlay Content */}
-  <div className="absolute inset-0 flex items-center justify-center p-6 md:p-12 bg-gradient-to-t from-black/60 to-black/30">
-    <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-md lg:max-w-xl">
-      Our transparent, adaptive pricing model makes energy management 
-      simpler and more affordable for all our customers.
-    </p>
+         <div className="flex flex-col gap-12">
+  {/* Full-width image section */}
+  <div className="w-full relative rounded-2xl h-[150px] md:h-[200px] lg:h-[300px] overflow-hidden shadow-xl">
+    <Image 
+      src="/ev-benefitbg2.png"
+      alt="Benefits illustration"
+      fill
+      className="object-cover"
+      priority
+    />
+    <div className="absolute inset-0 flex items-center justify-start p-6 bg-gradient-to-t from-black/60 to-black/30">
+      <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-md lg:max-w-xl">
+        Our transparent, adaptive pricing model makes energy management 
+        simpler and more affordable for all our customers.
+      </p>
+    </div>
+  </div>
+
+  {/* Feature cards in a single row */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {[
+      {img: '/ev-benefit1.png', text: 'Save Off-Peak', desc: 'Lower rates during low-demand periods'},
+      {img: '/ev-benefit2.png', text: 'Fair Pricing', desc: 'Algorithm ensures reasonable rates'},
+      {img: '/ev-benefit3.png', text: 'Real-Time Billing', desc: 'Instant, transparent billing'},
+      {img: '/ev-benefit4.png', text: 'Control Costs', desc: 'Predictable charging expenses'},
+    ].map((item, index) => (
+      <div key={index} className="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow">
+        <div className="w-16 h-16">
+          <Image 
+            src={item.img}
+            alt={item.text}
+            width={64}
+            height={64}
+          />
+        </div>
+        <h4 className="font-semibold text-xl text-gray-900">{item.text}</h4>
+        <p className="text-gray-600">{item.desc}</p>
+      </div>
+    ))}
   </div>
 </div>
-          </div>
-          
           <div className="mt-20 relative rounded-3xl overflow-hidden shadow-2xl">
   {/* Desktop Image */}
   <Link href={"/business"}>
