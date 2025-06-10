@@ -53,11 +53,19 @@ Throughout his academic career, he has applied his data analysis skills to tackl
 Dwayne is also interested in making sure knowledge is accessible to all walks of life. He often organises and participates in outreach events, sharing his knowledge, passion, and expertise with others. In addition, for the past four years, he has played a pivotal role in designing, shaping, and managing the James McCune Smith Scholarships at the University of Glasgow, which aim to address the underrepresentation of Black British students at the postgraduate level and create a vibrant and connected Black academic community both on campus and more widely.`
   },
   {
-    id: 3,
+  id: 3,
+  name: "Saurabh Tiwari",
+  title: "Co-Founder",
+  image: "/saurabh.jpg",
+  imagePosition: "left",
+  content: "Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. Regularly invited as jury for IIT Bombay's Eureka Challenge."
+}
+  {
+    id: 4,
     name: 'Fabrizio Romanzini',
     title: 'Co-Founder',
     image: '/fabrizio.png',
-    imagePosition: 'left',
+    imagePosition: 'right',
     content: `A passionate and dedicated business leader with 15 years of experience, Fabrizio has had the privilege of leading multinational companies and driving profitable results through strategic restructuring, targeted training, and coaching of high-performing sales teams. As the CEO and Founder of Rinno Energy, he has had the opportunity to turn his vision into a reality and build a team that shares his passion for innovation and growth.
 
 His background in engineering and his Master's degree in Strategy Business Management have given him a unique perspective on what it takes to succeed in today's fast-paced business environment. He believes that success is not just about having a deep understanding of the business, but also about being able to inspire and motivate people to work towards a common goal.
@@ -67,25 +75,18 @@ As a lifelong learner, Fabrizio is always seeking out new knowledge and insights
 As Director at Britcham Brazil, he brings his expertise and leadership skills to the table to help drive business growth and development in the region. He is committed to empowering businesses to thrive in a rapidly changing environment and is dedicated to delivering exceptional results that exceed expectations.`
   },
   {
-    id: 4,
+    id: 5,
     name: 'Lala Rukh',
     title: 'Co-Founder',
     image: '/lala.png',
-    imagePosition: 'right',
+    imagePosition: 'left',
     content: `With a passion for creativity and precision, Lala Rukh is a dedicated professional graphic designer and an MPhil student in mathematics. Balancing the intricacies of visual design with the analytical rigor of advanced mathematics, Lala brings a unique blend of artistry and logical thinking to every project. Her journey in the field of graphic design is marked by a commitment to excellence and an unwavering enthusiasm for learning.
 
 Lala's expertise in graphic design is complemented by her strong academic background, which has honed her problem-solving skills and attention to detail. This combination allows her to approach design challenges with both creativity and a methodical mindset, ensuring that her work not only looks stunning but also effectively communicates the intended message.
 
 As a graphic designer, Lala has a keen eye for aesthetics and a deep understanding of how to translate concepts into visually engaging content.`
   },
-  {
-  id: 5,
-  name: "Saurabh Tiwari",
-  title: "Co-Founder",
-  image: "/saurabh.jpg",
-  imagePosition: "left",
-  content: "Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. Regularly invited as jury for IIT Bombay's Eureka Challenge."
-}
+  
 ],
     advisors:  [
   {
