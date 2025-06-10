@@ -5,14 +5,19 @@ import { useState } from 'react';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Function to close the mobile menu
+  const closeMobileMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <nav className="fixed top-0 height-[130px]  left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50">
+    <nav className="fixed top-0 height-[130px] left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="group flex items-center">
-               <svg
+             <svg
             className="w-[125px] h-[33px] 2xl:w-[144px] 2xl:h-[38px]"
             viewBox="0 0 192 50"
             fill="none"
@@ -58,10 +63,10 @@ export default function Navbar() {
             <Link href="/our_app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               App
             </Link>
-              <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
-               Charging
+            <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+              Charging
             </Link>
-             <Link href="https://4leaf.ai/" target='_blank' className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="https://4leaf.ai/" target='_blank' className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Clover
             </Link>
             <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
@@ -70,12 +75,9 @@ export default function Navbar() {
             <Link href="/smart_factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Manufactory
             </Link>
-          
             <Link href="/team" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Team
             </Link>
-           
-            
           </div>
 
           {/* Contact Button with User Icon */}
@@ -107,26 +109,49 @@ export default function Navbar() {
         <div className={`lg:hidden transition-all duration-500 overflow-hidden ${isOpen ? 'max-h-96 opacity-100 pb-6' : 'max-h-0 opacity-0'}`}>
           <div className="space-y-1 pt-4 border-t border-slate-700/50">
             {[
-              { href: '/pillars', label: 'About' },
-              { href: '/our_app', label: 'App' },
-              { href: '/smart_home', label: 'Smart Home' },
-              { href: '/charging', label: 'Vehicle Charging' },
-              { href: '/business', label: 'Business' },
-              { href: '/clover', label: 'Clover' },
-              { href: '/team', label: 'Team' }
-            ].map((item, index) => (
-              <Link 
+            { href: '/pillars', label: 'About' },
+            { href: '/our_app', label: 'App' },
+            { href: '/smart_home', label: 'Smart Home' },
+            { href: '/charging', label: 'Vehicle Charging' },
+            { href: '/business', label: 'Business' },
+            { 
+              href: 'https://4leaf.ai/', 
+              label: 'Clover',
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            },
+            { href: '/team', label: 'Team' }
+          ].map((item, index) => (
+            item.target ? (
+              <Link
                 key={item.href}
-                href={item.href} 
+                href={item.href}
+                target={item.target}
+                rel={item.rel}
+                onClick={closeMobileMenu}
                 className="block px-4 py-3 text-slate-300 hover:text-white hover:bg-slate-700/50 rounded-md text-sm font-medium transition-all duration-200"
                 style={{ transitionDelay: `${index * 50}ms` }}
               >
                 {item.label}
               </Link>
-            ))}
-            
+            ) : (
+              <Link 
+                key={item.href}
+                href={item.href} 
+                onClick={closeMobileMenu}
+                className="block px-4 py-3 text-slate-300 hover:text-white hover:bg-slate-700/50 rounded-md text-sm font-medium transition-all duration-200"
+                style={{ transitionDelay: `${index * 50}ms` }}
+              >
+                {item.label}
+              </Link>
+            )
+          ))}
             <div className="pt-4">
-              <Link href="/contact" className="flex items-center justify-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-3 rounded-full text-sm font-medium transition-all duration-300 mx-4">
+              <Link 
+                href="/contact" 
+                onClick={closeMobileMenu} // Add this onClick handler
+                className="flex items-center justify-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-3 rounded-full text-sm font-medium transition-all duration-300 mx-4"
+              >
                 <span>Contact Us</span>
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
