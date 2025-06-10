@@ -36,9 +36,8 @@ const TeamPage = () => {
 
     With a professional background that includes serving as Commercial Director at Alfa Power and founding different sustainibilty companies.
     Alexander demonstrates his entreprenurial sprint and commitment to leave a positive impact. His dedication to personal and professional development is evident in his efforts to learn Arabic and Portugese,
-    recognising the importance of language skills in international business.
+    recognising the importance of language skills in international business.`
 
-Alexander is a dynamic and versatile individual .With his enthusiasm and motivation, Alexander is poised to make a lasting impact in his professional and  personal life.`
   },
   {
     id: 2,
@@ -58,7 +57,8 @@ Dwayne is also interested in making sure knowledge is accessible to all walks of
   title: "Co-Founder",
   image: "/saurabh.jpg",
   imagePosition: "left",
-  content: "Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. Regularly invited as jury for IIT Bombay's Eureka Challenge."
+  content: `Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. 
+  Regularly invited as jury for IIT Bombay's Eureka Challenge.`
 },
   {
     id: 4,
