@@ -45,8 +45,8 @@ const SmartHomePage = () => {
   const comparisonData = [
     { feature: "EI  Sensor", essential: true, light: true, trinity: true },
     { feature: "Hub", essential: true, light: true, trinity: true },
-    { feature: "Air Quality Sensor", essential: false, light: false, trinity: true },
-    { feature: "Smart Thermostat", essential: true, light: true, trinity: true },
+    { feature: "Air Quality Sensor", essential: true, light: true, trinity: true },
+    { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
     { feature: "Water Leak Detection", essential: false, light: false, trinity: true },
     { feature: "Temperature Sensor", essential: false, light: false, trinity: true },
     { feature: "Humidity Sensor", essential: false, light: false, trinity: true },
