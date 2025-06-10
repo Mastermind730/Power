@@ -16,30 +16,30 @@ const SmartFactoryPage = () => {
       description: "Leverage AI-powered sensors on your critical machinery to predict potential failures before they happen. Schedule maintenance proactively, minimise unplanned downtime, and extend the lifespan of your equipment.",
       image: "/sensor.jpg"
     },
+    // {
+    //   number: "03",
+    //   title: "Automated Quality Control",
+    //   description: "Implement high-speed vision systems and AI algorithms to inspect products in real-time. Detect defects, ensure consistency, and reduce waste, maintaining the highest quality standards automatically.",
+    //   image: "/robotic_arm.jpg"
+    // },
     {
       number: "03",
-      title: "Automated Quality Control",
-      description: "Implement high-speed vision systems and AI algorithms to inspect products in real-time. Detect defects, ensure consistency, and reduce waste, maintaining the highest quality standards automatically.",
-      image: "/robotic_arm.jpg"
-    },
-    {
-      number: "04",
       title: "Industrial Energy Management",
       description: "Monitor energy consumption across your facility down to the individual machine level. Identify inefficiencies, optimize usage during peak and off-peak hours, and significantly reduce your factory's energy costs and carbon footprint.",
       image: "/images.jpg"
     },
     {
-      number: "05", 
+      number: "04", 
       title: "Supply Chain & Inventory Tracking",
       description: "Integrate your factory floor with your supply chain. Utilise RFID and IoT trackers for real-time visibility of raw materials, work-in-progress, and finished goods, automating reordering and reducing carrying costs.",
       image: "/supply_chain.jpg"
     },
-    {
-      number: "06",
-      title: "Enhanced Workforce Safety",
-      description: "Deploy smart sensors and wearables to monitor environmental conditions, detect potential hazards, and ensure compliance with safety protocols. Create a safer, more secure working environment for your entire team.",
-      image: "/smart_safety.avif"
-    }
+    // {
+    //   number: "06",
+    //   title: "Enhanced Workforce Safety",
+    //   description: "Deploy smart sensors and wearables to monitor environmental conditions, detect potential hazards, and ensure compliance with safety protocols. Create a safer, more secure working environment for your entire team.",
+    //   image: "/smart_safety.avif"
+    // }
   ];
 
   const benefitData = [
