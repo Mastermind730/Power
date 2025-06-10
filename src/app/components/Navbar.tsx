@@ -93,7 +93,7 @@ export default function Navbar() {
             <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Home
             </Link>
-            <Link href="/smart_factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="/factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Manufactory
             </Link>
             <Link href="/team" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
@@ -155,7 +155,7 @@ export default function Navbar() {
                 rel: 'noopener noreferrer'
               },
               { href: '/smart_home', label: 'Home' },
-              { href: '/smart_factory', label: 'Manufactory' },
+              { href: '/factory', label: 'Manufactory' },
               { href: '/team', label: 'Team' }
             ].map((item, index) => (
               <Link
