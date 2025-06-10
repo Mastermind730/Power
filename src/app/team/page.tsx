@@ -104,6 +104,7 @@ industries including energy, fashion and décor. His active memberships in the
 Institute of Directors (UK), the European Centre for Space Economy and
 Commerce and the Royal Aeronautical Society further illustrate his commitment to
 leadership and innovation.
+
 His qualifications include over two dozen training and workshops at the European
 Space Agency, DLR Germany, Goonhilly Earth Station, Universities of London,
 Southampton and Edinburgh in the space sector; Luiss Business School-
@@ -116,6 +117,7 @@ former EASA and current UK CAA B1 and B3 aircraft licences and multiple
 European Space Agency ECSS certifications. His continuous professional
 development further includes investment banking virtual training with JP Morgan
 and Bank of America.
+
 Guided by a deep commitment to advancing the greater good of humanity, Partha
 brings a unique blend of technical precision and strategic vision to his endeavours.
 As a board adviser, he leverages his extensive experience to optimise operational
@@ -132,7 +134,10 @@ meaningful and lasting impact through his service.`
     title: '  Adviser',
     image: '/franzesco.png',
     imagePosition: 'right',
-    content: `Francesco Paolo Camarda is an highly accomplished strategic leader with over 15 years of experience in strategy development, innovation, and leadership roles within FTSE100 companies and startups. He has been working for EY and Value Partners on strategic advisory projects across Europe and Middle East, then moved to support Vodafone Group business growth through finance, innovation and marketing roles. In 2017, he kickstarted a new business unit within Vodafone Italy, launching the first Consumer IoT portfolio in the Italian market. Following a successful scale up, he moved to Vodafone Group where he led the international scale up of Consumer IoT, opening up 5 new markets.
+    content: `Francesco Paolo Camarda is an highly accomplished strategic leader with over 15 years of experience in strategy development, innovation, and leadership roles within FTSE100 companies and startups. He has been working for EY and Value Partners on strategic advisory projects across Europe and Middle East, then moved to support Vodafone Group business growth through finance, innovation and marketing roles. In 2017, he kickstarted a new business unit within Vodafone Italy, launching the first Consumer IoT portfolio in the Italian market.
+    
+    Following a successful scale up, he moved to Vodafone Group where he led the international scale up of Consumer IoT, opening up 5 new markets.
+
 In his current role at Intertek, a FTSE100 company operating in 106 Countries with 46.000 employees, he is responsible of defining Group strategy, innovation needs, partnerships and M&A deals on the energy sector.
 When not playing tennis or enjoying photography, Francesco is a startup advisor providing Strategy guidance to foster innovation and growth, with a diversified portfolio of startups mostly operating in the Energy and Technology space.`
   },
@@ -144,9 +149,10 @@ When not playing tennis or enjoying photography, Francesco is a startup advisor
     image: '/roy.png',
     imagePosition: 'left',
     content:`He was educated at Henley Grammar School and the University of Birmingham, where he was awarded a Bachelor of Science degree in chemistry in 1969, followed by a PhD in organic chemistry in 1972 and a Doctor of Science degree in environmental chemistry in 1989. His PhD research investigated sigmatropic reactions of tropolone ethers.
+
 Harrison is an expert on air pollution, specialising in the area of airborne particulates, including nanoparticles. His interests extend from source emissions, through atmospheric chemical and physical transformations, to human exposures and effects upon health. His most significant work has been in the field of vehicle emitted particles, including their chemical composition and atmospheric processing. This forms the basis of the current understanding of the relationship of emissions to roadside concentrations and size distributions.
-In addition to leading a large project on diesel exhaust particles, he is also engaged in major collaborative studies of processes determining air quality in Beijing and Delhi.
-Harrison's work has been recognised by award of the John Jeyes Medal and Environment Prize of the Royal Society of Chemistry and the Fitzroy Prize of the Royal Meteorological Society. He has served for many years as a chair and/or member of advisory committees of the Department for Environment, Food and Rural Affairs (Defra) and the Department of Health. He was appointed Order of the British Empire OBE in the 2004 New Year Honours for services to environmental science[13] and elected a Fellow of the Royal Society (FRS) in 2017.
+
+In addition to leading a large project on diesel exhaust particles, he is also engaged in major collaborative studies of processes determining air quality in Beijing and Delhi.Harrison's work has been recognised by award of the John Jeyes Medal and Environment Prize of the Royal Society of Chemistry and the Fitzroy Prize of the Royal Meteorological Society. He has served for many years as a chair and/or member of advisory committees of the Department for Environment, Food and Rural Affairs (Defra) and the Department of Health. He was appointed Order of the British Empire OBE in the 2004 New Year Honours for services to environmental science[13] and elected a Fellow of the Royal Society (FRS) in 2017.
 Harrison married Angela Copeman in 1981. After their divorce, he married Susan Stuart in 1989. Harrison has a son and a daughter from his first marriage, and a son from his second. He enjoys "mowing and other outdoor pursuits".`
   },
    {
