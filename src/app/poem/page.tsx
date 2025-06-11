@@ -25,11 +25,11 @@ export default function PurposePoem() {
         {/* Main Content */}
         <div className="max-w-2xl w-full text-center space-y-8">
           {/* Large P */}
-          <div className="text-6xl md:text-7xl font-light text-gray-400 mb-12">
-            p
-          </div>
+         <div className="text-6xl md:text-7xl font-light text-gray-400 mb-12 relative">
+  <span className="  underline decoration-1 underline-offset-3">p</span>
+</div>
 
-          {/* Poem Content */}
+          {/* Poem Content */
           <div className="space-y-6 mt-15 text-gray-600 leading-relaxed">
             <p className="text-base md:text-lg font-light">
               My brother was called Paul. My surname
