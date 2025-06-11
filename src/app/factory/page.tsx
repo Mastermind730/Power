@@ -322,7 +322,7 @@ const SmartFactoryPage = () => {
           <div>
             <div className="text-center mb-12">
               <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
-                PLAN <span className="text-green-500">DETAILS</span>
+                PLANs & <span className="text-green-500">PRICING</span>
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
                 Technical specifications for each solution tier
