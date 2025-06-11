@@ -26,7 +26,7 @@ export default function PurposePoem() {
         <div className="max-w-2xl w-full text-center space-y-8">
           {/* Large P */}
          <div className="text-6xl md:text-7xl font-light text-gray-400 mb-12 relative">
-  <span className="  underline decoration-1 underline-offset-3">p</span>
+  <span className="underline decoration-1 underline-offset-3">p</span>
 </div>
 
           {/* Poem Content */

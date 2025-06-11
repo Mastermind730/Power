@@ -288,9 +288,9 @@ const SmartHomePage = () => {
             <div className="bg-white rounded-xl shadow-sm overflow-hidden">
               <div className="grid grid-cols-4 gap-px bg-gray-200">
                 <div className="bg-gray-100 p-4"></div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Seed</div>
-                <div className="bg-white text-gray-700 hover:text-white hover:bg-black p-4 text-center font-medium ">Light</div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Core</div>
+                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Seed</div>
+                <div className="bg-white text-gray-700 hover:text-white hover:bg-green-400 p-4 text-center font-medium ">Light</div>
+                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Core</div>
                 
                 {comparisonData.map((item, index) => (
                   <React.Fragment key={index}>
@@ -336,9 +336,9 @@ const SmartHomePage = () => {
             <div className="bg-white rounded-xl shadow-sm overflow-hidden">
               <div className="grid grid-cols-4 gap-px bg-gray-200">
                 <div className="bg-gray-100 p-4"></div>
-               <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Seed</div>
-                <div className="bg-white text-gray-700 hover:text-white hover:bg-black p-4 text-center font-medium ">Light</div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-black font-medium">Core</div>
+               <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Seed</div>
+                <div className="bg-white text-gray-700 hover:text-white hover:bg-green-400 p-4 text-center font-medium ">Light</div>
+                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Core</div>
                  
                 {efficiencyData.map((item, index) => (
                   <React.Fragment key={index}>
