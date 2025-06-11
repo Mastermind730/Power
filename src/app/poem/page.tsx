@@ -67,12 +67,13 @@ export default function PurposePoem() {
               This is Paul&apos;s genesis
             </h3> */}
             
-            <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+            <div className="relative flex justify-center align-center w-full  rounded-lg overflow-hidden">
               <Image
-                src="/paul-image.jpg" // Replace with your actual image path
+                src="/red_logo.png" // Replace with your actual image path
                 alt="Paul"
-                fill
-                className="object-cover"
+                width={400}
+                height={400}
+                className="object-cover "
               />
             </div>
             
