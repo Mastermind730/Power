@@ -89,7 +89,7 @@ const SmartHomePage = () => {
                 src="/smart_home.jpg" 
                 alt="Modern smart home living room" 
                 className="w-full h-full object-cover"
-                width={900}
+                width={800}
                 height={800}
               />
             </div>
