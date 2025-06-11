@@ -27,7 +27,7 @@ export default function EVCharging() {
       </div>
       
       {/* Right Column - Paragraph */}
-      <div className="lg:w-1/2 lg:pt-4">
+      <div className="lg:w-1/2 lg:pt-4 mt-3">
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
           Imagine a world where electric vehicle charging is seamless, efficient, 
           and cost-effective. Power is making that a reality with our cutting-edge 
