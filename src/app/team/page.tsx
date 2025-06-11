@@ -93,7 +93,7 @@ As a graphic designer, Lala has a keen eye for aesthetics and a deep understandi
     id: 1,
     name: 'Partha Dip Mahanta',
     title: '  Adviser',
-    image: '/partha.png',
+    image: '/partha.jpg',
     imagePosition: 'left',
     content: `Partha Dip Mahanta is an accomplished board adviser, spacecraft controller,
 licenced aircraft certifier and founder with a proven record of controlling critical
