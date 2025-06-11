@@ -254,7 +254,7 @@ const SmartHomePage = () => {
                 </div>
 
                 {/* Image Side */}
-                <div className="flex-1 w-full">
+                <div className="flex-1 w-full ">
                   <div className=" relative overflow-hidden rounded-2xl shadow-xlw-full md:w-2/5 max-w-[500px] mx-auto">
                                     <Image
                                       src={feature.image}
