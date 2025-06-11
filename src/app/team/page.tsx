@@ -57,7 +57,9 @@ Dwayne is also interested in making sure knowledge is accessible to all walks of
   title: "Co-Founder",
   image: "/saurabh.jpg",
   imagePosition: "left",
-  content: `Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. 
+  content: `Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. 
+  
+  Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. 
   Regularly invited as jury for IIT Bombay's Eureka Challenge.`
 },
   {
