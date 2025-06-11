@@ -58,8 +58,8 @@ const SmartFactoryPage = () => {
   ];
 
   const planData = [
-    { feature: "Number of Machines", basic: "Up to 10", pro: "Up to 50", enterprise: "Unlimited" },
-    { feature: "Data Retention", basic: "30 days", pro: "90 days", enterprise: "1 year+" },
+    { feature: "Number of Machines", basic: "16", pro: "16", enterprise: "16" },
+    { feature: "Data Retention", basic: "90 days", pro: "1 Year", enterprise: "3 year+" },
     { feature: "User Accounts", basic: "3", pro: "10", enterprise: "Unlimited" },
     { feature: "Update Frequency", basic: "Monthly", pro: "Weekly", enterprise: "Daily" }
   ];
@@ -350,6 +350,10 @@ const SmartFactoryPage = () => {
                     </div>
                   </React.Fragment>
                 ))}
+                 <div className="bg-gray-100 p-4 font-medium text-gray-900">Release date</div>
+    <div className="bg-white text-gray-800 p-4 text-center">04 / 07 / 2025</div>
+    <div className="bg-gray-50 text-gray-800 p-4 text-center">04 / 07 / 2025</div>
+    <div className="bg-white text-gray-800 p-4 text-center">04 / 07 / 2025</div>
               </div>
             </div>
           </div>
@@ -372,10 +376,10 @@ const SmartFactoryPage = () => {
       </section> */}
 
       {/* Closing Section */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl text-gray-700 font-light mb-6">
-            Powering the Future of Production
+      <section className="py-20 px-4 bg-white"> 
+        <div className="max-w-7xl mx-auto text-center">
+          <h3 className="text-5xl text-gray-700 font-light mb-6">
+            Powering the <span className='text-green-500'>Future of Production</span>
           </h3>
           <p className="text-gray-600 leading-relaxed">
             In today&apos;s competitive landscape, manufacturing excellence demands more than just automation. It requires intelligence. Power&apos;s Smart Factory solutions transform your production facility into a connected, data-driven environment, unlocking unprecedented levels of efficiency, productivity, and operational insight. Move beyond traditional manufacturing and embrace the future of industry.
