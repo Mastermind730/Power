@@ -319,44 +319,54 @@ const SmartFactoryPage = () => {
           </div>
 
           {/* Plan Details */}
-          <div>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
-                PLANs & <span className="text-green-500">PRICING</span>
-              </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
-                Technical specifications for each solution tier
-              </p>
-            </div>
+        {/* Plan Details */}
+<div>
+  <div className="text-center mb-12">
+    <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
+      PLANs & <span className="text-green-500">PRICING</span>
+    </h2>
+    <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
+      Technical specifications for each solution tier
+    </p>
+  </div>
 
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
-              <div className="grid grid-cols-4 gap-px bg-gray-200">
-                <div className="bg-gray-100 p-4"></div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Basic</div>
-                <div className="bg-white text-gray-700 hover:text-white hover:bg-green-600 p-4 text-center font-medium">Pro</div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Enterprise</div>
-                
-                {planData.map((item, index) => (
-                  <React.Fragment key={index}>
-                    <div className="bg-gray-100 p-4 font-medium text-gray-900">{item.feature}</div>
-                    <div className="bg-white text-gray-800 p-4 text-center">
-                      {item.basic}
-                    </div>
-                    <div className="bg-gray-50 text-gray-800 p-4 text-center">
-                      {item.pro}
-                    </div>
-                    <div className="bg-white text-gray-800 p-4 text-center">
-                      {item.enterprise}
-                    </div>
-                  </React.Fragment>
-                ))}
-                 <div className="bg-gray-100 p-4 font-medium text-gray-900">Release date</div>
-    <div className="bg-white text-gray-800 p-4 text-center">04 / 07 / 2025</div>
-    <div className="bg-gray-50 text-gray-800 p-4 text-center">04 / 07 / 2025</div>
-    <div className="bg-white text-gray-800 p-4 text-center">04 / 07 / 2025</div>
-              </div>
-            </div>
+  <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+    <div className="grid grid-cols-4 gap-px bg-gray-200">
+      <div className="bg-gray-100 p-4"></div>
+      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Basic</div>
+      <div className="bg-white text-gray-700 hover:text-white hover:bg-green-600 p-4 text-center font-medium">Pro</div>
+      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Enterprise</div>
+      
+      {/* Number of Machines - spans all columns */}
+      <div className="bg-gray-100 p-4 font-medium text-gray-900">Number of Machines</div>
+      <div className="bg-white text-gray-800 p-4 text-center col-span-3">
+        16
+      </div>
+      
+      {/* Other rows */}
+      {planData.filter(item => item.feature !== "Number of Machines" && item.feature !== "Release date").map((item, index) => (
+        <React.Fragment key={index}>
+          <div className="bg-gray-100 p-4 font-medium text-gray-900">{item.feature}</div>
+          <div className="bg-white text-gray-800 p-4 text-center">
+            {item.basic}
           </div>
+          <div className="bg-gray-50 text-gray-800 p-4 text-center">
+            {item.pro}
+          </div>
+          <div className="bg-white text-gray-800 p-4 text-center">
+            {item.enterprise}
+          </div>
+        </React.Fragment>
+      ))}
+      
+      {/* Release date - spans all columns */}
+      <div className="bg-gray-100 p-4 font-medium text-gray-900">Release date</div>
+      <div className="bg-white text-gray-800 p-4 text-center col-span-3">
+        04 / 07 / 2025
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </section>
 
