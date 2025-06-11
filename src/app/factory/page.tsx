@@ -60,8 +60,8 @@ const SmartFactoryPage = () => {
   const planData = [
     { feature: "Number of Machines", basic: "16", pro: "16", enterprise: "16" },
     { feature: "Data Retention", basic: "90 days", pro: "1 Year", enterprise: "3 year+" },
-    { feature: "User Accounts", basic: "3", pro: "10", enterprise: "Unlimited" },
-    { feature: "Update Frequency", basic: "Monthly", pro: "Weekly", enterprise: "Daily" }
+    { feature: "User Accounts", basic: "1", pro: "3", enterprise: "Unlimited" },
+    { feature: "Update Frequency", basic: "Daily", pro: "Hourly", enterprise: "Instantly" }
   ];
 
   return (
