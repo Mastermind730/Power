@@ -50,7 +50,7 @@ const SmartFactoryPage = () => {
     { feature: "Remote Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Predictive Analytics", basic: false, pro: true, enterprise: true },
     { feature: "AI Quality Control", basic: false, pro: false, enterprise: true },
-    { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
+    // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
     { feature: "Safety Monitoring", basic: false, pro: false, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
     { feature: "API Access", basic: false, pro: false, enterprise: true },
