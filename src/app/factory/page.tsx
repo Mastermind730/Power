@@ -276,7 +276,7 @@ const SmartFactoryPage = () => {
               <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
                 SMART FACTORY <span className="text-green-500">SOLUTION BENEFITS</span>
               </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
+              <p className="text-gray-600 max-w-full mx-auto text-3xl">
                 Choose the right solution to scale your factory&apos;s intelligence.
               </p>
             </div>
