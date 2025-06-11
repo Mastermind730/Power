@@ -14,10 +14,10 @@ export default function PurposePoem() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
       </Head>
       
-      <div className="min-h-screen bg-gray-50 flex flex-col mt-10 items-center justify-center px-4 py-8">
+      <div className="min-h-screen bg-white flex flex-col mt-10 items-center justify-center px-4 py-8">
         {/* Header */}
         <div className="relative mb-16">
-          <h1 className="text-4xl md:text-5xl font-light tracking-[0.3em] text-green-400">
+          <h1 className="text-4xl md:text-5xl mt-20 font-light tracking-[0.3em] text-green-400">
             PURPOSE
           </h1>
         </div>

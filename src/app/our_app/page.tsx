@@ -23,7 +23,7 @@ export default function PowerApplication() {
       <section className="px-[5%] pb-10 md:pb-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto py-12 md:pt-28 max-w-6xl">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extralight text-gray-900 uppercase tracking-tight">
+            <h1 className="text-5xl mt-15 md:text-6xl lg:text-7xl xl:text-8xl font-extralight text-gray-900 uppercase tracking-tight">
               Power<span className="text-green-600"> Application</span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">

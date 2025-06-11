@@ -20,9 +20,9 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-8">
-      <div className=" rounded-lg shadow-sm p-16 w-full max-w-4xl">
+      <div className=" rounded-lg shadow-sm p-16 w-full h-full">
         {/* Header - Kept exactly the same */}
-        <div className="flex items-center mb-8">
+        <div className="flex items-center mb-20">
           <div className="text-5xl flex font-light text-gray-700 mb-3">
             SAY <span className="text-green-500 font-normal ml-2">HELLO</span>
           </div>

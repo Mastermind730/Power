@@ -70,7 +70,7 @@ const SmartFactoryPage = () => {
       <section className="bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl text-gray-700 md:text-6xl font-light mb-6 tracking-tight">
+            <h1 className="text-6xl mt-20 text-gray-700 md:text-6xl font-light mb-6 tracking-tight">
               <span className="text-green-500 font-normal">FUTURE</span> OF PRODUCTION
             </h1>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">

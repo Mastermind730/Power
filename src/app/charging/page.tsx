@@ -17,7 +17,7 @@ export default function EVCharging() {
       <section className="px-6 md:px-12 lg:px-24 pt-16 md:pt-24">
   <div className="max-w-7xl mx-auto">
     {/* Top Row - Heading Left, Text Right */}
-    <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16 mb-12 lg:mb-16">
+    <div className="flex flex-col lg:flex-row items-start gap-8 mt-10 lg:gap-16 mb-12 lg:mb-16">
       {/* Left Column - Heading */}
       <div className="lg:w-1/2">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-light leading-tight">
