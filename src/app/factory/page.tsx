@@ -53,7 +53,7 @@ const SmartFactoryPage = () => {
     // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
     { feature: "Safety Monitoring", basic: false, pro: false, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
-    { feature: "API Access", basic: false, pro: false, enterprise: true },
+    { feature: "API Access", basic: false, pro: true, enterprise: true },
     { feature: "Dedicated Support", basic: false, pro: true, enterprise: true }
   ];
 
