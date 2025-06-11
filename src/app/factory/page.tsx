@@ -189,7 +189,7 @@ const SmartFactoryPage = () => {
                 </div>
                 <span className="text-gray-400 text-xs bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center">i</span>
               </div>
-              <div className="text-3xl font-light text-gray-800 mb-2">33%</div>
+              <div className="text-3xl font-light text-gray-800 mb-2">21-33%</div>
               <div className="text-xs text-green-500 mb-4">Reduction in consumption</div>
               <div className="relative h-16 bg-gray-50 rounded-lg overflow-hidden">
                 <svg className="w-full h-full" viewBox="0 0 200 60">
