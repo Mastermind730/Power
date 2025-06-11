@@ -32,7 +32,7 @@ const SmartFactoryPage = () => {
       number: "04", 
       title: "Energy Intelligence",
       description: "Our solution integrates a predictive AI engine dedicated to optimizing your facility's energy consumption. It goes beyond simple monitoring by learning the unique energy signature of your operations—analyzing production schedules, machine states, and variable energy pricing in real time. The system then autonomously shifts energy-intensive processes to lower-cost periods and identifies inefficient equipment before it impacts your budget, all without compromising production targets. This proactive approach dramatically reduces your energy spend and carbon footprint, ensuring sustainable and cost-effective operations.",
-      image: "/supply_chain.jpg"
+      image: "/energy.png"
     },
     // {
     //   number: "06",
