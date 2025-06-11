@@ -8,7 +8,7 @@ const SmartFactoryPage = () => {
       number: "01", 
       title: "Unified Operations Dashboard",
       description: "Gain a centralized, real-time view of your entire manufacturing process. Monitor key performance indicators (KPIs), track production targets, and make data-driven decisions from a single, intuitive interface.",
-      image: "/about2.png"
+      image: "/analytics.jpg"
     },
     {
       number: "02",
