@@ -26,12 +26,12 @@ const SmartFactoryPage = () => {
       number: "03",
       title: "Industrial Energy Management",
       description: "Monitor energy consumption across your facility down to the individual machine level. Identify inefficiencies, optimize usage during peak and off-peak hours, and significantly reduce your factory's energy costs and carbon footprint.",
-      image: "/images.jpg"
+      image: "/images.jpg"  
     },
     {
       number: "04", 
-      title: "Supply Chain & Inventory Tracking",
-      description: "Integrate your factory floor with your supply chain. Utilise RFID and IoT trackers for real-time visibility of raw materials, work-in-progress, and finished goods, automating reordering and reducing carrying costs.",
+      title: "Energy Intelligence",
+      description: "Our solution integrates a predictive AI engine dedicated to optimizing your facility's energy consumption. It goes beyond simple monitoring by learning the unique energy signature of your operations—analyzing production schedules, machine states, and variable energy pricing in real time. The system then autonomously shifts energy-intensive processes to lower-cost periods and identifies inefficient equipment before it impacts your budget, all without compromising production targets. This proactive approach dramatically reduces your energy spend and carbon footprint, ensuring sustainable and cost-effective operations.",
       image: "/supply_chain.jpg"
     },
     // {
@@ -71,7 +71,7 @@ const SmartFactoryPage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl text-gray-700 md:text-6xl font-light mb-6 tracking-tight">
-              EXPERIENCE THE <span className="text-green-500 font-normal">FUTURE</span> OF PRODUCTION
+              <span className="text-green-500 font-normal">FUTURE</span> OF PRODUCTION
             </h1>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
               Our integrated platform provides a unified view of your entire production floor, turning data into actionable insights that drive efficiency, productivity, and growth.
