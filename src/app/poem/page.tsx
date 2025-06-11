@@ -16,7 +16,7 @@ export default function PurposePoem() {
       
       <div className="min-h-screen bg-white flex flex-col mt-10 items-center justify-center px-4 py-8">
         {/* Header */}
-        <div className="relative mb-16">
+        <div className="relative mb-16 mt-16">
           <h1 className="text-4xl md:text-5xl mt-20 font-light tracking-[0.3em] text-green-400">
             PURPOSE
           </h1>
@@ -30,7 +30,7 @@ export default function PurposePoem() {
           </div>
 
           {/* Poem Content */}
-          <div className="space-y-6 text-gray-600 leading-relaxed">
+          <div className="space-y-6 mt-15 text-gray-600 leading-relaxed">
             <p className="text-base md:text-lg font-light">
               My brother was called Paul. My surname
             </p>
@@ -56,7 +56,7 @@ export default function PurposePoem() {
               of connection, and the remembrance of one life.
             </p>
             
-            <p className="text-base md:text-lg font-medium mt-12">
+            <p className="text-base md:text-lg font-medium mt-18">
               This is my brother&apos;s genesis.
             </p>
           </div>
@@ -77,9 +77,13 @@ export default function PurposePoem() {
               />
             </div>
             
-            <p className="text-2xl font-light text-gray-500">
+            <p className="text-2xl font-light   text-gray-500">
               Paul
             </p>
+
+             <h1 className="text-2xl mb-18 mt-15 font-light text-black">
+              Your AI Companion
+            </h1>
           </div>
         </div>
       </div>

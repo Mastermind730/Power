@@ -84,13 +84,13 @@ const SmartHomePage = () => {
 
           {/* Hero Image */}
           <div className="relative mb-16 overflow-hidden rounded-3xl shadow-xl">
-            <div className="aspect-video bg-gray-100 flex items-center justify-center">
+            <div className=" bg-gray-100 flex items-center justify-center">
               <Image
                 src="/smart_home.jpg" 
                 alt="Modern smart home living room" 
                 className="w-full h-full object-cover"
-                width={800}
-                height={800}
+                width={1800}
+                height={600}
               />
             </div>
           </div>
