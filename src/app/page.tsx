@@ -7,7 +7,7 @@ const EnergyLandingPage = () => {
   return (
     <div className="min-h-screen bg-[#f4f4f4]">
 {/* Hero Image Section */}
-    <div className="w-full h-[600px] flex mt-22 items-center justify-center relative overflow-hidden">
+    <div className="w-full h-[600px] flex mt-18 items-center justify-center relative overflow-hidden">
   {/* Background image */}
   <Image
     src="/overlay.png"
@@ -16,7 +16,7 @@ const EnergyLandingPage = () => {
     objectFit="cover"
     quality={100}
     priority
-    className="w-full h-full mt-40 object-cover"
+    className="w-full h-full mt-48 object-cover"
   />
   
   {/* Gradient overlay */}
