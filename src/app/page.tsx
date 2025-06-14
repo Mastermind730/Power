@@ -7,7 +7,7 @@ const EnergyLandingPage = () => {
   return (
     <div className="min-h-screen bg-[#f4f4f4]">
 {/* Hero Image Section */}
-    <div className="w-full h-[600px] flex mt-18 items-center  justify-center relative overflow-hidden">
+    <div className="w-full h-[600px] flex md:mt-18 items-center  justify-center relative overflow-hidden">
   {/* Background image */}
   <Image
     src="/overlay.png"
