@@ -95,6 +95,6 @@ export default function PurposePoem() {
           padding: 0;
         }
       `}</style>
-    </>
+    </div>
   );
 }
