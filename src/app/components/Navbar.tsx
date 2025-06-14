@@ -30,7 +30,7 @@ export default function Navbar() {
   }, [lastScrollY]);
 
   return (
-    <nav className={`fixed top-0 h-[75px] left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50 transition-transform duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50 transition-transform duration-300 ${
       visible ? 'translate-y-0' : '-translate-y-full'
     }`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="group flex items-center">
               <svg
-                className="w-[125px] h-[30px] mt-4 mb-1 2xl:w-[144px] 2xl:h-[38px]"
+                className="w-[125px] h-[33px] 2xl:w-[144px] 2xl:h-[38px]"
                 viewBox="0 0 192 50"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ export default function Navbar() {
             <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Charging
             </Link>
-            <Link href="https://clover.energy/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="https://clover.energy/'," target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Clover
             </Link>
             <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
