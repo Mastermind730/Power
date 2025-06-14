@@ -10,7 +10,7 @@ export default function PurposePoem() {
         <title>Purpose Poem</title>
         <meta name="description" content="A poem about Paul - Purpose and remembrance" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"  />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
       </Head>
       
@@ -25,11 +25,11 @@ export default function PurposePoem() {
         {/* Main Content */}
         <div className="max-w-2xl w-full text-center space-y-8">
           {/* Large P */}
-         <div className="text-6xl md:text-7xl font-light text-gray-400 mb-12 relative">
-  <span className="underline decoration-1 underline-offset-3">p</span>
-</div>
+          <div className="text-6xl md:text-7xl font-light text-gray-400 mb-12 relative">
+            <span className="underline decoration-1 underline-offset-3">p</span>
+          </div>
 
-          {/* Poem Content */
+          {/* Poem Content */}
           <div className="space-y-6 mt-15 text-gray-600 leading-relaxed">
             <p className="text-base md:text-lg font-light">
               My brother was called Paul. My surname
@@ -63,25 +63,21 @@ export default function PurposePoem() {
 
           {/* New Section */}
           <div className="mt-10 space-y-8">
-            {/* <h3 className="text-2xl md:text-3xl font-extralight text-gray-600">
-              This is Paul&apos;s genesis
-            </h3> */}
-            
-            <div className="relative flex justify-center align-center w-full  rounded-lg overflow-hidden">
+            <div className="relative flex justify-center items-center w-full rounded-lg overflow-hidden">
               <Image
-                src="/red_logo.png" // Replace with your actual image path
+                src="/red_logo.png"
                 alt="Paul"
                 width={400}
                 height={400}
-                className="object-cover "
+                className="object-cover"
               />
             </div>
             
-            <p className="text-2xl font-light   text-gray-500">
+            <p className="text-2xl font-light text-gray-500">
               Paul
             </p>
 
-             <h1 className="text-2xl mb-18 mt-15 font-light text-black">
+            <h1 className="text-2xl mb-18 mt-15 font-light text-black">
               Your AI Companion
             </h1>
           </div>
