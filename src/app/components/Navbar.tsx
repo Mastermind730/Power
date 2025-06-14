@@ -87,7 +87,7 @@ export default function Navbar() {
             <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Charging
             </Link>
-            <Link href="https://clover.energy/'," target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link href="https://clover.energy/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
               Clover
             </Link>
             <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
