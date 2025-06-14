@@ -81,21 +81,22 @@ const SmartHomePage = () => {
               Power revolutionises home energy management, integrating seamlessly with your home. It monitors energy usage in real-time, offers AI-driven analytics, and evolves through machine learning.
             </p>
           </div>
+           
 
           {/* Hero Image */}
-          <div className="relative mb-16 overflow-hidden rounded-3xl shadow-xl">
-            <div className=" bg-gray-100 flex items-center justify-center">
-              <Image
-                src="/smart_home.jpg" 
-                alt="Modern smart home living room" 
-                className="w-full h-full object-cover"
-                width={1800}
-                height={600}
-              />
-            </div>
-          </div>
+          
         </div>
       </section>
+     <div className="relative mb-16 w-[80%] mx-auto h-[600px] rounded-xl overflow-hidden shadow-lg">
+  <Image
+    src="/smart_home.jpg" 
+    alt="Modern smart home living room" 
+    className="object-cover w-full h-full"
+    fill
+    priority
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+  />
+</div>
 
       {/* Energy Intelligence Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">

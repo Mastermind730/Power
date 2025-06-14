@@ -78,21 +78,23 @@ const SmartFactoryPage = () => {
             </p>
           </div>
 
+
           {/* Hero Image */}
-          <div className="relative mb-16 overflow-hidden rounded-3xl shadow-xl">
-            <div className="aspect-video bg-gray-100 flex items-center justify-center">
+         
+        </div>
+      </section>
+          <div className="relative mb-16 w-[75%] mx-auto h-[700px] rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/factory_hero.jpg" 
                 alt="Modern factory floor with robotic arms" 
                 className="w-full h-full object-cover"
-                width={1200}
-                height={800}
+                fill
+              priority
+                              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+
               />
             </div>
-          </div>
-        </div>
-      </section>
-
+        
       {/* Operational Intelligence Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
