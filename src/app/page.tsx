@@ -7,13 +7,13 @@ const EnergyLandingPage = () => {
   return (
     <div className="min-h-screen bg-[#f4f4f4]">
 {/* Hero Image Section */}
-    <div className="w-full h-[600px] flex mt-18 items-center justify-center relative overflow-hidden">
+    <div className="w-full h-[600px] flex mt-18 items-center  justify-center relative overflow-hidden">
   {/* Background image */}
   <Image
     src="/overlay.png"
     alt="Smart energy management system"
     layout="fill"
-    objectFit="cover"
+    objectFit="contain"
     quality={100}
     priority
     className="w-full h-full mt-48 object-cover"
@@ -23,7 +23,7 @@ const EnergyLandingPage = () => {
   <div className="absolute inset-0 bg-white"></div>
   
   {/* Logo positioned in center */}
-  <div className="absolute inset-0 flex items-center justify-center">
+  <div className="absolute inset-0 flex items-center mt-10 justify-center">
     <Image
       src="/Green.svg"
       alt="Main Logo"
