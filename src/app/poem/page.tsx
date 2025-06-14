@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function PurposePoem() {
   return (
-    <>
+    <div>
       <Head>
         <title>Purpose Poem</title>
         <meta name="description" content="A poem about Paul - Purpose and remembrance" />
