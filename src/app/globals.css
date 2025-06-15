@@ -1,31 +1,48 @@
 @import "tailwindcss";
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --font-inter: 'Inter', sans-serif;
+/* styles/globals.css */
 
-} */
-
-
-
-/* @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-} */
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* --background: #0a0a0a; */
-    /* --foreground: #ededed; */
-  }
+/* Make Sofia Pro available globally */
+:root {
+  --font-sofia-pro: 'Sofia Pro', sans-serif;
 }
-/* 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter);
-} */
 
+/* Apply Sofia Pro as default font */
+body {
+  font-family: var(--font-sofia-pro);
+}
+
+/* Utility classes for different weights */
+.font-ultralight { font-weight: 200; }
+.font-extralight { font-weight: 300; }
+.font-light { font-weight: 400; }
+.font-regular { font-weight: 500; }
+.font-medium { font-weight: 600; }
+.font-semibold { font-weight: 700; }
+.font-bold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
+/* Component-specific font classes */
+.heading-primary {
+  font-family: var(--font-sofia-pro);
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.heading-secondary {
+  font-family: var(--font-sofia-pro);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.body-text {
+  font-family: var(--font-sofia-pro);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.caption {
+  font-family: var(--font-sofia-pro);
+  font-weight: 300;
+  font-size: 0.875rem;
+}
