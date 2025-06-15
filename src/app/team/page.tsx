@@ -208,8 +208,8 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-green-50 py-20 h-[570px]">
-       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="bg-green-50 py-20 h-[570px] ">
+       <div className="max-w-7xl mx-auto mt-24 mb-28 px-4 sm:px-6 lg:px-8 text-center">
   <h1 className="text-4xl font-extralight flex justify-center gap-3 mt-15 text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
     <span className="block">One </span>
     <span className="block text-green-600 ">Connected Team</span>
@@ -226,7 +226,7 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
       </div>
 
       {/* Tabs Navigation */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="border-b border-gray-200">
           <nav className="-mb-px flex space-x-8">
            

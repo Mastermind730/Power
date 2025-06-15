@@ -10,7 +10,7 @@ const Pillars = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
      
       {/* Hero Section */}
-      <section className="pt-28 pb-24 px-6">
+      <section className="pt-28 pb-24 px-6 bg-gradient-to-br bg-slate-50 to-gray-200">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl mt-10 flex gap-2 justify-center md:text-7xl lg:text-8xl font-light text-gray-900 mb-8 leading-tight">
             PILLARS OF

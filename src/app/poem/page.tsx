@@ -17,7 +17,7 @@ export default function PurposePoem() {
       <div className="min-h-screen bg-white flex flex-col mt-10 items-center justify-center px-4 py-8">
         {/* Header */}
         <div className="relative mb-16 mt-16">
-          <h1 className="text-4xl md:text-5xl mt-20 font-light tracking-[0.3em] text-green-400">
+          <h1 className="text-4xl md:text-5xl mt-20 mb-15 font-light tracking-[0.3em] text-green-400">
             PURPOSE
           </h1>
         </div>
@@ -25,12 +25,12 @@ export default function PurposePoem() {
         {/* Main Content */}
         <div className="max-w-2xl w-full text-center space-y-8">
           {/* Large P */}
-          <div className="text-6xl md:text-7xl font-light text-gray-400 mb-12 relative">
-            <span className="underline decoration-1 underline-offset-3">p</span>
+          <div className="text-6xl md:text-7xl font-light  text-gray-400 mb-18 relative">
+            <span className="underline decoration-0  underline-offset-8">p</span>
           </div>
 
           {/* Poem Content */}
-          <div className="space-y-6 mt-15 text-gray-600 leading-relaxed">
+          <div className="space-y-6 mt-18 text-gray-600 leading-relaxed">
             <p className="text-base md:text-lg font-light">
               My brother was called Paul. My surname
             </p>
@@ -59,10 +59,15 @@ export default function PurposePoem() {
             <p className="text-base md:text-lg font-medium mt-18">
               This is my brother&apos;s genesis.
             </p>
+
+              <p className="text-2xl mt-15 font-light text-gray-500">
+              This is  Paul&apos;s genesis.
+            </p>
+
           </div>
 
           {/* New Section */}
-          <div className="mt-10 space-y-8">
+          {/* <div className="mt-10 space-y-8">
             <div className="relative flex justify-center items-center w-full rounded-lg overflow-hidden">
               <Image
                 src="/red_logo.png"
@@ -77,10 +82,8 @@ export default function PurposePoem() {
               Paul
             </p>
 
-            <h1 className="text-2xl mb-18 mt-15 font-light text-black">
-              Your AI Companion
-            </h1>
-          </div>
+          
+          </div> */}
         </div>
       </div>
 
