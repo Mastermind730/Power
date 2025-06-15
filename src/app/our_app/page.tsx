@@ -24,7 +24,7 @@ export default function PowerApplication() {
         <div className="container mx-auto py-12 md:pt-28 max-w-6xl">
           <div className="text-center">
             <h1 className="text-5xl mt-15 md:text-6xl lg:text-7xl xl:text-8xl font-extralight text-gray-900 uppercase tracking-tight">
-              Power<span className="text-green-600"> Application</span>
+              Power<span className="text-green-600 font-extralight"> Application</span>
             </h1>
             <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
               Power is a revolutionary new platform that brings together all your

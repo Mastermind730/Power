@@ -20,7 +20,7 @@ export default function EVCharging() {
     <div className="flex flex-col lg:flex-row items-start gap-8 mt-10 lg:gap-16 mb-12 lg:mb-16">
       {/* Left Column - Heading */}
       <div className="lg:w-1/2">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-light leading-tight">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-extralight leading-tight">
           <span className="text-gray-700">Embrace</span>{' '}
           <span className="text-green-500">EI Charging</span>
         </h1>

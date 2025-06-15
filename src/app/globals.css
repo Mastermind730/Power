@@ -23,26 +23,26 @@ body {
 .font-black { font-weight: 900; }
 
 /* Component-specific font classes */
-.heading-primary {
+h1,h2,h3{
   font-family: var(--font-sofia-pro);
-  font-weight: 400;
-  font-size: 2.5rem;
+  font-weight: 200;
+  /* font-size: 2.5rem; */
 }
 
 .heading-secondary {
   font-family: var(--font-sofia-pro);
   font-weight: 600;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
-.body-text {
+p{
   font-family: var(--font-sofia-pro);
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 200;
+  /* font-size: 1rem; */
 }
 
 .caption {
   font-family: var(--font-sofia-pro);
   font-weight: 300;
-  font-size: 0.875rem;
+  /* font-size: 0.875rem; */
 }
