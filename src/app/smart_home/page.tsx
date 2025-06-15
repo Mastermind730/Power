@@ -253,16 +253,26 @@ const SmartHomePage = () => {
                     </div>
                   </div>
                 </div>
+                {/* <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                                  <Image
+                                    src="/mbl1.png" // Replace with your actual mobile dashboard image
+                                    alt="Energy dashboard mobile app showing usage statistics"
+                                    width={320}
+                                    height={640}
+                                    className="w-full h-full object-cover"
+                                    quality={100}
+                                  />
+                                </div> */}
 
                 {/* Image Side */}
                 <div className="flex-1 w-full ">
-                  <div className=" relative overflow-hidden rounded-2xl shadow-xlw-full md:w-2/5 max-w-[500px] mx-auto">
+                  <div className=" relative w-80 h-[640px] mx-auto rounded-[3rem] shadow-2xl overflow-hidden">
                                     <Image
                                       src={feature.image}
-                                      width={400}
-                                      height={600}
+                                      width={320}
+                                      height={640}
                                       alt="Education"
-                                      className="w-full h-auto object-contain"
+                                      className="w-full h-full object-cover"
                                     />
                                   </div>
                 </div>
