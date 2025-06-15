@@ -334,52 +334,57 @@ const SmartHomePage = () => {
           </div>
 
           {/* Energy Efficiency Rewards */}
-          <div>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
-                ENERGY <span className="text-emerald-500">EFFICIENCY REWARDS</span>
-              </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto text-3xl">
-                Make your home smarter and more sustainable while earning rewards for reducing consumption, conserving resources, and promoting health.
-              </p>
-            </div>
+<div className="mb-20">
+  <div className="text-center mb-12">
+    <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
+      ENERGY <span className="text-emerald-500">EFFICIENCY REWARDS</span>
+    </h2>
+    <p className="text-gray-600 max-w-3xl mx-auto text-xl md:text-2xl leading-relaxed">
+      Make your home smarter and more sustainable while earning rewards for reducing consumption, conserving resources, and promoting health.
+    </p>
+  </div>
 
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
-              <div className="grid grid-cols-4 gap-px bg-gray-200">
-                <div className="bg-gray-100 p-4"></div>
-               <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Seed</div>
-                <div className="bg-white text-gray-700 hover:text-white hover:bg-green-400 p-4 text-center font-medium ">Light</div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Core</div>
-                 
-                {efficiencyData.map((item, index) => (
-                  <React.Fragment key={index}>
-                    <div className="bg-gray-100 p-4 font-medium text-gray-800">{item.element}</div>
-                    <div className="bg-white p-4 flex items-center justify-center">
-                      {item.essential ? (
-                        <Check className="w-5 h-5 text-emerald-500" />
-                      ) : (
-                        <X className="w-5 h-5 text-red-400" />
-                      )}
-                    </div>
-                    <div className="bg-gray-50 p-4 flex items-center justify-center">
-                      {item.light ? (
-                        <Check className="w-5 h-5 text-emerald-500" />
-                      ) : (
-                        <X className="w-5 h-5 text-red-400" />
-                      )}
-                    </div>
-                    <div className="bg-white p-4 flex items-center justify-center">
-                      {item.trinity ? (
-                        <Check className="w-5 h-5 text-emerald-500" />
-                      ) : (
-                        <X className="w-5 h-5 text-red-400" />
-                      )}
-                    </div>
-                  </React.Fragment>
-                ))}
-              </div>
-            </div>
+  <div className="bg-white rounded-xl shadow-sm overflow-hidden mb-10 max-w-4xl mx-auto">
+    <div className="grid grid-cols-4 gap-px bg-gray-200">
+      <div className="bg-gray-100 p-4"></div>
+      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-emerald-500 transition-colors duration-200 font-medium">Seed</div>
+      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-emerald-500 transition-colors duration-200 font-medium">Light</div>
+      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-emerald-500 transition-colors duration-200 font-medium">Core</div>
+      
+      {efficiencyData.map((item, index) => (
+        <React.Fragment key={index}>
+          <div className="bg-gray-100 p-4 font-medium text-gray-800">{item.element}</div>
+          <div className="bg-white p-4 flex items-center justify-center">
+            {item.essential ? (
+              <Check className="w-5 h-5 text-emerald-500" />
+            ) : (
+              <X className="w-5 h-5 text-gray-300" />
+            )}
           </div>
+          <div className="bg-gray-50 p-4 flex items-center justify-center">
+            {item.light ? (
+              <Check className="w-5 h-5 text-emerald-500" />
+            ) : (
+              <X className="w-5 h-5 text-gray-300" />
+            )}
+          </div>
+          <div className="bg-white p-4 flex items-center justify-center">
+            {item.trinity ? (
+              <Check className="w-5 h-5 text-emerald-500" />
+            ) : (
+              <X className="w-5 h-5 text-gray-300" />
+            )}
+          </div>
+        </React.Fragment>
+      ))}
+    </div>
+  </div>
+
+  <p className="text-center text-gray-600 text-xl md:text-2xl max-w-3xl mx-auto mt-8 leading-relaxed">
+    Contact us for more information<br />
+    <span className="text-emerald-500 font-medium">Pre-order coming soon</span>
+  </p>
+</div>
         </div>
       </section>
     </div>
