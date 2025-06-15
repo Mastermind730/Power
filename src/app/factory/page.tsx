@@ -51,7 +51,7 @@ const SmartFactoryPage = () => {
     { feature: "Predictive Analytics", basic: false, pro: true, enterprise: true },
     { feature: "AI Quality Control", basic: false, pro: false, enterprise: true },
     // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
-    { feature: "Safety Monitoring", basic: false, pro: false, enterprise: true },
+    { feature: "Safety Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
     { feature: "API Access", basic: false, pro: true, enterprise: true },
     { feature: "Dedicated Support", basic: false, pro: true, enterprise: true }
@@ -219,55 +219,53 @@ const SmartFactoryPage = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="space-y-32">
-            {features.map((feature, index) => (
-              <div 
-                key={feature.number} 
-                className={`flex flex-col lg:flex-row items-center gap-12 ${
-                  index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                }`}
-              >
-                {/* Content Side */}
-                <div className="flex-1">
-                  <div className="flex items-start space-x-6">
-                    <div className="flex-shrink-0">
-                      <div className="relative">
-                        <div className="w-20 h-20 border-3 border-green-400 rounded-2xl flex items-center justify-center transform rotate-6 bg-white shadow-lg">
-                          <span className="text-green-400 font-light text-3xl transform -rotate-6">
-                            {feature.number}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-1 pt-2">
-                      <h3 className="text-2xl font-medium mb-4 text-gray-800">{feature.title}</h3>
-                      <p className="text-gray-600 leading-relaxed">{feature.description}</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Image Side */}
-                <div className="flex-1 w-full">
-                  <div className="relative overflow-hidden rounded-2xl shadow-xl w-full md:w-4/5 max-w-[500px] mx-auto">
-                    <div className=" bg-gray-100 flex items-center justify-center">
-                      <Image
-                        src={feature.image}
-                        width={600}
-                        height={500}
-                        alt={feature.title}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
+    {/* Features Section */}
+<section className="py-20 px-4 bg-white">
+  <div className="max-w-7xl mx-auto">
+    <div className="space-y-32">
+      {features.map((feature, index) => (
+        <div 
+          key={feature.number} 
+          className={`flex flex-col lg:flex-row items-center gap-12 ${
+            index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+          }`}
+        >
+          {/* Content Side */}
+          <div className="flex-1">
+            <div className="flex items-start space-x-6">
+              <div className="flex-shrink-0">
+                <div className="relative">
+                  <div className="w-20 h-20 border-3 border-green-400 rounded-2xl flex items-center justify-center transform rotate-6 bg-white shadow-lg">
+                    <span className="text-green-400 font-light text-3xl transform -rotate-6">
+                      {feature.number}
+                    </span>
                   </div>
                 </div>
               </div>
-            ))}
+              <div className="flex-1 pt-2">
+                <h3 className="text-2xl font-medium mb-4 text-gray-800">{feature.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Image Side - Updated for uniform sizing */}
+          <div className="flex-1 w-full">
+            <div className="relative overflow-hidden rounded-2xl shadow-xl w-full aspect-video max-w-[600px] mx-auto bg-gray-100">
+              <Image
+                src={feature.image}
+                alt={feature.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+              />
+            </div>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Comparison Tables */}
       <section className="py-20 px-4 bg-gray-50">
@@ -362,7 +360,7 @@ const SmartFactoryPage = () => {
       ))}
       
       {/* Release date - spans all columns */}
-      <div className="bg-gray-100 p-4 font-medium text-gray-900">Release date</div>
+      <div className="bg-gray-100 p-4 font-medium text-gray-900">Pre-Order Release date</div>
       <div className="bg-white text-gray-800 p-4 text-center col-span-3">
         04 / 07 / 2025
       </div>
