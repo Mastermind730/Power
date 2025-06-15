@@ -26,9 +26,9 @@ export default function PowerApplication() {
             <h1 className="text-5xl mt-15 md:text-6xl lg:text-7xl xl:text-8xl font-extralight text-gray-900 uppercase tracking-tight">
               Power<span className="text-green-600"> Application</span>
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
+            <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
               Power is a revolutionary new platform that brings together all your
-              <span className="text-gray-900 font-medium">
+              <span className="text-gray-900 ml-1 font-medium">
                 energy-related tasks in one place. It&apos;s like having a personal
                 energy assistant that helps you manage your energy
               </span>
