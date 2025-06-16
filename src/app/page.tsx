@@ -30,7 +30,7 @@ const EnergyLandingPage = () => {
       {/* Hero Section */}
       <section className="pt-24 pb-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl font-extralight text-gray-900 mb-8 leading-tight">
+          <h1 className="text-6xl md:text-8xl mt-10 font-extralight text-gray-900 mb-8 leading-tight">
             EMBRACE ENERGY
             <br />
             <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">
