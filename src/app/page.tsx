@@ -5,19 +5,11 @@ import { ChartCandlestick, SmartphoneCharging, TruckElectric } from 'lucide-reac
 
 const EnergyLandingPage = () => {
   return (
-    <div className="min-h-screen bg-[#f4f4f4]">
+    <div className="min-h-screen bg-white">
 {/* Hero Image Section */}
     <div className="w-full h-[600px] flex md:mt-22 items-center  justify-center relative overflow-hidden">
   {/* Background image */}
-  <Image
-    src="/overlay.png"
-    alt="Smart energy management system"
-    layout="fill"
-    objectFit="contain"
-    quality={100}
-    priority
-    className="w-full h-full mt-48 object-cover"
-  />
+  
   
   {/* Gradient overlay */}
   <div className="absolute inset-0 bg-white"></div>
