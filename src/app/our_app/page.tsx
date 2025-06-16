@@ -68,7 +68,7 @@ export default function PowerApplication() {
                     Power is an all-in-one solution that helps you take control of
                     your energy usage, save money, and live more sustainably.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl font-extralight caption text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <SquareActivity className="w-4 h-4 mr-2 text-blue-500" />
                       Monitor Solar Panel Performance and Energy Output
@@ -121,7 +121,7 @@ export default function PowerApplication() {
                     including viewing and paying bills, tracking usage patterns,
                     updating account information, including:
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl caption text-gray-600 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <CreditCard className="w-4 h-4 mr-2 text-blue-500" />
                       Paying your bills online
@@ -173,7 +173,7 @@ export default function PowerApplication() {
                     Power also allows you to charge your electric vehicle (EV) at
                     convenient locations such as supermarkets, shopping centers, etc
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl caption text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <Car className="w-4 h-4 mr-2 text-blue-500" />
                       Charge your EV while you&apos;re shopping or running errands
@@ -225,7 +225,7 @@ export default function PowerApplication() {
                     Enhancing energy management with gamification, encouraging
                     reduced consumption and a sustainable lifestyle.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-600 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl caption text-gray-600 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <Trophy className="w-4 h-4 mr-2 text-yellow-500" />
                       Earn rewards and badges for achieving energy-saving milestones
@@ -274,7 +274,7 @@ export default function PowerApplication() {
                     interactive tutorials, videos, and quizzes on energy-efficient
                     living.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-gray-300 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl caption text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <PlaySquare className="w-4 h-4 mr-2 text-blue-500" />
                       Interactive energy-efficiency tutorials and videos
