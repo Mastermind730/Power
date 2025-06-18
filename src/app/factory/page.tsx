@@ -290,7 +290,7 @@ const SmartFactoryPage = () => {
                 
                 {benefitData.map((item, index) => (
                   <React.Fragment key={index}>
-                    <div className="bg-gray-100 p-4 font-medium text-gray-800">{item.feature}</div>
+                    <div className="bg-gray-100  p-3 text-sm font-medium text-gray-800">{item.feature}</div>
                     <div className="bg-white p-4 flex items-center justify-center">
                       {item.basic ? (
                         <Check className="w-5 h-5 text-green-500" />
@@ -346,7 +346,7 @@ const SmartFactoryPage = () => {
       {/* Other rows */}
       {planData.filter(item => item.feature !== "Number of Machines" && item.feature !== "Release date").map((item, index) => (
         <React.Fragment key={index}>
-          <div className="bg-gray-100 p-4 font-medium text-gray-900">{item.feature}</div>
+          <div className="bg-gray-100  p-3 text-sm font-medium text-gray-900">{item.feature}</div>
           <div className="bg-white text-gray-800 p-4 text-center">
             {item.basic}
           </div>
