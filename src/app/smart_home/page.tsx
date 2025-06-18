@@ -248,7 +248,7 @@ const SmartHomePage = () => {
                       </div>
                     </div>
                     <div className="flex-1 pt-2">
-                      <h3 className="text-2xl font-medium mb-4 text-gray-800">{feature.title}</h3>
+                      <h3 className=" text-lg md:text-2xl font-medium mb-4 text-gray-800">{feature.title}</h3>
                       <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                     </div>
                   </div>
@@ -305,7 +305,7 @@ const SmartHomePage = () => {
                 
                 {comparisonData.map((item, index) => (
                   <React.Fragment key={index}>
-                    <div className="bg-gray-100 p-4 font-medium text-gray-800">{item.feature}</div>
+                    <div className="bg-gray-100 p-3 text-sm font-medium text-gray-800">{item.feature}</div>
                     <div className="bg-white p-4 flex items-center justify-center">
                       {item.essential ? (
                         <Check className="w-5 h-5 text-emerald-500" />
