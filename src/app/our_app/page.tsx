@@ -93,7 +93,7 @@ export default function PowerApplication() {
                 
                 </div>
               </div>
-                <p className="text-lg text-gray-400  mt-10">
+                <p className="text-xl text-gray-400  mt-10">
                     {commonDescription}
                   </p>
             </div>
@@ -146,7 +146,7 @@ export default function PowerApplication() {
                 
                 </div>
               </div>
-                <p className="text-lg text-gray-400  mt-10">
+                <p className="text-xl text-gray-400  mt-10">
                     {commonDescription}
                   </p>
             </div>
@@ -198,7 +198,7 @@ export default function PowerApplication() {
                 
                 </div>
               </div>
-                <p className="text-lg text-gray-400  mt-10">
+                <p className="text-xl text-gray-400  mt-10">
                     {commonDescription}
                   </p>
             </div>
@@ -246,7 +246,7 @@ export default function PowerApplication() {
                  
                 </div>
               </div>
-                <p className="text-lg text-gray-400  mt-10">
+                <p className="text-xl text-gray-400  mt-10">
                     {commonDescription}
                   </p>
             </div>
@@ -299,7 +299,7 @@ export default function PowerApplication() {
                  
                 </div>
               </div>
-               <p className="text-lg text-gray-400  mt-10">
+               <p className="text-xl text-gray-400  mt-10">
                     {commonDescription}
                   </p>
             </div>
