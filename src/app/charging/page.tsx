@@ -247,7 +247,7 @@ export default function EVCharging() {
 
   {/* Mobile Image */}
   <Image 
-    src="/assets/img/ev-benefitbg1.png"
+    src="/benefit_bg.png"
     alt="Business solution mobile"
     width={800}
     height={600}
