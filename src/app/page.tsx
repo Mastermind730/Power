@@ -28,7 +28,7 @@ const EnergyLandingPage = () => {
   </div>
 </div>
       {/* Hero Section */}
-      <section className="pt-24 pb-20 px-6">
+      <section className="pt-24 bg-gradient-to-r from-green-50 to-emerald-50 pb-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-6xl md:text-8xl mt-10 font-extralight text-gray-900 mb-8 leading-tight">
             EMBRACE ENERGY
@@ -67,7 +67,7 @@ const EnergyLandingPage = () => {
                 </div>
                 
                 {/* Floating elements */}
-                <div className="absolute -top-4 -right-4 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
                   <SmartphoneCharging />
                 </div>
               </div>
@@ -83,7 +83,7 @@ const EnergyLandingPage = () => {
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
                   Power&apos;s innovative approach integrates energy intelligence, unification, and intervention 
-                  in a single platform, providing a seamless and comprehensive experience for consumers 
+                  in a single platform. Providing a seamless and comprehensive experience for consumers 
                   to manage their energy usage, utilities accounts, and electric vehicle charging.
                 </p>
                 {/* <p className="text-lg text-gray-500 leading-relaxed">
@@ -131,7 +131,7 @@ const EnergyLandingPage = () => {
                 </div>
                 
                 {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-emerald-400 rounded-full flex items-center justify-center shadow-xl animate-bounce">
+                <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-xl animate-bounce">
                   <div className="text-white font-bold text-sm"><ChartCandlestick /></div>
                 </div>
               </div>
