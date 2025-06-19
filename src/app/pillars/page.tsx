@@ -315,14 +315,13 @@ const Pillars = () => {
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Smart Scenes</h3>
                   <p className="text-gray-600">
-  &quot;Leaving Home&quot; turns off all devices, locks doors, and arms security
+  &quot;Going to bed&quot; turns off all devices, locks doors, and arms security
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Geo-Forcefield</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Geo-Fencing</h3>
                   <p className="text-gray-600">
-                    Automatically adjust settings when you leave or arrive home
-                  </p>
+Automatically adjust device settings when you are leaving or arriving home                  </p>
                 </div>
               </div>
               <p className="text-lg text-gray-500 leading-relaxed">
