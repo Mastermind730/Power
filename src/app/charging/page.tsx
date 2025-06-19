@@ -76,7 +76,7 @@ export default function EVCharging() {
               {num: '03', title: 'Personalized Experience', desc: 'AI-driven charging profiles optimize conditions for each vehicle, extending battery life.'},
               {num: '04', title: 'Increased Convenience', desc: 'Easy payment processing and real-time station location tracking enhance user experience.'},
               {num: '05', title: 'Cost Savings', desc: 'Optimized charging reduces electricity costs and maintenance expenses for consumers.'},
-              {num: '06', title: 'Enhanced Safety', desc: 'AI-powered security features protect charging infrastructure and user data.'},
+              {num: '06', title: 'Enhanced Safety', desc: 'Active security features and AI-monitoring protect charging infrastructure and user data'},
               {num: '07', title: 'Increased Accessibility', desc: 'Scalable platform ensures growing availability of charging stations.'},
               {num: '08', title: 'Transparency', desc: 'Real-time analytics provide clear insights into charging activity and energy usage.'},
             ].map((item, index) => (
