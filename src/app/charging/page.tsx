@@ -137,7 +137,7 @@ export default function EVCharging() {
         </section>
 
         {/* How It Works Section */}
-       <section className="px-5 md:px-[5%] py-[70px] lg:py-[200px]">
+       <section className="px-5 md:px-[5%] bg-green-100 py-[70px] lg:py-[200px]">
           <h3 className="text-green-500 font-normal text-[25px] md:text-[32px] lg:text-[40px] md:text-center uppercase mb-5 md:mb-8 lg:mb-20">
             How it works
           </h3>

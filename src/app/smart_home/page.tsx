@@ -8,7 +8,7 @@ const SmartHomePage = () => {
     {
       number: "01", 
       title: "Make Informed Decisions",
-      description: "With Power, residents gain tools to make intelligent energy decisions, saving on bills, and reducing their environmental impact. AI-driven analytics identify inefficient and unpredictable patterns and schedules those during off-peak times.",
+      description: "With Power, residents gain tools to make intelligent energy decisions, saving on bills, and reducing their environmental impact. EI-driven analytics identify inefficient and unpredictable patterns and schedules those during off-peak times.",
       image: "/app2.png"
     },
     {
@@ -44,7 +44,7 @@ const SmartHomePage = () => {
   ];
 
   const comparisonData = [
-    { feature: "EI  Sensor", essential: true, light: true, trinity: true },
+    { feature: "EI  Sensors", essential: true, light: true, trinity: true },
     { feature: "Hub", essential: true, light: true, trinity: true },
     { feature: "Air Quality Sensor", essential: true, light: true, trinity: true },
     { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
@@ -329,7 +329,13 @@ const SmartHomePage = () => {
                     </div>
                   </React.Fragment>
                 ))}
+
+
+
               </div>
+              <div className='flex align-center flex-col p-10 m-10 '>
+  <p>Join the wait list and </p> <button className='bg-green-400 hover:bg-green-400 text-white p-8'>Pre-Order Now</button>
+</div>
             </div>
           </div>
 
