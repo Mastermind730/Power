@@ -62,8 +62,8 @@ const Pillars = () => {
                 Monitor and manage every device, track consumption patterns, and optimize 
                 energy flows across your entire property.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start">
+              <ul className="space-y-4 flex flex-col">
+                <li className="flex items-center">
                   <div className="flex-shrink-0 mt-1">
                     <div className="w-8 h-8  rounded-full flex items-center justify-center">
     <SlidersHorizontal className="w-7 h-7 text-green-500" />
