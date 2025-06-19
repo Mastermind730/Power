@@ -77,7 +77,7 @@ const EnergyLandingPage = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-5xl font-light text-gray-900 mb-6 leading-tight">
-                  Smart Energy
+                  Innovative Energy
                   <br />
                   <span className="text-green-500">Intelligence</span>
                 </h2>

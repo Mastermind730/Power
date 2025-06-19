@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Left side - Company name and year */}
           <div className="flex items-center">
             <span className="text-gray-600 text-sm font-medium">
-              Power Global © 2024
+              Power Global © 2025
             </span>
           </div>
 
