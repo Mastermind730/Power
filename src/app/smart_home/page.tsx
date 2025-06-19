@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check, X } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const SmartHomePage = () => {
   const features = [
@@ -398,10 +399,15 @@ const SmartHomePage = () => {
     </div>
   </div>
 
-  <p className="text-center text-gray-600 text-xl md:text-2xl max-w-3xl mx-auto mt-8 leading-relaxed">
+  {/* <p className="text-center text-gray-600 text-xl md:text-2xl max-w-3xl mx-auto mt-8 leading-relaxed">
     Contact us for more information<br />
-    <span className="text-emerald-500 font-medium">Pre-order coming soon</span>
-  </p>
+    <span className="text-emerald-500 font-medium">Pre-order coming soon</span> */}
+    <div className='w-[100%] flex align-center justify-center'>
+    <Link href={"https://clover.energy/"} className="bg-green-500 mx-auto hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
+      Go to Clover
+    </Link>
+    </div>
+  {/* </p> */}
 </div>
         </div>
       </section>
