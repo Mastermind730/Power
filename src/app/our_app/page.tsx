@@ -24,15 +24,10 @@ export default function PowerApplication() {
         <div className="container mx-auto py-12 md:pt-28 max-w-6xl">
           <div className="text-center">
             <h1 className="text-5xl mt-15 md:text-6xl lg:text-7xl xl:text-8xl font-extralight text-gray-900 uppercase tracking-tight">
-              Power<span className="text-green-600 font-extralight"> Application</span>
+              <span className="bg-gradient-to-r from-green-500 to-emerald-600 font-extralight bg-clip-text text-transparent"> Power</span> Application
             </h1>
             <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
-              Power is a revolutionary new platform that brings together all your
-              <span className="text-gray-900 ml-1 font-medium">
-                energy-related tasks in one place. It&apos;s like having a personal
-                energy assistant that helps you manage your energy
-              </span>
-              usage, save money, and live more sustainably.
+              Power is a revolutionary new platform that brings together all your energy-related tasks in one place. It&apos;s like having a personal energy assistant that helps you manage your energy usage, save money, and live more sustainably.
             </p>
           </div>
         </div>
@@ -48,7 +43,7 @@ export default function PowerApplication() {
           loop={true}
         >
           {/* Slide 2 - Generation */}
-          <SwiperSlide className="bg-green-800">
+          <SwiperSlide className="bg-gradient-to-r from-green-50 to-emerald-50">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
@@ -69,38 +64,38 @@ export default function PowerApplication() {
                 </div>
                 
                 <div className="w-full md:w-3/5">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
                     Generation
                   </h3>
-                  <p className="text-xl lg:text-2xl text-green-100 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-green-700 leading-relaxed mb-8">
                     Power is an all-in-one solution that helps you take control of
                     your energy usage, save money, and live more sustainably.
                   </p>
-                  <ul className="text-xl lg:text-2xl font-extralight caption text-green-100 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl font-extralight text-green-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <SquareActivity className="w-5 h-5 mr-3 text-blue-300" />
+                      <SquareActivity className="w-5 h-5 mr-3 text-blue-500" />
                       Monitor Solar Panel Performance and Energy Output
                     </li>
                     <li className="flex items-center">
-                      <BatteryMedium className="w-5 h-5 mr-3 text-green-300" />
+                      <BatteryMedium className="w-5 h-5 mr-3 text-green-600" />
                       Track Battery Storage Levels and Charging Status
                     </li>
                     <li className="flex items-center">
-                      <CalendarClock className="w-5 h-5 mr-3 text-blue-300" />
+                      <CalendarClock className="w-5 h-5 mr-3 text-blue-500" />
                       Schedule Energy Generation and Smart Storage
                     </li>
                     <li className="flex items-center">
-                      <AlertCircle className="w-5 h-5 mr-3 text-amber-300" />
+                      <AlertCircle className="w-5 h-5 mr-3 text-amber-500" />
                       Get Real-Time Alerts for Low Storage Levels
                     </li>
                     <li className="flex items-center">
-                      <Zap className="w-5 h-5 mr-3 text-green-300" />
+                      <Zap className="w-5 h-5 mr-3 text-green-600" />
                       Optimize Voltage Settings to Boost Efficiency
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg mt-10 border border-gray-200">
+              <div className="text-2xl p-6 rounded-lg mt-10 ">
                 <p className="text-xl text-gray-800">
                   {commonDescription}
                 </p>
@@ -162,7 +157,7 @@ export default function PowerApplication() {
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg mt-10 border border-gray-200">
+              <div className="text-2xl p-6 rounded-lg mt-10 ">
                 <p className="text-xl text-gray-800">
                   {commonDescription}
                 </p>
@@ -171,7 +166,7 @@ export default function PowerApplication() {
           </SwiperSlide>
 
           {/* Slide 4 - Electric Vehicle Charging */}
-          <SwiperSlide className="bg-green-800">
+          <SwiperSlide className="bg-gradient-to-r from-green-50 to-emerald-50">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
@@ -192,38 +187,38 @@ export default function PowerApplication() {
                 </div>
                 
                 <div className="w-full md:w-3/5">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
                     Electric Vehicle Charging
                   </h3>
-                  <p className="text-xl lg:text-2xl text-green-100 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-green-700 leading-relaxed mb-8">
                     Power also allows you to charge your electric vehicle (EV) at
                     convenient locations such as supermarkets, shopping centers, etc
                   </p>
-                  <ul className="text-xl lg:text-2xl caption text-green-100 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl text-green-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <Car className="w-5 h-5 mr-3 text-blue-300" />
+                      <Car className="w-5 h-5 mr-3 text-blue-500" />
                       Charge your EV while you&apos;re shopping or running errands
                     </li>
                     <li className="flex items-center">
-                      <MapPin className="w-5 h-5 mr-3 text-green-300" />
+                      <MapPin className="w-5 h-5 mr-3 text-green-600" />
                       Find charging stations near you
                     </li>
                     <li className="flex items-center">
-                      <CalendarClock className="w-5 h-5 mr-3 text-purple-300" />
+                      <CalendarClock className="w-5 h-5 mr-3 text-purple-500" />
                       Schedule charging sessions in advance
                     </li>
                     <li className="flex items-center">
-                      <BatteryCharging className="w-5 h-5 mr-3 text-amber-300" />
+                      <BatteryCharging className="w-5 h-5 mr-3 text-amber-500" />
                       Monitor your EV&apos;s charging status in real-time
                     </li>
                     <li className="flex items-center">
-                      <Wallet className="w-5 h-5 mr-3 text-indigo-300" />
+                      <Wallet className="w-5 h-5 mr-3 text-indigo-500" />
                       Handle payments for charging sessions seamlessly
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg mt-10 border border-gray-200">
+             <div className="text-2xl p-6 rounded-lg mt-10 ">
                 <p className="text-xl text-gray-800">
                   {commonDescription}
                 </p>
@@ -280,7 +275,7 @@ export default function PowerApplication() {
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg mt-10 border border-gray-200">
+              <div className="text-2xl p-6 rounded-lg mt-10 ">
                 <p className="text-xl text-gray-800">
                   {commonDescription}
                 </p>
@@ -289,7 +284,7 @@ export default function PowerApplication() {
           </SwiperSlide>
 
           {/* Slide 6 - Education */}
-          <SwiperSlide className="bg-green-800">
+          <SwiperSlide className="bg-gradient-to-r from-green-50 to-emerald-50">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
@@ -310,39 +305,39 @@ export default function PowerApplication() {
                 </div>
                 
                 <div className="w-full md:w-3/5">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
                     Education
                   </h3>
-                  <p className="text-xl lg:text-2xl text-green-100 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-green-700 leading-relaxed mb-8">
                     This feature helps users reduce energy consumption through
                     interactive tutorials, videos, and quizzes on energy-efficient
                     living.
                   </p>
-                  <ul className="text-xl lg:text-2xl caption text-green-100 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl text-green-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <PlaySquare className="w-5 h-5 mr-3 text-blue-300" />
+                      <PlaySquare className="w-5 h-5 mr-3 text-blue-500" />
                       Interactive energy-efficiency tutorials and videos
                     </li>
                     <li className="flex items-center">
-                      <Lightbulb className="w-5 h-5 mr-3 text-amber-300" />
+                      <Lightbulb className="w-5 h-5 mr-3 text-amber-500" />
                       Personalized energy-saving tips
                     </li>
                     <li className="flex items-center">
-                      <BookOpen className="w-5 h-5 mr-3 text-green-300" />
+                      <BookOpen className="w-5 h-5 mr-3 text-green-600" />
                       Energy literacy on usage
                     </li>
                     <li className="flex items-center">
-                      <Gamepad2 className="w-5 h-5 mr-3 text-purple-300" />
+                      <Gamepad2 className="w-5 h-5 mr-3 text-purple-500" />
                       Gamification to encourage sustainable habits
                     </li>
                     <li className="flex items-center">
-                      <TrendingUp className="w-5 h-5 mr-3 text-teal-300" />
+                      <TrendingUp className="w-5 h-5 mr-3 text-teal-500" />
                       Track progress and earn rewards for milestones
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg mt-10 border border-gray-200">
+              <div className="text-2xl p-6 rounded-lg mt-10 ">
                 <p className="text-xl text-gray-800">
                   {commonDescription}
                 </p>
