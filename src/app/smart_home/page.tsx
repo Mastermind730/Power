@@ -114,12 +114,12 @@ const SmartHomePage = () => {
   {/* Right Column - Paragraph */}
   <div>
     <p className="text-gray-600 leading-relaxed text-lg max-w-xl text-right lg:text-left">
-      Power transcends the traditional smart home device category. It&apos;s an AI-comprehensive energy management system crafted to integrate flawlessly into any home setup. With Power, residents can now monitor and control their energy usage with unprecedented accuracy.
+      Power transcends the traditional smart home device category. It&apos;s an EI-comprehensive energy management system crafted to integrate flawlessly into any home setup. With Power, residents can now monitor and control their energy usage with unprecedented accuracy.
     </p>
   </div>
 </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 mt-8 md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center space-x-3">
