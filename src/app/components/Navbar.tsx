@@ -1,6 +1,6 @@
 "use client";
-import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      
+
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
         // Scrolling down
         setVisible(false);
@@ -25,14 +25,16 @@ export default function Navbar() {
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50 transition-transform duration-300 ${
-      visible ? 'translate-y-0' : '-translate-y-full'
-    }`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50 transition-transform duration-300 ${
+        visible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -78,35 +80,65 @@ export default function Navbar() {
 
           {/* Navigation Links - Desktop */}
           <div className="hidden lg:flex items-center space-x-8">
-            <Link href="/pillars" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link
+              href="/pillars"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
               About
             </Link>
-            <Link href="/our_app" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link
+              href="/our_app"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
               App
             </Link>
-            <Link href="/charging" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
-              Charging
-            </Link>
-            <Link href="https://clover.energy/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
-              Clover
-            </Link>
-            <Link href="/smart_home" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link
+              href="/smart_home"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
               Home
             </Link>
-            <Link href="/factory" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link
+              href="/charging"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
+              Charging
+            </Link>
+            <Link
+              href="/factory"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
               Manufactory
             </Link>
-            <Link href="/team" className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200">
+            <Link
+              href="/team"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
               Team
+            </Link>
+            <Link
+              href="https://clover.energy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
+            >
+              Clover
             </Link>
           </div>
 
           {/* Contact Button - Desktop */}
           <div className="hidden lg:flex items-center">
-            <Link href="/contact_us" className="group flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300">
+            <Link
+              href="/contact_us"
+              className="group flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300"
+            >
               <span>Contact Us</span>
-              <svg className="w-4 h-4 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+              <svg
+                className="w-4 h-4 transition-transform duration-300 group-hover:scale-110"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>
             </Link>
           </div>
@@ -114,49 +146,65 @@ export default function Navbar() {
           {/* Mobile menu section */}
           <div className="lg:hidden flex items-center space-x-3">
             {/* Contact Button - Mobile */}
-            <Link 
-              href="/contact_us" 
+            <Link
+              href="/contact_us"
               className="flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-300"
             >
               <span>Contact</span>
               <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>
             </Link>
-            
+
             {/* Hamburger menu button */}
-            <button 
+            <button
               onClick={() => setIsOpen(!isOpen)}
               className="group relative p-2 rounded-md hover:bg-slate-700 transition-colors duration-200"
               aria-label="Toggle mobile menu"
             >
               <div className="w-6 h-6 relative">
-                <span className={`absolute left-0 top-1 w-full h-0.5 bg-slate-300 transition-all duration-300 ${isOpen ? 'rotate-45 top-3' : ''}`}></span>
-                <span className={`absolute left-0 top-3 w-full h-0.5 bg-slate-300 transition-all duration-300 ${isOpen ? 'opacity-0' : ''}`}></span>
-                <span className={`absolute left-0 top-5 w-full h-0.5 bg-slate-300 transition-all duration-300 ${isOpen ? '-rotate-45 top-3' : ''}`}></span>
+                <span
+                  className={`absolute left-0 top-1 w-full h-0.5 bg-slate-300 transition-all duration-300 ${
+                    isOpen ? "rotate-45 top-3" : ""
+                  }`}
+                ></span>
+                <span
+                  className={`absolute left-0 top-3 w-full h-0.5 bg-slate-300 transition-all duration-300 ${
+                    isOpen ? "opacity-0" : ""
+                  }`}
+                ></span>
+                <span
+                  className={`absolute left-0 top-5 w-full h-0.5 bg-slate-300 transition-all duration-300 ${
+                    isOpen ? "-rotate-45 top-3" : ""
+                  }`}
+                ></span>
               </div>
             </button>
           </div>
         </div>
 
         {/* Mobile Navigation Menu */}
-        <div className={`lg:hidden transition-all duration-500 overflow-hidden ${
-          isOpen ? 'max-h-96 opacity-100 pb-6' : 'max-h-0 opacity-0'
-        }`}>
+        <div
+          className={`lg:hidden transition-all duration-500 overflow-hidden ${
+            isOpen ? "max-h-96 opacity-100 pb-6" : "max-h-0 opacity-0"
+          }`}
+        >
           <div className="space-y-1 pt-4 border-t border-slate-700/50">
             {[
-              { href: '/pillars', label: 'About' },
-              { href: '/our_app', label: 'App' },
-              { href: '/charging', label: 'Charging' },
-              { 
-                href: 'https://clover.energy/', 
-                label: 'Clover',
-                target: '_blank',
-                rel: 'noopener noreferrer'
+              { href: "/pillars", label: "About" },
+              { href: "/our_app", label: "App" },
+              { href: "/smart_home", label: "Home" },
+
+              { href: "/charging", label: "Charging" },
+              { href: "/factory", label: "Manufactory" },
+              { href: "/team", label: "Team" },
+
+              {
+                href: "https://clover.energy/",
+                label: "Clover",
+                target: "_blank",
+                rel: "noopener noreferrer",
               },
-              { href: '/smart_home', label: 'Home' },
-              { href: '/factory', label: 'Manufactory' },
-              { href: '/team', label: 'Team' }
             ].map((item, index) => (
               <Link
                 key={item.href}
