@@ -113,7 +113,7 @@ export default function EVCharging() {
               <span className="text-green-500">Smart</span> Pricing Model
             </h2>
             <p className="text-gray-600 text-lg lg:text-xl leading-relaxed">
-              Our adaptive &quot;Bolt-style&quot; pricing algorithm intelligently adjusts kWh rates based on time of day, 
+              Our adaptive  pricing algorithm intelligently adjusts kWh rates based on time of day, 
               season, and demand patterns. This ensures you always get the most cost-effective charging 
               without surprise fees or hidden costs.
             </p>
@@ -139,7 +139,7 @@ export default function EVCharging() {
         {/* How It Works Section */}
        <section className="px-5 md:px-[5%] py-[70px] lg:py-[200px]">
           <h3 className="text-green-500 font-normal text-[25px] md:text-[32px] lg:text-[40px] md:text-center uppercase mb-5 md:mb-8 lg:mb-20">
-            How it&apos;s work
+            How it works
           </h3>
           
           <div className="flex items-center justify-start">
@@ -195,7 +195,7 @@ export default function EVCharging() {
           
          <div className="flex flex-col gap-12">
   {/* Full-width image section */}
-  <div className="w-full relative rounded-2xl h-[150px] md:h-[200px] lg:h-[300px] overflow-hidden shadow-xl">
+ <div className="w-full relative rounded-2xl h-[150px] md:h-[200px] lg:h-[300px] overflow-hidden shadow-xl">
     <Image 
       src="/ev-benefitbg2.png"
       alt="Benefits illustration"
@@ -203,13 +203,13 @@ export default function EVCharging() {
       className="object-cover"
       priority
     />
-    <div className="absolute inset-0 flex items-center justify-start p-6 bg-gradient-to-t from-black/60 to-black/30">
+    <div className="absolute inset-0 flex items-center justify-center p-6 bg-gradient-to-t from-black/60 to-black/30">
       <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-md lg:max-w-xl">
         Our transparent, adaptive pricing model makes energy management 
         simpler and more affordable for all our customers.
       </p>
     </div>
-  </div>
+</div>
 
   {/* Feature cards in a single row */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

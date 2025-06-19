@@ -59,8 +59,7 @@ Dwayne is also interested in making sure knowledge is accessible to all walks of
   imagePosition: "left",
   content: `Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. 
   
-  Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. 
-  Regularly invited as jury for IIT Bombay's Eureka Challenge.`
+  Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. Regularly invited as jury for IIT Bombay's Eureka Challenge.`
 },
   {
     id: 4,
@@ -74,7 +73,7 @@ His background in engineering and his Master's degree in Strategy Business Manag
 
 As a lifelong learner, Fabrizio is always seeking out new knowledge and insights to stay ahead of the curve. He is fascinated by the latest technologies, innovations, and trends in renewable energy, people management, and business innovation, and is passionate about using this knowledge to disrupt conventional business models and find new ways to drive growth and success.
 
-As Director at Britcham Brazil, he brings his expertise and leadership skills to the table to help drive business growth and development in the region. He is committed to empowering businesses to thrive in a rapidly changing environment and is dedicated to delivering exceptional results that exceed expectations.`
+As Director at The British Chamber of Commerce Brazil, he brings his expertise and leadership skills to the table to help drive business growth and development in the region. He is committed to empowering businesses to thrive in a rapidly changing environment and is dedicated to delivering exceptional results that exceed expectations.`
   },
   {
     id: 5,
@@ -212,7 +211,9 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
        <div className="max-w-7xl mx-auto mt-24 mb-28 px-4 sm:px-6 lg:px-8 text-center">
   <h1 className="text-4xl font-extralight flex justify-center gap-3 mt-22 text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
     <span className="block">One </span>
-    <span className="block text-green-600 ">Connected Team</span>
+    <span className="block text-green-600 ">Connected </span>
+        <span className="block">Team </span>
+
   </h1>
 <div className="mt-4 md:mt-6 lg:mt-8 mx-auto px-4 sm:px-5 md:px-6 max-w-3xl lg:max-w-4xl xl:max-w-7xl">
     <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 leading-normal sm:leading-relaxed">
