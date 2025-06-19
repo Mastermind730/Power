@@ -295,48 +295,60 @@ const SmartHomePage = () => {
                 We&apos;re introducing a plug-and-play solution with various packages to cater to different needs.
               </p>
             </div>
-
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
-              <div className="grid grid-cols-4 gap-px bg-gray-200">
-                <div className="bg-gray-100 p-4"></div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Seed</div>
-                <div className="bg-white text-gray-700 hover:text-white hover:bg-green-400 p-4 text-center font-medium ">Light</div>
-                <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-400 font-medium">Core</div>
-                
-                {comparisonData.map((item, index) => (
-                  <React.Fragment key={index}>
-                    <div className="bg-gray-100 p-3 text-sm font-medium text-gray-800">{item.feature}</div>
-                    <div className="bg-white p-4 flex items-center justify-center">
-                      {item.essential ? (
-                        <Check className="w-5 h-5 text-emerald-500" />
-                      ) : (
-                        <X className="w-5 h-5 text-red-400" />
-                      )}
-                    </div>
-                    <div className="bg-gray-50 p-4 flex items-center justify-center">
-                      {item.light ? (
-                        <Check className="w-5 h-5 text-emerald-500" />
-                      ) : (
-                        <X className="w-5 h-5 text-red-400" />
-                      )}
-                    </div>
-                    <div className="bg-white p-4 flex items-center justify-center">
-                      {item.trinity ? (
-                        <Check className="w-5 h-5 text-emerald-500" />
-                      ) : (
-                        <X className="w-5 h-5 text-red-400" />
-                      )}
-                    </div>
-                  </React.Fragment>
-                ))}
-
-
-
-              </div>
-              <div className='flex align-center flex-col p-10 m-10 '>
-  <p>Join the wait list and </p> <button className='bg-green-400 hover:bg-green-400 text-white p-8'>Pre-Order Now</button>
+<div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+  <div className="grid grid-cols-1 sm:grid-cols-4 gap-px bg-gray-200">
+    {/* Header Row */}
+    <div className="bg-gray-100 p-4 hidden sm:block"></div>
+    <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-500 font-medium transition-colors duration-200 cursor-pointer">
+      Seed
+    </div>
+    <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-500 font-medium transition-colors duration-200 cursor-pointer">
+      Light
+    </div>
+    <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-500 font-medium transition-colors duration-200 cursor-pointer">
+      Core
+    </div>
+    
+    {/* Data Rows */}
+    {comparisonData.map((item, index) => (
+      <React.Fragment key={index}>
+        <div className="bg-gray-100 p-3 text-sm font-medium text-gray-800 sm:text-left text-center">
+          {item.feature}
+        </div>
+        <div className="bg-white p-4 flex items-center justify-center">
+          {item.essential ? (
+            <Check className="w-5 h-5 text-emerald-500" />
+          ) : (
+            <X className="w-5 h-5 text-red-400" />
+          )}
+        </div>
+        <div className="bg-gray-50 p-4 flex items-center justify-center">
+          {item.light ? (
+            <Check className="w-5 h-5 text-emerald-500" />
+          ) : (
+            <X className="w-5 h-5 text-red-400" />
+          )}
+        </div>
+        <div className="bg-white p-4 flex items-center justify-center">
+          {item.trinity ? (
+            <Check className="w-5 h-5 text-emerald-500" />
+          ) : (
+            <X className="w-5 h-5 text-red-400" />
+          )}
+        </div>
+      </React.Fragment>
+    ))}
+  </div>
+  
+  {/* CTA Section */}
+ 
 </div>
-            </div>
+ <div className="flex flex-col items-center p-6 sm:p-10 space-y-4">
+    <p className="text-gray-600 text-4xl text-center">Join the wait list and</p>
+    <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
+      Pre-Order Now
+    </button>
+  </div>
           </div>
 
           {/* Energy Efficiency Rewards */}
