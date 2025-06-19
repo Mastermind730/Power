@@ -27,8 +27,11 @@ export default function PowerApplication() {
               Power<span className="text-green-600 font-extralight"> Application</span>
             </h1>
             <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed mt-8 max-w-4xl mx-auto">
-              Power is a revolutionary new platform that brings together all your energy-related tasks in one place. It&apos;s like having a personal
+              Power is a revolutionary new platform that brings together all your
+              <span className="text-gray-900 ml-1 font-medium">
+                energy-related tasks in one place. It&apos;s like having a personal
                 energy assistant that helps you manage your energy
+              </span>
               usage, save money, and live more sustainably.
             </p>
           </div>
@@ -45,47 +48,53 @@ export default function PowerApplication() {
           loop={true}
         >
           {/* Slide 2 - Generation */}
-          <SwiperSlide className="bg-green-800">
+          <SwiperSlide className="bg-gray-900">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
-                  <div className="transform perspective-1000 rotate-y-6 shadow-2xl">
+                {/* Mobile Image with 3D Effect */}
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
+                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-6 hover:rotate-y-12 transition-transform duration-500 border-4 border-gray-700">
                     <Image
                       src="/app2.png"
                       width={300}
                       height={600}
                       alt="Generation"
-                      className="w-full h-auto object-contain rounded-lg"
+                      className="w-full h-full object-contain"
                     />
                   </div>
+                  {/* Floating icon */}
+                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                    <SquareActivity className="w-6 h-6 text-white" />
+                  </div>
                 </div>
+                
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                     Generation
                   </h3>
-                  <p className="text-xl lg:text-2xl text-gray-100 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-gray-300 leading-relaxed mb-8">
                     Power is an all-in-one solution that helps you take control of
                     your energy usage, save money, and live more sustainably.
                   </p>
-                  <ul className="text-xl lg:text-2xl font-extralight caption text-gray-100 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl font-extralight caption text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <SquareActivity className="w-4 h-4 mr-2 text-blue-300" />
+                      <SquareActivity className="w-4 h-4 mr-2 text-blue-500" />
                       Monitor Solar Panel Performance and Energy Output
                     </li>
                     <li className="flex items-center">
-                      <BatteryMedium className="w-4 h-4 mr-2 text-green-300" />
+                      <BatteryMedium className="w-4 h-4 mr-2 text-green-500" />
                       Track Battery Storage Levels and Charging Status
                     </li>
                     <li className="flex items-center">
-                      <CalendarClock className="w-4 h-4 mr-2 text-blue-300" />
+                      <CalendarClock className="w-4 h-4 mr-2 text-blue-500" />
                       Schedule Energy Generation and Smart Storage
                     </li>
                     <li className="flex items-center">
-                      <AlertCircle className="w-4 h-4 mr-2 text-amber-300" />
+                      <AlertCircle className="w-4 h-4 mr-2 text-amber-500" />
                       Get Real-Time Alerts for Low Storage Levels
                     </li>
                     <li className="flex items-center">
-                      <Zap className="w-4 h-4 mr-2 text-green-300" />
+                      <Zap className="w-4 h-4 mr-2 text-green-500" />
                       Optimize Voltage Settings to Boost Efficiency
                     </li>
                   </ul>
@@ -103,17 +112,23 @@ export default function PowerApplication() {
           <SwiperSlide className="bg-white">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
-                  <div className="transform perspective-1000 rotate-y-6 shadow-2xl">
+                {/* Mobile Image with 3D Effect */}
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
+                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-[-6deg] hover:rotate-y-[-12deg] transition-transform duration-500 border-4 border-gray-200">
                     <Image
                       src="/app3.png"
                       width={300}
                       height={600}
                       alt="Utilities"
-                      className="w-full h-auto object-contain rounded-lg"
+                      className="w-full h-full object-contain"
                     />
                   </div>
+                  {/* Floating icon */}
+                  <div className="absolute -top-4 -left-4 w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                    <CreditCard className="w-6 h-6 text-white" />
+                  </div>
                 </div>
+                
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     Utilities
@@ -156,47 +171,53 @@ export default function PowerApplication() {
           </SwiperSlide>
 
           {/* Slide 4 - Electric Vehicle Charging */}
-          <SwiperSlide className="bg-green-800">
+          <SwiperSlide className="bg-gray-900">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
-                  <div className="transform perspective-1000 rotate-y-6 shadow-2xl">
+                {/* Mobile Image with 3D Effect */}
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
+                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-6 hover:rotate-y-12 transition-transform duration-500 border-4 border-gray-700">
                     <Image
                       src="/app4.png"
                       width={300}
                       height={600}
                       alt="EV Charging"
-                      className="w-full h-auto object-contain rounded-lg"
+                      className="w-full h-full object-contain"
                     />
                   </div>
+                  {/* Floating icon */}
+                  <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-xl animate-bounce">
+                    <Car className="w-8 h-8 text-white" />
+                  </div>
                 </div>
+                
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                     Electric Vehicle Charging
                   </h3>
-                  <p className="text-xl lg:text-2xl text-gray-100 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-gray-300 leading-relaxed mb-8">
                     Power also allows you to charge your electric vehicle (EV) at
                     convenient locations such as supermarkets, shopping centers, etc
                   </p>
-                  <ul className="text-xl lg:text-2xl caption text-gray-100 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl caption text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <Car className="w-4 h-4 mr-2 text-blue-300" />
+                      <Car className="w-4 h-4 mr-2 text-blue-500" />
                       Charge your EV while you&apos;re shopping or running errands
                     </li>
                     <li className="flex items-center">
-                      <MapPin className="w-4 h-4 mr-2 text-green-300" />
+                      <MapPin className="w-4 h-4 mr-2 text-green-500" />
                       Find charging stations near you
                     </li>
                     <li className="flex items-center">
-                      <CalendarClock className="w-4 h-4 mr-2 text-purple-300" />
+                      <CalendarClock className="w-4 h-4 mr-2 text-purple-500" />
                       Schedule charging sessions in advance
                     </li>
                     <li className="flex items-center">
-                      <BatteryCharging className="w-4 h-4 mr-2 text-amber-300" />
+                      <BatteryCharging className="w-4 h-4 mr-2 text-amber-500" />
                       Monitor your EV&apos;s charging status in real-time
                     </li>
                     <li className="flex items-center">
-                      <Wallet className="w-4 h-4 mr-2 text-indigo-300" />
+                      <Wallet className="w-4 h-4 mr-2 text-indigo-500" />
                       Handle payments for charging sessions seamlessly
                     </li>
                   </ul>
@@ -214,17 +235,23 @@ export default function PowerApplication() {
           <SwiperSlide className="bg-white">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
-                  <div className="transform perspective-1000 rotate-y-6 shadow-2xl">
+                {/* Mobile Image with 3D Effect */}
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
+                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-[-6deg] hover:rotate-y-[-12deg] transition-transform duration-500 border-4 border-gray-200">
                     <Image
                       src="/app5.png"
                       width={300}
                       height={600}
                       alt="Gamification"
-                      className="w-full h-auto object-contain rounded-lg"
+                      className="w-full h-full object-contain"
                     />
                   </div>
+                  {/* Floating icon */}
+                  <div className="absolute -top-4 -left-4 w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center shadow-xl animate-bounce">
+                    <Trophy className="w-8 h-8 text-white" />
+                  </div>
                 </div>
+                
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     Gamification
@@ -262,48 +289,54 @@ export default function PowerApplication() {
           </SwiperSlide>
 
           {/* Slide 6 - Education */}
-          <SwiperSlide className="bg-green-800">
+          <SwiperSlide className="bg-green-700">
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto">
-                  <div className="transform perspective-1000 rotate-y-6 shadow-2xl">
+                {/* Mobile Image with 3D Effect */}
+                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
+                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-6 hover:rotate-y-12 transition-transform duration-500 border-4 border-gray-700">
                     <Image
                       src="/app6.png"
                       width={300}
                       height={600}
                       alt="Education"
-                      className="w-full h-auto object-contain rounded-lg"
+                      className="w-full h-full object-contain"
                     />
                   </div>
+                  {/* Floating icon */}
+                  <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center shadow-xl animate-bounce">
+                    <BookOpen className="w-8 h-8 text-white" />
+                  </div>
                 </div>
+                
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                     Education
                   </h3>
-                  <p className="text-xl lg:text-2xl text-gray-100 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-gray-300 leading-relaxed mb-8">
                     This feature helps users reduce energy consumption through
                     interactive tutorials, videos, and quizzes on energy-efficient
                     living.
                   </p>
-                  <ul className="text-xl lg:text-2xl caption text-gray-100 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl caption text-gray-300 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <PlaySquare className="w-4 h-4 mr-2 text-blue-300" />
+                      <PlaySquare className="w-4 h-4 mr-2 text-blue-500" />
                       Interactive energy-efficiency tutorials and videos
                     </li>
                     <li className="flex items-center">
-                      <Lightbulb className="w-4 h-4 mr-2 text-amber-300" />
+                      <Lightbulb className="w-4 h-4 mr-2 text-amber-500" />
                       Personalized energy-saving tips
                     </li>
                     <li className="flex items-center">
-                      <BookOpen className="w-4 h-4 mr-2 text-green-300" />
+                      <BookOpen className="w-4 h-4 mr-2 text-green-500" />
                       Energy literacy on usage
                     </li>
                     <li className="flex items-center">
-                      <Gamepad2 className="w-4 h-4 mr-2 text-purple-300" />
+                      <Gamepad2 className="w-4 h-4 mr-2 text-purple-500" />
                       Gamification to encourage sustainable habits
                     </li>
                     <li className="flex items-center">
-                      <TrendingUp className="w-4 h-4 mr-2 text-teal-300" />
+                      <TrendingUp className="w-4 h-4 mr-2 text-teal-500" />
                       Track progress and earn rewards for milestones
                     </li>
                   </ul>
@@ -371,11 +404,18 @@ export default function PowerApplication() {
         
         .rotate-y-6 {
           transform: rotateY(6deg);
-          transition: transform 0.5s ease;
         }
         
-        .rotate-y-6:hover {
-          transform: rotateY(12deg) scale(1.02);
+        .rotate-y-12 {
+          transform: rotateY(12deg);
+        }
+        
+        .rotate-y-[-6deg] {
+          transform: rotateY(-6deg);
+        }
+        
+        .rotate-y-[-12deg] {
+          transform: rotateY(-12deg);
         }
       `}</style>
     </>
