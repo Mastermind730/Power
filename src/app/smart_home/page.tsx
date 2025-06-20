@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, X } from 'lucide-react';
+import { Check, SmartphoneCharging, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -266,17 +266,25 @@ const SmartHomePage = () => {
                                 </div> */}
 
                 {/* Image Side */}
-                <div className="flex-1 w-full ">
-                  <div className=" relative w-80 h-[640px] mx-auto rounded-[1rem] shadow-2xl overflow-hidden">
-                                    <Image
-                                      src={feature.image}
-                                      width={320}
-                                      height={640}
-                                      alt="Education"
-                                      className="w-full h-full object-cover"
-                                    />
-                                  </div>
+                <div className="flex justify-center lg:justify-around">
+              <div className="relative">
+                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                  <Image
+                    src={feature.image} // Replace with your actual mobile dashboard image
+                    alt="Energy dashboard mobile app showing usage statistics"
+                    width={320}
+                    height={640}
+                    className="w-full h-full object-cover"
+                    quality={100}
+                  />
                 </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <SmartphoneCharging />
+                </div>
+              </div>
+            </div>
               </div>
             ))}
           </div>
