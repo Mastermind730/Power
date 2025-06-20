@@ -28,7 +28,7 @@ const EnergyLandingPage = () => {
   </div>
 </div>
       {/* Hero Section */}
-      <section className="pt-24 bg-gradient-to-r from-green-50 to-emerald-50 pb-20 px-6">
+      <section className="pt-24  mt-20 bg-gradient-to-r from-green-50 to-emerald-50 pb-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-6xl md:text-8xl mt-10 font-extralight text-gray-900 mb-8 leading-tight">
             EMBRACE ENERGY
