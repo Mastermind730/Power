@@ -47,21 +47,25 @@ export default function PowerApplication() {
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
-                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-6 hover:rotate-y-12 transition-transform duration-500 border-4 border-green-700">
-                    <Image
-                      src="/app2.png"
-                      width={300}
-                      height={600}
-                      alt="Generation"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  {/* Floating icon */}
-                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center shadow-lg animate-bounce">
-                    <SquareActivity className="w-6 h-6 text-white" />
-                  </div>
+               <div className="flex justify-center lg:justify-around">
+              <div className="relative">
+                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                  <Image
+                    src="/app2.png" // Replace with your actual mobile dashboard image
+                    alt="Energy dashboard mobile app showing usage statistics"
+                    width={320}
+                    height={640}
+                    className="w-full h-full object-cover"
+                    quality={100}
+                  />
                 </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <SquareActivity />
+                </div>
+              </div>
+            </div>
                 
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
@@ -108,21 +112,25 @@ export default function PowerApplication() {
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
-                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-[-6deg] hover:rotate-y-[-12deg] transition-transform duration-500 border-4 border-gray-200">
-                    <Image
-                      src="/app3.png"
-                      width={300}
-                      height={600}
-                      alt="Utilities"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  {/* Floating icon */}
-                  <div className="absolute -top-4 -left-4 w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center shadow-lg animate-bounce">
-                    <CreditCard className="w-6 h-6 text-white" />
-                  </div>
+              <div className="flex justify-center lg:justify-around">
+              <div className="relative">
+                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                  <Image
+                    src="/app3.png" // Replace with your actual mobile dashboard image
+                    alt="Energy dashboard mobile app showing usage statistics"
+                    width={320}
+                    height={640}
+                    className="w-full h-full object-cover"
+                    quality={100}
+                  />
                 </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <CreditCard />
+                </div>
+              </div>
+            </div>
                 
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -170,21 +178,25 @@ export default function PowerApplication() {
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
-                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-6 hover:rotate-y-12 transition-transform duration-500 border-4 border-green-700">
-                    <Image
-                      src="/app4.png"
-                      width={300}
-                      height={600}
-                      alt="EV Charging"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  {/* Floating icon */}
-                  <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-xl animate-bounce">
-                    <Car className="w-8 h-8 text-white" />
-                  </div>
+               <div className="flex justify-center lg:justify-around">
+              <div className="relative">
+                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                  <Image
+                    src="/app4.png" // Replace with your actual mobile dashboard image
+                    alt="Energy dashboard mobile app showing usage statistics"
+                    width={320}
+                    height={640}
+                    className="w-full h-full object-cover"
+                    quality={100}
+                  />
                 </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <Car />
+                </div>
+              </div>
+            </div>
                 
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
@@ -231,21 +243,25 @@ export default function PowerApplication() {
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
-                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-[-6deg] hover:rotate-y-[-12deg] transition-transform duration-500 border-4 border-gray-200">
-                    <Image
-                      src="/app5.png"
-                      width={300}
-                      height={600}
-                      alt="Gamification"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  {/* Floating icon */}
-                  <div className="absolute -top-4 -left-4 w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center shadow-xl animate-bounce">
-                    <Trophy className="w-8 h-8 text-white" />
-                  </div>
+                <div className="flex justify-center lg:justify-around">
+              <div className="relative">
+                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                  <Image
+                    src="/app5.png" // Replace with your actual mobile dashboard image
+                    alt="Energy dashboard mobile app showing usage statistics"
+                    width={320}
+                    height={640}
+                    className="w-full h-full object-cover"
+                    quality={100}
+                  />
                 </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <Trophy />
+                </div>
+              </div>
+            </div>
                 
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -288,21 +304,25 @@ export default function PowerApplication() {
             <div className="container mx-auto py-16 md:py-24 px-4 max-w-6xl">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Mobile Image with 3D Effect */}
-                <div className="w-full md:w-2/5 max-w-[300px] mx-auto relative transform perspective-1000">
-                  <div className="w-full h-[600px] rounded-[3rem] shadow-2xl overflow-hidden rotate-y-6 hover:rotate-y-12 transition-transform duration-500 border-4 border-green-700">
-                    <Image
-                      src="/app6.png"
-                      width={300}
-                      height={600}
-                      alt="Education"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  {/* Floating icon */}
-                  <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center shadow-xl animate-bounce">
-                    <BookOpen className="w-8 h-8 text-white" />
-                  </div>
+                <div className="flex justify-center lg:justify-around">
+              <div className="relative">
+                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                  <Image
+                    src="/app6.png" // Replace with your actual mobile dashboard image
+                    alt="Energy dashboard mobile app showing usage statistics"
+                    width={320}
+                    height={640}
+                    className="w-full h-full object-cover"
+                    quality={100}
+                  />
                 </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <BookOpen />
+                </div>
+              </div>
+            </div>
                 
                 <div className="w-full md:w-3/5">
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
