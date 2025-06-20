@@ -49,7 +49,7 @@ export default function PowerApplication() {
                 {/* Mobile Image with 3D Effect */}
                <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-5 rounded-[1rem] shadow-2xl overflow-hidden">
                   <Image
                     src="/app2.png" // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
@@ -68,20 +68,20 @@ export default function PowerApplication() {
             </div>
                 
                 <div className="w-full md:w-3/5">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
                     Generation
                   </h3>
-                  <p className="text-xl lg:text-2xl text-green-700 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-gray-700 leading-relaxed mb-8">
                     Power is an all-in-one solution that helps you take control of
                     your energy usage, save money, and live more sustainably.
                   </p>
-                  <ul className="text-xl lg:text-2xl font-extralight text-green-800 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl font-extralight text-gray-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <SquareActivity className="w-5 h-5 mr-3 text-blue-500" />
                       Monitor Solar Panel Performance and Energy Output
                     </li>
                     <li className="flex items-center">
-                      <BatteryMedium className="w-5 h-5 mr-3 text-green-600" />
+                      <BatteryMedium className="w-5 h-5 mr-3 text-gray-600" />
                       Track Battery Storage Levels and Charging Status
                     </li>
                     <li className="flex items-center">
@@ -93,7 +93,7 @@ export default function PowerApplication() {
                       Get Real-Time Alerts for Low Storage Levels
                     </li>
                     <li className="flex items-center">
-                      <Zap className="w-5 h-5 mr-3 text-green-600" />
+                      <Zap className="w-5 h-5 mr-3 text-gray-600" />
                       Optimize Voltage Settings to Boost Efficiency
                     </li>
                   </ul>
@@ -114,7 +114,7 @@ export default function PowerApplication() {
                 {/* Mobile Image with 3D Effect */}
               <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-5 rounded-[1rem] shadow-2xl overflow-hidden">
                   <Image
                     src="/app3.png" // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
@@ -147,7 +147,7 @@ export default function PowerApplication() {
                       Paying your bills online
                     </li>
                     <li className="flex items-center">
-                      <LineChart className="w-5 h-5 mr-3 text-green-500" />
+                      <LineChart className="w-5 h-5 mr-3 text-gray-500" />
                       Viewing your energy usage history
                     </li>
                     <li className="flex items-center">
@@ -180,7 +180,7 @@ export default function PowerApplication() {
                 {/* Mobile Image with 3D Effect */}
                <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-5 rounded-[1rem] shadow-2xl overflow-hidden">
                   <Image
                     src="/app4.png" // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
@@ -199,20 +199,20 @@ export default function PowerApplication() {
             </div>
                 
                 <div className="w-full md:w-3/5">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
                     Electric Vehicle Charging
                   </h3>
-                  <p className="text-xl lg:text-2xl text-green-700 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-gray-700 leading-relaxed mb-8">
                     Power also allows you to charge your electric vehicle (EV) at
                     convenient locations such as supermarkets, shopping centers, etc
                   </p>
-                  <ul className="text-xl lg:text-2xl text-green-800 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl text-gray-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <Car className="w-5 h-5 mr-3 text-blue-500" />
                       Charge your EV while you&apos;re shopping or running errands
                     </li>
                     <li className="flex items-center">
-                      <MapPin className="w-5 h-5 mr-3 text-green-600" />
+                      <MapPin className="w-5 h-5 mr-3 text-gray-600" />
                       Find charging stations near you
                     </li>
                     <li className="flex items-center">
@@ -245,7 +245,7 @@ export default function PowerApplication() {
                 {/* Mobile Image with 3D Effect */}
                 <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-5 rounded-[1rem] shadow-2xl overflow-hidden">
                   <Image
                     src="/app5.png" // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
@@ -281,7 +281,7 @@ export default function PowerApplication() {
                       Participate in energy-saving challenges with friends
                     </li>
                     <li className="flex items-center">
-                      <BarChart2 className="w-5 h-5 mr-3 text-green-500" />
+                      <BarChart2 className="w-5 h-5 mr-3 text-gray-500" />
                       Track progress and compete to reduce energy usage
                     </li>
                     <li className="flex items-center">
@@ -306,7 +306,7 @@ export default function PowerApplication() {
                 {/* Mobile Image with 3D Effect */}
                 <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-5 rounded-[1rem] shadow-2xl overflow-hidden">
                   <Image
                     src="/app6.png" // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
@@ -325,15 +325,15 @@ export default function PowerApplication() {
             </div>
                 
                 <div className="w-full md:w-3/5">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 mb-6">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
                     Education
                   </h3>
-                  <p className="text-xl lg:text-2xl text-green-700 leading-relaxed mb-8">
+                  <p className="text-xl lg:text-2xl text-gray-700 leading-relaxed mb-8">
                     This feature helps users reduce energy consumption through
                     interactive tutorials, videos, and quizzes on energy-efficient
                     living.
                   </p>
-                  <ul className="text-xl lg:text-2xl text-green-800 leading-relaxed space-y-4 mb-8">
+                  <ul className="text-xl lg:text-2xl text-gray-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
                       <PlaySquare className="w-5 h-5 mr-3 text-blue-500" />
                       Interactive energy-efficiency tutorials and videos
@@ -343,7 +343,7 @@ export default function PowerApplication() {
                       Personalized energy-saving tips
                     </li>
                     <li className="flex items-center">
-                      <BookOpen className="w-5 h-5 mr-3 text-green-600" />
+                      <BookOpen className="w-5 h-5 mr-3 text-gray-600" />
                       Energy literacy on usage
                     </li>
                     <li className="flex items-center">
