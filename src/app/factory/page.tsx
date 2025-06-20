@@ -53,13 +53,14 @@ const SmartFactoryPage = () => {
     // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
     { feature: "Safety Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
+    { feature: "ESG Reporting", basic: false, pro: false, enterprise: true },
     { feature: "API Access", basic: false, pro: false, enterprise: true },
     { feature: "Dedicated Support", basic: false, pro: true, enterprise: true }
   ];
 
   const planData = [
     { feature: "Number of Machines", basic: "16", pro: "16", enterprise: "16" },
-    { feature: "Data Retention", basic: "1 Year", pro: "3 Year", enterprise: "5 year+" },
+    { feature: "Date Visualization", basic: "1 Year", pro: "3 Year", enterprise: "5 year+" },
     { feature: "User Accounts", basic: "1", pro: "3", enterprise: "Unlimited" },
     { feature: "Update Frequency", basic: "Daily", pro: "Hourly", enterprise: "Instantly" }
   ];
@@ -360,7 +361,7 @@ const SmartFactoryPage = () => {
       ))}
       
       {/* Release date - spans all columns */}
-      <div className="bg-gray-100 p-4 font-medium text-gray-900">Pre-Order Release date</div>
+      <div className="bg-gray-100 p-4 font-medium text-gray-900">Pre-Order Release Date</div>
       <div className="bg-white text-gray-800 p-4 text-center col-span-3">
         04 / 07 / 2025
       </div>

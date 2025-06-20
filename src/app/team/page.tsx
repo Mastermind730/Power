@@ -57,9 +57,10 @@ Dwayne is also interested in making sure knowledge is accessible to all walks of
   title: "Co-Founder",
   image: "/saurabh.jpg",
   imagePosition: "left",
-  content: `Award-winning technopreneur (National IP Champion 2022, Top 10 Innovators Under 40 by TechChronicle 2023) with 10+ years of pioneering deep-tech solutions. Founded Thinkerplace (STEM education leader) and co-created SNP Innovations, driving breakthroughs in AI/Blockchain. As VP (India) for Water Freedom Revolution, deployed sustainable tech across 3 continents. 
-  
-  Honored by NITI Aayog and Maharashtra State Innovation Society for mentoring 50+ startups and EdTech contributions. Holder of 12 patents (3 international) with IEEE-published research; architect of UK government's blockchain initiative and India's first AI-based water management system with Dr. Vijay Bhatkar. Regularly invited as jury for IIT Bombay's Eureka Challenge.`
+    content:`Saurabh Tiwari, Founder with over a decade of experience in technology and entrepreneurship, has played pivotal roles in scaling Thinkerplace (as CEO) and serving as Vice President for WFR India. As co-founder of SNP Innovations and Inno91 Green Technologies, he has demonstrated innovation leadership in emerging technologies like AI, Blockchain, and IoT. His expertise extends to intellectual property with 3 international and 9 national patents, while his strategic contributions include a blockchain project for UK government initiatives and collaboration with renowned technologist Dr. Vijay Bhatkar.
+   
+    An active mentor for INEE-USA, IIT Bombay Eureka, and NITI Aayog's ATL Lab, Tiwari combines technical vision with business acumen to transform ideas into market-ready solutions. His leadership spans from building companies from concept to market success (Thinkerplace, Water Freedom Revolution) to advising organizations like Successive Technologies, consistently driving innovation that addresses market gaps through cutting-edge technological advancements.
+    `
 },
   {
     id: 4,
@@ -207,24 +208,24 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-green-50 py-20 h-[570px] ">
-       <div className="max-w-7xl mx-auto mt-24 mb-28 px-4 sm:px-6 lg:px-8 text-center">
-  <h1 className="text-4xl font-extralight flex justify-center gap-3 mt-22 text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-    <span className="block">One </span>
-    <span className="block text-green-600 ">Connected </span>
-        <span className="block">Team </span>
-
-  </h1>
-<div className="mt-4 md:mt-6 lg:mt-8 mx-auto px-4 sm:px-5 md:px-6 max-w-3xl lg:max-w-4xl xl:max-w-7xl">
-    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 leading-normal sm:leading-relaxed">
-      At Power, our success is driven by a diverse team of passionate innovators, engineers, and industry experts who are dedicated to revolutionizing the energy sector. Each member of our team brings unique expertise and a commitment to excellence, working collaboratively to develop cutting-edge solutions that lead the way in sustainable energy management.
-    </p>
-    <p className="mt-3 sm:mt-4 md:mt-5 lg:mt-6 text-sm sm:text-base md:text-lg text-gray-600 leading-normal sm:leading-relaxed">
-      We believe in fostering a culture of continuous learning, creativity and integrity, where every idea is valued and every challenge is met with determination. Together, we&apos;re not just building technology — we&apos;re shaping the future of energy.
-    </p>
+    <div className="bg-green-50 py-12 md:py-20 min-h-[570px] flex items-center">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
+    <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extralight text-gray-900 flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-3">
+      <span>One</span>
+      <span className="text-green-600">Connected</span>
+      <span>Team</span>
+    </h1>
+    
+    <div className="mt-6 md:mt-8 mx-auto max-w-3xl lg:max-w-4xl xl:max-w-5xl">
+      <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-600 leading-relaxed sm:leading-relaxed md:leading-relaxed">
+        At Power, our success is driven by a diverse team of passionate innovators, engineers, and industry experts who are dedicated to revolutionizing the energy sector. Each member of our team brings unique expertise and a commitment to excellence, working collaboratively to develop cutting-edge solutions that lead the way in sustainable energy management.
+      </p>
+      <p className="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-600 leading-relaxed sm:leading-relaxed md:leading-relaxed">
+        We believe in fostering a culture of continuous learning, creativity and integrity, where every idea is valued and every challenge is met with determination. Together, we&apos;re not just building technology — we&apos;re shaping the future of energy.
+      </p>
+    </div>
+  </div>
 </div>
-</div>
-      </div>
 
       {/* Tabs Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
