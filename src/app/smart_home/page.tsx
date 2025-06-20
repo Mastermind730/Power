@@ -268,7 +268,7 @@ const SmartHomePage = () => {
                 {/* Image Side */}
                 <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] rounded-[3rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-3 rounded-[1rem] shadow-2xl overflow-hidden">
                   <Image
                     src={feature.image} // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
