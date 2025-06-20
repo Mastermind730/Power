@@ -18,7 +18,7 @@ type TeamData = {
 };
 
 const TeamPage = () => {
-  const [activeTab, setActiveTab] = useState<'founders' | 'advisors' | 'nonExecutives'>('advisors');
+  const [activeTab, setActiveTab] = useState<'founders' | 'advisors' | 'nonExecutives'>('founders');
 
   const teamData: TeamData = {
     founders:[
