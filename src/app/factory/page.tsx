@@ -43,23 +43,23 @@ const SmartFactoryPage = () => {
   ];
 
   const benefitData = [
-    { feature: "Downtime Reduction", basic: false, pro: true, enterprise: true },
-    { feature: "OEE Improvement", basic: false, pro: true, enterprise: true },
+    { feature: "Downtime Reduction", basic: true, pro: true, enterprise: true },
+    { feature: "OEE Improvement", basic: true, pro: true, enterprise: true },
     { feature: "Energy Savings", basic: true, pro: true, enterprise: true },
-    { feature: "Quality Improvement", basic: false, pro: true, enterprise: true },
+    { feature: "Quality Improvement", basic: true, pro: true, enterprise: true },
     { feature: "Remote Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Predictive Analytics", basic: false, pro: true, enterprise: true },
     { feature: "AI Quality Control", basic: false, pro: false, enterprise: true },
     // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
     { feature: "Safety Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
-    { feature: "API Access", basic: false, pro: true, enterprise: true },
+    { feature: "API Access", basic: false, pro: false, enterprise: true },
     { feature: "Dedicated Support", basic: false, pro: true, enterprise: true }
   ];
 
   const planData = [
     { feature: "Number of Machines", basic: "16", pro: "16", enterprise: "16" },
-    { feature: "Data Retention", basic: "90 days", pro: "1 Year", enterprise: "3 year+" },
+    { feature: "Data Retention", basic: "1 Year", pro: "3 Year", enterprise: "5 year+" },
     { feature: "User Accounts", basic: "1", pro: "3", enterprise: "Unlimited" },
     { feature: "Update Frequency", basic: "Daily", pro: "Hourly", enterprise: "Instantly" }
   ];
@@ -70,7 +70,7 @@ const SmartFactoryPage = () => {
       <section className="bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-6xl mt-20 text-gray-700 md:text-6xl font-extralight mb-6 tracking-tight">
+            <h1 className="text-6xl mt-20 text-gray-700 md:text-8xl font-extralight mb-6 tracking-tight">
               <span className="text-green-500 font-extralight">FUTURE</span> OF PRODUCTION
             </h1>
             <p className="text-gray-600 max-w-6xl mx-auto text-2xl leading-relaxed">
