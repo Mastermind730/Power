@@ -374,7 +374,7 @@ const SmartFactoryPage = () => {
   </div>
 </div>
 <div className="flex flex-col items-center p-6 sm:p-10 space-y-4">
-    <p className="text-gray-600 text-4xl text-center">Join the wait list and</p>
+    <p className="text-gray-600 text-4xl text-center">Join the wait list </p>
     <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
       Pre-Order Now
     </button>

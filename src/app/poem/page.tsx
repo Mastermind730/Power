@@ -29,12 +29,12 @@ export default function PurposePoem() {
 </div>
 
           {/* Poem Content */}
-          <div className="space-y-6 mt-50 text-gray-600 leading-relaxed">
+          <div className="space-y-1 mt-50 text-gray-600 leading-relaxed">
             <p className="text-base md:text-lg font-light">
-              My brother was called Paul. My surname
+              My brother was called Paul. 
             </p>
             <p className="text-base md:text-lg font-light">
-              derives from Ower.
+             My surname derives from Ower.
             </p>
             
             <p className="text-base md:text-lg font-light mt-8">
