@@ -19,7 +19,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-8">
+    <div className="min-h-screen bg-white flex items-center justify-center p-8">
       <div className=" rounded-lg shadow-sm p-16 w-full h-full">
         {/* Header - Kept exactly the same */}
         <div className="flex items-center mb-20">
@@ -100,7 +100,7 @@ export default function ContactPage() {
           <div className="flex justify-center pt-8">
             <button
               type="submit"
-              className="bg-gray-800 hover:bg-gray-700 text-green-500 font-medium text-xs tracking-widest uppercase px-8 py-5 rounded-full border border-gray-300 transition-colors duration-200"
+              className="bg-green-800 hover:bg-green-700 text-white font-medium text-xs tracking-widest uppercase px-6 py-4 rounded-2xl border border-gray-300 transition-colors duration-200"
             >
               CONTACT US
             </button>

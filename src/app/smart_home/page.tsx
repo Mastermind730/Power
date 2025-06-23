@@ -47,17 +47,17 @@ const SmartHomePage = () => {
   const comparisonData = [
     { feature: "EI  Sensors", essential: true, light: true, trinity: true },
     { feature: "Hub", essential: true, light: true, trinity: true },
-    { feature: "Air Quality Sensor", essential: true, light: true, trinity: true },
+    { feature: "Air Quality Sensor", essential: false, light: true, trinity: true },
     { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
     { feature: "Water Leak Detection", essential: false, light: false, trinity: true },
     { feature: "Temperature Sensor", essential: false, light: false, trinity: true },
-    { feature: "Humidity Sensor", essential: false, light: false, trinity: true },
+    { feature: "Humidity Sensor", essential: false, light: true, trinity: true },
     { feature: "Smart Light Bulbs", essential: false, light: true, trinity: true },
     { feature: "Smart Radiator Valves", essential: false, light: true, trinity: true },
     { feature: "Window Sensors", essential: false, light: false, trinity: true },
     { feature: "Occupancy Sensors", essential: false, light: false, trinity: true },
     { feature: "Smart Water Value", essential: false, light: false, trinity: true },
-    { feature: "Smart Smoke Detectors", essential: false, light: false, trinity: true },
+    { feature: "Smart Smoke Detectors", essential: false, light: true, trinity: true },
     // { feature: "Smart Plugs", essential: false, light: false, trinity: true }
   ];
 
@@ -65,7 +65,7 @@ const SmartHomePage = () => {
     { element: "Fire", essential: true, light: true, trinity: true },
     { element: "Earth", essential: true, light: true, trinity: true },
     { element: "Ether", essential: true, light: true, trinity: true },
-    { element: "Air", essential: true, light: true, trinity: true },
+    { element: "Air", essential: false, light: true, trinity: true },
     { element: "Water", essential: false, light: false, trinity: true }
   ];
 
@@ -268,13 +268,13 @@ const SmartHomePage = () => {
                 {/* Image Side */}
                 <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] p-3 rounded-[1rem] shadow-2xl overflow-hidden">
+                <div className="w-80 h-[640px] p-3 rounded-[3rem] shadow-2xl overflow-hidden">
                   <Image
                     src={feature.image} // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
                     width={320}
                     height={640}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full p-2 object-cover"
                     quality={100}
                   />
                 </div>
@@ -353,7 +353,7 @@ const SmartHomePage = () => {
  
 </div>
  <div className="flex flex-col items-center p-6 sm:p-10 space-y-4">
-    <p className="text-gray-600 text-4xl text-center">Join the wait list and</p>
+    <p className="text-gray-600 text-4xl text-center">Join the wait list </p>
     <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
       Pre-Order Now
     </button>
@@ -410,11 +410,15 @@ const SmartHomePage = () => {
   {/* <p className="text-center text-gray-600 text-xl md:text-2xl max-w-3xl mx-auto mt-8 leading-relaxed">
     Contact us for more information<br />
     <span className="text-emerald-500 font-medium">Pre-order coming soon</span> */}
-    <div className='w-[100%] flex align-center justify-center'>
-    <Link href={"https://clover.energy/"} className="bg-green-500 mx-auto hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
-      Go to Clover
-    </Link>
-    </div>
+   <div className='w-full flex flex-col items-center justify-center py-8 px-4'>
+  <p className='text-3xl font-light text-gray-800 mb-6'>Discover More</p>
+  <Link 
+    href={"https://clover.energy/"} 
+    className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center max-w-xs"
+  >
+    Go to Clover
+  </Link>
+</div>
   {/* </p> */}
 </div>
         </div>

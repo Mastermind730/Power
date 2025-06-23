@@ -62,7 +62,7 @@ export default function EVCharging() {
 </section>
 
         {/* Community Section */}
-        <section className="px-6 md:px-8 lg:px-10 xl:px-12 bg-gray-50 py-16 lg:py-32 rounded-3xl mx-4 md:mx-8">
+        <section className="px-6 md:px-8 lg:px-10 xl:px-12 rounded-4xl bg-gray-50 py-16 lg:py-32  mx-4 md:mx-8">
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="font-normal text-3xl md:text-4xl lg:text-5xl text-gray-900 uppercase text-center">
               Our Community Benefits
@@ -107,7 +107,7 @@ export default function EVCharging() {
         </section>
 
         {/* Pricing Section */}
-        <section className="px-6 md:px-8 lg:px-10 xl:px-12 py-16 lg:py-32">
+        <section className="px-6 md:px-8 rounded-3xl lg:px-10 xl:px-12 py-16 lg:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="font-normal text-3xl md:text-4xl lg:text-5xl text-gray-900 uppercase">
               <span className="text-green-500">Smart</span> Pricing Model
@@ -137,9 +137,9 @@ export default function EVCharging() {
         </section>
 
         {/* How It Works Section */}
-<section className="bg-gradient-to-r from-green-50 to-emerald-50 py-[70px] lg:py-[200px]">
+<section className="bg-gradient-to-r rounded-3xl from-green-50 to-emerald-50 py-[70px] lg:py-[200px]">
   <div className="max-w-10xl mx-auto px-6 md:px-12 lg:px-24">
-    <h3 className="text-green-500 font-normal text-[25px] md:text-[32px] lg:text-[40px] md:text-center uppercase mb-5 md:mb-8 lg:mb-20">
+    <h3 className="text-gray-700 font-normal text-[25px] md:text-[52px] lg:text-[60px] md:text-center uppercase mb-5 md:mb-8 lg:mb-20">
       How it works
     </h3>
     
@@ -158,7 +158,7 @@ export default function EVCharging() {
     </div>
     
     <div className="flex items-center justify-center lg:my-10 xl:my-24">
-      <Image src="/arrow-left.png" className="hidden md:block md:w-1/4" alt="Arrow left" width={100} height={100} />
+      <Image src="/arrow-left.png" className="hidden md:block  md:w-1/4" alt="Arrow left" width={100} height={100} />
       <div className="md:basis-1/2 xl:basis-1/3 md:pl-12 my-7 md:my-0">
         <Image src="/graph-i.png" alt="Peak hours" width={60} height={60} />
         <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">Peak hours</h4>

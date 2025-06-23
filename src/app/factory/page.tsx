@@ -4,17 +4,25 @@ import Image from 'next/image';
 
 const SmartFactoryPage = () => {
   const features = [
+     {
+      number: "01",
+      title: "Industrial Energy Management",
+      description: "Monitor energy consumption across your facility down to the individual machine level. Identify inefficiencies, optimize usage during peak and off-peak hours, and significantly reduce your factory's energy costs and carbon footprint.",
+      image: "/images.jpg"  
+    },
     {
-      number: "01", 
+      number: "02", 
+      title: "Data Reporting",
+      description: "The Industrial Energy Management not only tracks detailed energy consumption, but also the carbon footprint of our devices. It can visualise how different strategies affect usage making for seamless integration into, or a basis for, your ESG reporting strategy.",
+      image: "/energy.png"
+    },
+    
+  
+    {
+      number: "03", 
       title: "Unified Operations Dashboard",
       description: "Gain a centralized, real-time view of your entire manufacturing process. Monitor key performance indicators (KPIs), track production targets, and make data-driven decisions from a single, intuitive interface.",
       image: "/analytics.jpg"
-    },
-    {
-      number: "02",
-      title: "Predictive Maintenance", 
-      description: "Leverage AI-powered sensors on your critical machinery to predict potential failures before they happen. Schedule maintenance proactively, minimise unplanned downtime, and extend the lifespan of your equipment.",
-      image: "/sensor.jpg"
     },
     // {
     //   number: "03",
@@ -22,18 +30,14 @@ const SmartFactoryPage = () => {
     //   description: "Implement high-speed vision systems and AI algorithms to inspect products in real-time. Detect defects, ensure consistency, and reduce waste, maintaining the highest quality standards automatically.",
     //   image: "/robotic_arm.jpg"
     // },
-    {
-      number: "03",
-      title: "Industrial Energy Management",
-      description: "Monitor energy consumption across your facility down to the individual machine level. Identify inefficiencies, optimize usage during peak and off-peak hours, and significantly reduce your factory's energy costs and carbon footprint.",
-      image: "/images.jpg"  
+      {
+      number: "04",
+      title: "Predictive Maintenance", 
+      description: "Leverage AI-powered sensors on your critical machinery to predict potential failures before they happen. Schedule maintenance proactively, minimise unplanned downtime, and extend the lifespan of your equipment.",
+      image: "/sensor.jpg"
     },
-    {
-      number: "04", 
-      title: "Data Reporting",
-      description: "The Industrial Energy Management not only tracks detailed energy consumption, but also the carbon footprint of our devices. It can visualise how different strategies affect usage making for seamless integration into, or a basis for, your ESG reporting strategy.",
-      image: "/energy.png"
-    },
+   
+    
     // {
     //   number: "06",
     //   title: "Enhanced Workforce Safety",
@@ -54,13 +58,14 @@ const SmartFactoryPage = () => {
     { feature: "Safety Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
     { feature: "ESG Reporting", basic: false, pro: false, enterprise: true },
+    { feature: "Automation Integration", basic: false, pro: false, enterprise: true },
     { feature: "API Access", basic: false, pro: false, enterprise: true },
     { feature: "Dedicated Support", basic: false, pro: true, enterprise: true }
   ];
 
   const planData = [
     { feature: "Number of Machines", basic: "16", pro: "16", enterprise: "16" },
-    { feature: "Date Visualization", basic: "1 Year", pro: "3 Year", enterprise: "5 year+" },
+    { feature: "Data Visualization", basic: "3 Year", pro: "5 Year", enterprise: "10 year+" },
     { feature: "User Accounts", basic: "1", pro: "3", enterprise: "Unlimited" },
     { feature: "Update Frequency", basic: "Daily", pro: "Hourly", enterprise: "Instantly" }
   ];
@@ -72,7 +77,7 @@ const SmartFactoryPage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-6xl mt-20 text-gray-700 md:text-8xl font-extralight mb-6 tracking-tight">
-              <span className="text-green-500 font-extralight">FUTURE</span> OF PRODUCTION
+              <span className="text-green-500 font-extralight">SMART</span> FACTORY
             </h1>
             <p className="text-gray-600 max-w-6xl mx-auto text-2xl leading-relaxed">
               Our integrated platform provides a unified view of your entire production floor, turning data into actionable insights that drive efficiency, productivity, and growth.
@@ -104,8 +109,8 @@ const SmartFactoryPage = () => {
             <div>
               <h2 className="text-4xl md:text-5xl font-light leading-tight tracking-tight text-gray-900">
                 EMBRACE<br />
-                OPERATIONAL<br />
-                <span className="text-green-500">INTELLIGENCE</span>
+               <span className="text-green-500"> OPERATIONAL </span><br />
+                INTELLIGENCE
               </h2>
             </div>
 
@@ -334,7 +339,7 @@ const SmartFactoryPage = () => {
   <div className="bg-white rounded-xl shadow-sm overflow-hidden">
     <div className="grid grid-cols-4 gap-px bg-gray-200">
       <div className="bg-gray-100 p-4"></div>
-      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Basic</div>
+      <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Starter</div>
       <div className="bg-white text-gray-700 hover:text-white hover:bg-green-600 p-4 text-center font-medium">Pro</div>
       <div className="bg-white text-gray-700 p-4 text-center hover:text-white hover:bg-green-600 font-medium">Enterprise</div>
       
@@ -393,12 +398,21 @@ const SmartFactoryPage = () => {
       </section> */}
 
       {/* Closing Section */}
-      <section className="py-20 px-4 bg-white"> 
+      <section className="py-20 px-4 bg-white">
+
+        <div className="text-center mb-12">
+    <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
+      ENERGY <span className="text-emerald-500">EFFICIENCY REWARDS</span>
+    </h2>
+    <p className="text-gray-600 max-w-7xl mx-auto text-xl md:text-2xl leading-relaxed">
+Start powering your business into a smarter and more sustainable future. Earn rewards whilst your reducing consumption, and creating cleaner zero-zones for future generations.    </p>
+  </div>
+
         <div className="max-w-7xl mx-auto text-center">
           <h3 className="text-5xl text-gray-700 font-light mb-6">
             Powering the <span className='text-green-500'>Future of Production</span>
           </h3>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-gray-600 text-xl md:text-2xl  leading-relaxed">
             In today&apos;s competitive landscape, manufacturing excellence demands more than just automation. It requires intelligence. Power&apos;s Smart Factory solutions transform your production facility into a connected, data-driven environment, unlocking unprecedented levels of efficiency, productivity, and operational insight. Move beyond traditional manufacturing and embrace the future of industry.
           </p>
         </div>

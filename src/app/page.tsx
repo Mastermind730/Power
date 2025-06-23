@@ -31,10 +31,10 @@ const EnergyLandingPage = () => {
       <section className="pt-24  mt-20 bg-gradient-to-r from-green-50 to-emerald-50 pb-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-6xl md:text-8xl mt-10 font-extralight text-gray-900 mb-8 leading-tight">
-            EMBRACE ENERGY
+            Embrace 
             <br />
             <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">
-              UNIFICATION
+             Energy Unification
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
@@ -77,13 +77,13 @@ const EnergyLandingPage = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-5xl font-light text-gray-900 mb-6 leading-tight">
-                  Innovative Energy
+                  Innovative <span className="text-green-500">Energy</span>
                   <br />
                   <span className="text-green-500">Intelligence</span>
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
                   Power&apos;s innovative approach integrates energy intelligence, unification, and intervention 
-                  in a single platform. Providing a seamless and comprehensive experience for consumers 
+                  in a single platform. This provides a seamless and comprehensive experience for consumers 
                   to manage their energy usage, utilities accounts, and electric vehicle charging.
                 </p>
                 {/* <p className="text-lg text-gray-500 leading-relaxed">
@@ -110,7 +110,7 @@ const EnergyLandingPage = () => {
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 The unique ability to control energy usage down to the appliance and device level sets it apart from other 
-                energy management solutions . This level of granular control allows consumers to optimize their energy usage,
+                energy management solutions.This level of granular control allows consumers to optimize their energy usage,
                   identify energy-hungry devices, and make data-driven decisions to reduce their energy consumption.
                 </p>
               </div>

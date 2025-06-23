@@ -306,7 +306,7 @@ export default function PowerApplication() {
                 {/* Mobile Image with 3D Effect */}
                 <div className="flex justify-center lg:justify-around">
               <div className="relative">
-                <div className="w-80 h-[640px] p-3 rounded-[3rem]  overflow-hidden">
+                <div className="w-80 h-[640px] p-3 rounded-[3rem] shadow-2xl  overflow-hidden">
                   <Image
                     src="/app6.png" // Replace with your actual mobile dashboard image
                     alt="Energy dashboard mobile app showing usage statistics"
