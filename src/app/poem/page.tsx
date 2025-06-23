@@ -42,10 +42,10 @@ export default function PurposePoem() {
             </p>
             
             <p className="text-base md:text-lg font-light mt-10">
-              Mournfully, whilst saving his friend out of a river, Paul fell in,
+              Mournfully, whilst saving his friend out of a river, 
             </p>
             <p className="text-base md:text-lg font-light">
-              and sadly passed away.
+             Paul fell in, and sadly passed away.
             </p>
             
             <p className="text-base md:text-lg font-light mt-10">
