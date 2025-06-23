@@ -97,38 +97,11 @@ As a graphic designer, Lala has a keen eye for aesthetics and a deep understandi
     title: '  Adviser',
     image: '/partha.jpg',
     imagePosition: 'left',
-    content: `Partha Dip Mahanta is an accomplished board adviser, spacecraft controller,
-licenced aircraft certifier and founder with a proven record of controlling critical
-space, managing aviation and innovative business operations. Based in the UK,
-he has provided strategic advisory services to a diverse range of clients—from UK
-government bodies in countries such as Switzerland to startup ventures across
-industries including energy, fashion and décor. His active memberships in the
-Institute of Directors (UK), the European Centre for Space Economy and
-Commerce and the Royal Aeronautical Society further illustrate his commitment to
-leadership and innovation.
+    content: `Partha Dip Mahanta is an accomplished board adviser, spacecraft controller,licenced aircraft certifier and founder with a proven record of controlling criticaspace, managing aviation and innovative business operations. Based in the UK,he has provided strategic advisory services to a diverse range of clients—from UKgovernment bodies in countries such as Switzerland to startup ventures acrossindustries including energy, fashion and décor. His active memberships in theInstitute of Directors (UK), the European Centre for Space Economy andCommerce and the Royal Aeronautical Society further illustrate his commitment toleadership and innovation.
 
-His qualifications include over two dozen training and workshops at the European
-Space Agency, DLR Germany, Goonhilly Earth Station, Universities of London,
-Southampton and Edinburgh in the space sector; Luiss Business School-
-Amsterdam, EPFL, ESSEC Business School, the University of Geneva, MIT and
-Yale University in specialised business and finance sector. Complementing this
-robust training, he has earned a MSc in Air Transport Operations and
-Management and a BEng in Aircraft Engineering from UHI developed in
-partnership with AST, the world’s oldest aviation maintenance organisation, holds
-former EASA and current UK CAA B1 and B3 aircraft licences and multiple
-European Space Agency ECSS certifications. His continuous professional
-development further includes investment banking virtual training with JP Morgan
-and Bank of America.
+His qualifications include over two dozen training and workshops at the European Space Agency, DLR Germany, Goonhilly Earth Station, Universities of London,Southampton and Edinburgh in the space sector; Luiss Business School-Amsterdam, EPFL, ESSEC Business School, the University of Geneva, MIT and Yale University in specialised business and finance sector. Complementing this robust training, he has earned a MSc in Air Transport Operations and Management and a BEng in Aircraft Engineering from UHI developed in partnership with AST, the world’s oldest aviation maintenance organisation, holds former EASA and current UK CAA B1 and B3 aircraft licences and multiple European Space Agency ECSS certifications. His continuous professional development further includes investment banking virtual training with JP Morgan and Bank of America.
 
-Guided by a deep commitment to advancing the greater good of humanity, Partha
-brings a unique blend of technical precision and strategic vision to his endeavours.
-As a board adviser, he leverages his extensive experience to optimise operational
-performance enhancing shareholder value. By integrating technical proficiency
-with creative and strategic foresight, he consistently seeks to deliver
-transformative value—empowering boards to tackle complex challenges, drive
-operational excellence and secure long-term, sustainable growth. He relentlessly
-pursues opportunities that resonate with his core values, aiming to make a
-meaningful and lasting impact through his service.`
+Guided by a deep commitment to advancing the greater good of humanity, Partha brings a unique blend of technical precision and strategic vision to his endeavours. As a board adviser, he leverages his extensive experience to optimise operational performance enhancing shareholder value. By integrating technical proficiency with creative and strategic foresight, he consistently seeks to deliver transformative value—empowering boards to tackle complex challenges, drive operational excellence and secure long-term, sustainable growth. He relentlessly pursues opportunities that resonate with his core values, aiming to make a meaningful and lasting impact through his service.`
   },
   {
     id: 2,

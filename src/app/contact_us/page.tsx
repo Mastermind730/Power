@@ -23,10 +23,10 @@ export default function ContactPage() {
       <div className=" rounded-lg shadow-sm p-16 w-full h-full">
         {/* Header - Kept exactly the same */}
         <div className="flex items-center mb-20">
-          <div className="text-5xl flex font-light text-gray-700 mb-3">
+          <div className="text-7xl flex font-light text-gray-700 mb-3">
             SAY <span className="text-green-500 font-normal ml-2">HELLO</span>
           </div>
-          <p className="text-gray-400 text-xs tracking-widest uppercase leading-relaxed px-4">
+          <p className="text-gray-400 text-lg tracking-widest uppercase leading-relaxed px-4">
             WE WOULD LOVE TO HEAR FROM YOU. DROP US A LINE AND WE&apos;LL GET BACK TO YOU.
           </p>
         </div>
@@ -100,7 +100,7 @@ export default function ContactPage() {
           <div className="flex justify-center pt-8">
             <button
               type="submit"
-              className="bg-gray-800 hover:bg-gray-700 text-green-500 font-medium text-xs tracking-widest uppercase px-8 py-2 rounded-full border border-gray-300 transition-colors duration-200"
+              className="bg-gray-800 hover:bg-gray-700 text-green-500 font-medium text-xs tracking-widest uppercase px-8 py-5 rounded-full border border-gray-300 transition-colors duration-200"
             >
               CONTACT US
             </button>
