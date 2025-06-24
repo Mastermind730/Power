@@ -49,7 +49,7 @@ const TeamPage = () => {
 
 Throughout his academic career, he has applied his data analysis skills to tackle a wide variety of complex problems and projects. Notably, he has investigated Higgs Boson decays and Top Quark jet structure at the ATLAS Experiment at CERN, characterised silicon wafer and pixel technology, designed and optimized computing farm layouts, and developed simulations to investigate operational carbon reduction measures.
 
-Dwayne is also interested in making sure knowledge is accessible to all walks of life. He often organises and participates in outreach events, sharing his knowledge, passion, and expertise with others. In addition, for the past four years, he has played a pivotal role in designing, shaping, and managing the James McCune Smith Scholarships at the University of Glasgow, which aim to address the underrepresentation of Black British students at the postgraduate level and create a vibrant and connected Black academic community both on campus and more widely.`
+Dwayne is also interested in making sure knowledge is accessible to all walks of life. He often organises and participates in outreach events, sharing his knowledge, passion, and expertise with others. Since 2021 he has played a pivotal role in designing, shaping, and managing the James McCune Smith Scholarships at the University of Glasgow, which aim to address the underrepresentation of Black British students at the postgraduate level and create a vibrant and connected Black academic community both on campus and more widely.`
   },
   {
   id: 3,
