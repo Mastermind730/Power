@@ -62,7 +62,7 @@ const Pillars = () => {
                 Monitor and manage every device, track consumption patterns, and optimize 
                 energy flows across your entire property.
               </p>
-              <ul className="space-y-4 flex flex-col">
+              <ul className="space-y-4 flex font-semibold flex-col">
                 <li className="flex items-center">
                   <div className="flex-shrink-0 mt-1">
                     <div className="w-8 h-8  rounded-full flex items-center justify-center">
@@ -71,7 +71,7 @@ const Pillars = () => {
                   </div>
                   <p className="ml-3 text-gray-600">Centralized control for all energy devices</p>
                 </li>
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <div className="flex-shrink-0 mt-1">
                    <div className="w-8 h-8  rounded-full flex items-center justify-center">
     <Cable  className="w-7 h-7 text-green-500" />
@@ -79,7 +79,7 @@ const Pillars = () => {
                   </div>
                   <p className="ml-3 text-gray-600">Real-time energy flow visualization</p>
                 </li>
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <div className="flex-shrink-0 mt-1">
                     <div className="w-8 h-8  rounded-full flex items-center justify-center">
     <Workflow className="w-7 h-7 text-green-500" />

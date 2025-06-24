@@ -44,20 +44,22 @@ const SmartHomePage = () => {
     // }
   ];
 
+
+
   const comparisonData = [
     { feature: "EI  Sensors", essential: true, light: true, trinity: true },
     { feature: "Hub", essential: true, light: true, trinity: true },
     { feature: "Air Quality Sensor", essential: false, light: true, trinity: true },
+        { feature: "Smart Smoke Detectors", essential: false, light: true, trinity: true },
+        { feature: "Humidity Sensor", essential: false, light: true, trinity: true },
+        { feature: "Smart Radiator Valves", essential: false, light: true, trinity: true },
+        { feature: "Smart Light Bulbs", essential: false, light: true, trinity: true },
+        { feature: "Water Leak Detection", essential: false, light: false, trinity: true },
+        { feature: "Smart Water Value", essential: false, light: false, trinity: true },
+        { feature: "Temperature Sensor", essential: false, light: false, trinity: true },
     { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
-    { feature: "Water Leak Detection", essential: false, light: false, trinity: true },
-    { feature: "Temperature Sensor", essential: false, light: false, trinity: true },
-    { feature: "Humidity Sensor", essential: false, light: true, trinity: true },
-    { feature: "Smart Light Bulbs", essential: false, light: true, trinity: true },
-    { feature: "Smart Radiator Valves", essential: false, light: true, trinity: true },
     { feature: "Window Sensors", essential: false, light: false, trinity: true },
     { feature: "Occupancy Sensors", essential: false, light: false, trinity: true },
-    { feature: "Smart Water Value", essential: false, light: false, trinity: true },
-    { feature: "Smart Smoke Detectors", essential: false, light: true, trinity: true },
     // { feature: "Smart Plugs", essential: false, light: false, trinity: true }
   ];
 
@@ -411,7 +413,7 @@ const SmartHomePage = () => {
     Contact us for more information<br />
     <span className="text-emerald-500 font-medium">Pre-order coming soon</span> */}
    <div className='w-full flex flex-col items-center justify-center py-8 px-4'>
-  <p className='text-3xl font-light text-gray-800 mb-6'>Discover More</p>
+  <p className='text-4xl font-extralight text-gray-800 mb-6'>Discover More</p>
   <Link 
     href={"https://clover.energy/"} 
     className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center max-w-xs"

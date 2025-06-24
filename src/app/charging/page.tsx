@@ -155,9 +155,14 @@ export default function EVCharging() {
           these lower rates to charge your vehicles during off-peak hours.
         </p>
       </div>
+
     </div>
+    <div className="hidden md:flex items-center justify-center self-start  mx-4">
+        <Image src="/arrow-right.png" alt="Arrow right" width={100} height={100} className="hidden md:block md:w-1/4" />
+      </div>
+            {/* <Image src="/arrow-right.png" className="hidden md:block   md:w-1/4" alt="Arrow right" width={100} height={100} /> */}
     
-    <div className="flex items-center justify-center lg:my-10 xl:my-24">
+    <div className="flex items-end gap-32 justify-center lg:my-10 xl:my-24">
       <Image src="/arrow-left.png" className="hidden md:block  md:w-1/4" alt="Arrow left" width={100} height={100} />
       <div className="md:basis-1/2 xl:basis-1/3 md:pl-12 my-7 md:my-0">
         <Image src="/graph-i.png" alt="Peak hours" width={60} height={60} />
@@ -190,7 +195,7 @@ export default function EVCharging() {
         {/* Benefits Section */}
         <section className="px-6 md:px-8 lg:px-10 xl:px-12 py-16 lg:py-32">
           <div className="max-w-4xl mx-auto mb-16">
-            <h3 className="text-green-500 font-normal text-3xl md:text-4xl uppercase text-center">
+            <h3 className="text-green-500 font-normal text-[25px] md:text-[52px] lg:text-[60px] uppercase text-center">
               Key Benefits
             </h3>
           </div>
