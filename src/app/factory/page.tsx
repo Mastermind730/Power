@@ -376,9 +376,9 @@ const SmartFactoryPage = () => {
 </div>
 <div className="flex flex-col items-center p-6 sm:p-10 space-y-4">
     <p className="text-gray-600 text-4xl text-center">Join the wait list </p>
-    <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
+    <Link href={"/smart_factory"} className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center">
       Pre-Order Now
-    </button>
+    </Link>
   </div>
         </div>
       </section>
@@ -407,9 +407,7 @@ const SmartFactoryPage = () => {
     </h2>
     <p className="text-gray-600 max-w-7xl mx-auto text-xl md:text-2xl leading-relaxed">
 Start powering your business into a smarter and more sustainable future. Earn rewards whilst your reducing consumption, and creating cleaner air-zones for future generations.    </p>
-  </div>
-
-  <div className='w-full flex flex-col items-center justify-center py-8 px-4'>
+ <div className='w-full flex flex-col items-center justify-center py-8 px-4'>
   <p className='text-4xl font-extralight text-gray-800 mb-6'>Discover More</p>
   <Link
     href={"https://clover.energy/"} 
@@ -418,6 +416,9 @@ Start powering your business into a smarter and more sustainable future. Earn re
     Go to Clover
   </Link>
 </div>
+  </div>
+
+  
 
         <div className="max-w-7xl mt-20 mx-auto text-center">
           <h3 className="text-5xl text-gray-700 font-light mb-6">
