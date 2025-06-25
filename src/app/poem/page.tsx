@@ -55,7 +55,7 @@ export default function PurposePoem() {
               of connection, and the remembrance of one life.
             </p>
             
-            <p className="text-base md:text-lg font-medium mt-40">
+            <p className="text-base md:text-lg font-medium mt-44">
               This is my brother&apos;s genesis.
             </p>
 

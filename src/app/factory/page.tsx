@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check, X } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const SmartFactoryPage = () => {
   const features = [
@@ -52,15 +53,15 @@ const SmartFactoryPage = () => {
     { feature: "Energy Savings", basic: true, pro: true, enterprise: true },
     { feature: "Quality Improvement", basic: true, pro: true, enterprise: true },
     { feature: "Remote Monitoring", basic: true, pro: true, enterprise: true },
+    { feature: "Safety Monitoring", basic: true, pro: true, enterprise: true },
     { feature: "Predictive Analytics", basic: false, pro: true, enterprise: true },
+    { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
+    { feature: "Dedicated Support", basic: false, pro: true, enterprise: true },
     { feature: "AI Quality Control", basic: false, pro: false, enterprise: true },
     // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
-    { feature: "Safety Monitoring", basic: true, pro: true, enterprise: true },
-    { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
     { feature: "ESG Reporting", basic: false, pro: false, enterprise: true },
-    { feature: "Automation Integration", basic: false, pro: false, enterprise: true },
     { feature: "API Access", basic: false, pro: false, enterprise: true },
-    { feature: "Dedicated Support", basic: false, pro: true, enterprise: true }
+    { feature: "Automation Integration", basic: false, pro: false, enterprise: true },
   ];
 
   const planData = [
@@ -400,15 +401,25 @@ const SmartFactoryPage = () => {
       {/* Closing Section */}
       <section className="py-20 px-4 bg-white">
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-30">
     <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
       ENERGY <span className="text-emerald-500">EFFICIENCY REWARDS</span>
     </h2>
     <p className="text-gray-600 max-w-7xl mx-auto text-xl md:text-2xl leading-relaxed">
-Start powering your business into a smarter and more sustainable future. Earn rewards whilst your reducing consumption, and creating cleaner zero-zones for future generations.    </p>
+Start powering your business into a smarter and more sustainable future. Earn rewards whilst your reducing consumption, and creating cleaner air-zones for future generations.    </p>
   </div>
 
-        <div className="max-w-7xl mx-auto text-center">
+  <div className='w-full flex flex-col items-center justify-center py-8 px-4'>
+  <p className='text-4xl font-extralight text-gray-800 mb-6'>Discover More</p>
+  <Link
+    href={"https://clover.energy/"} 
+    className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md w-full sm:w-auto text-center max-w-xs"
+  >
+    Go to Clover
+  </Link>
+</div>
+
+        <div className="max-w-7xl mt-20 mx-auto text-center">
           <h3 className="text-5xl text-gray-700 font-light mb-6">
             Powering the <span className='text-green-500'>Future of Production</span>
           </h3>
