@@ -89,7 +89,7 @@ WE&apos;RE EXCITED TO HEAR FROM YOU AND ASSIST IN ANY WAY WE CAN          </p>
           <div className="flex justify-center pt-8">
             <button
               type="submit"
-              className="bg-gray-800 hover:bg-gray-700 text-green-500 font-medium text-xs tracking-widest uppercase px-8 py-6 rounded-full border border-gray-300 transition-colors duration-200"
+              className="bg-green-600 hover:bg-green-500 text-white font-medium text-xs tracking-widest uppercase px-8 py-6 rounded-full border border-gray-300 transition-colors duration-200"
             >
               Get Notified
             </button>
