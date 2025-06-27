@@ -21,8 +21,10 @@ export default function EVCharging() {
       {/* Left Column - Heading */}
       <div className="lg:w-1/2">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-extralight leading-tight">
-          <span className="text-gray-700">Embrace</span>{' '}
-          <span className="text-green-500">EI Charging</span>
+          <span className="text-gray-700">Embrace </span>{' '}
+                    <span className="text-green-500">Intelligent </span>{' '}
+
+          <span className="text-green-500"> Charging</span>
         </h1>
       </div>
       
@@ -142,51 +144,86 @@ export default function EVCharging() {
     <h3 className="text-gray-700 font-normal text-[25px] md:text-[52px] lg:text-[60px] md:text-center uppercase mb-5 md:mb-8 lg:mb-20">
       How it works
     </h3>
-    
-    <div className="flex items-start justify-start">
-      <div className="md:basis-1/2 xl:basis-1/3">
-        <Image src="/clock.png" alt="Off-peak hours" width={60} height={60} />
-        <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">
-          Off-peak hours
-        </h4>
-        <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
-          When the charging hub is quiet, the price per kWh drops, making it
-          more affordable for you to charge your vehicles. Take advantage of
-          these lower rates to charge your vehicles during off-peak hours.
-        </p>
+
+    {/* Staircase Container */}
+    <div className="relative">
+      {/* First step - top left */}
+      <div className="flex mb-24 md:mb-32">
+        <div className="md:w-1/2 lg:w-2/5">
+          <Image src="/clock.png" alt="Off-peak hours" width={60} height={60} />
+          <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">
+            Off-peak hours
+          </h4>
+          <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
+            When the charging hub is quiet, the price per kWh drops, making it
+            more affordable for you to charge your vehicles. Take advantage of
+            these lower rates to charge your vehicles during off-peak hours.
+          </p>
+        </div>
+        <div className="hidden md:flex items-center absolute left-[50%] top-[15%]">
+          <Image 
+            src="/arrow-right.png" 
+            alt="Arrow right" 
+            width={200} 
+            height={150} 
+            className="w-36 lg:w-44 filter brightness-0 contrast-150" 
+          />
+        </div>
       </div>
 
-    </div>
-    <div className="hidden md:flex items-center justify-center self-start  mx-4">
-        <Image src="/arrow-right.png" alt="Arrow right" width={100} height={100} className="hidden md:block md:w-1/4" />
+      {/* Second step - middle center */}
+      <div className="flex justify-center mb-24 md:mb-32">
+        <div className="hidden md:flex items-center absolute left-[10%] top-[45%]">
+          <Image 
+            src="/arrow-left.png" 
+            alt="Arrow left" 
+            width={180} 
+            height={100} 
+            className="w-36 lg:w-44 filter brightness-0 contrast-150" 
+          />
+        </div>
+        <div className="md:w-1/2 lg:w-2/5 mx-auto">
+          <Image src="/graph-i.png" alt="Peak hours" width={60} height={60} />
+          <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">Peak hours</h4>
+          <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
+            As the charging hub becomes busier, the price per kWh adjusts
+            accordingly. This ensures that you&apos;re always getting a fair deal and
+            not paying more than you need too.
+          </p>
+        </div>
+        <div className="hidden md:flex items-center absolute left-[75%] top-[55%]">
+          <Image 
+            src="/arrow-right.png" 
+            alt="Arrow right" 
+            width={180} 
+            height={100} 
+            className="w-36 lg:w-44 filter brightness-0 contrast-150" 
+          />
+        </div>
       </div>
-            {/* <Image src="/arrow-right.png" className="hidden md:block   md:w-1/4" alt="Arrow right" width={100} height={100} /> */}
-    
-    <div className="flex items-end gap-32 justify-center lg:my-10 xl:my-24">
-      <Image src="/arrow-left.png" className="hidden md:block  md:w-1/4" alt="Arrow left" width={100} height={100} />
-      <div className="md:basis-1/2 xl:basis-1/3 md:pl-12 my-7 md:my-0">
-        <Image src="/graph-i.png" alt="Peak hours" width={60} height={60} />
-        <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">Peak hours</h4>
-        <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
-          As the charging hub becomes busier, the price per kWh adjusts
-          accordingly. This ensures that you&apos;re always getting a fair deal and
-          not paying more than you need too.
-        </p>
-      </div>
-      <Image src="/arrow-right.png" className="hidden md:block md:w-1/4 -ml-32 -mt-32" width={100} height={100} alt="Arrow right" />
-    </div>
-    
-    <div className="flex items-center justify-end">
-      <div className="md:basis-1/2 xl:basis-1/3">
-        <Image src="/energy-i.png" alt="Real-time adjustments" width={60} height={60} />
-        <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">
-          Real-time adjustments
-        </h4>
-        <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
-          Our AI algorithm continuously monitors your energy usage and adjusts
-          the price in real-time. This means you&apos;ll never have to worry about
-          surprise bills or hidden fees again.
-        </p>
+
+      {/* Third step - bottom right */}
+      <div className="flex justify-end">
+        <div className="hidden md:flex items-center absolute left-[30%] top-[85%]">
+          <Image 
+            src="/arrow-left.png" 
+            alt="Arrow left" 
+            width={180} 
+            height={100} 
+            className="w-36 lg:w-44 filter brightness-0 contrast-150" 
+          />
+        </div>
+        <div className="md:w-1/2 lg:w-2/5">
+          <Image src="/energy-i.png" alt="Real-time adjustments" width={60} height={60} />
+          <h4 className="font-semibold text-[20px] md:text-[24px] lg:text-[32px] text-gray-800 py-5">
+            Real-time adjustments
+          </h4>
+          <p className="text-gray-500 text-[14px] md:text-[16px] lg:text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px]">
+            Our AI algorithm continuously monitors your energy usage and adjusts
+            the price in real-time. This means you&apos;ll never have to worry about
+            surprise bills or hidden fees again.
+          </p>
+        </div>
       </div>
     </div>
   </div>

@@ -24,7 +24,7 @@ export default function PurposePoem() {
         {/* Main Content */}
         <div className="max-w-2xl w-full text-center space-y-8">
           {/* Large P */}
-       <div className="text-6xl md:text-7xl font-light text-gray-400 mb-18">
+       <div className="text-6xl md:text-7xl font-extralight text-gray-400 mb-18">
   <span className="border-b-2 border-gray-400 pb-1">p</span>
 </div>
 
@@ -55,13 +55,13 @@ export default function PurposePoem() {
               of connection, and the remembrance of one life.
             </p>
             
-            <p className="text-base md:text-lg font-medium mt-44">
-              This is my brother&apos;s genesis.
-            </p>
+            <p className="text-base md:text-lg font-medium mt-52 md:mt-60">
+  This is my brother&apos;s genesis.
+</p>
 
-              <p className="text-2xl mt-60 mb-50 font-light text-gray-500">
-              This is  Paul&apos;s genesis.
-            </p>
+<p className="text-2xl mt-72 md:mt-80 mb-60 md:mb-72 font-light text-gray-500">
+  This is Paul&apos;s genesis.
+</p>
 
           </div>
 

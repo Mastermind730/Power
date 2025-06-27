@@ -57,10 +57,11 @@ const SmartFactoryPage = () => {
     { feature: "Predictive Analytics", basic: false, pro: true, enterprise: true },
     { feature: "Custom Reporting", basic: false, pro: true, enterprise: true },
     { feature: "Dedicated Support", basic: false, pro: true, enterprise: true },
+        { feature: "API Access", basic: false, pro: true, enterprise: true },
+
     { feature: "AI Quality Control", basic: false, pro: false, enterprise: true },
     // { feature: "Supply Chain Integration", basic: false, pro: false, enterprise: true },
     { feature: "ESG Reporting", basic: false, pro: false, enterprise: true },
-    { feature: "API Access", basic: false, pro: false, enterprise: true },
     { feature: "Automation Integration", basic: false, pro: false, enterprise: true },
   ];
 
@@ -110,8 +111,8 @@ const SmartFactoryPage = () => {
             <div>
               <h2 className="text-4xl md:text-5xl font-light leading-tight tracking-tight text-gray-900">
                 EMBRACE<br />
-               <span className="text-green-500"> OPERATIONAL </span><br />
-                INTELLIGENCE
+               <span className="text-green-500"> OPERATIONAL <br />
+                INTELLIGENCE</span>
               </h2>
             </div>
 

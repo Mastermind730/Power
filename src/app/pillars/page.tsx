@@ -319,9 +319,9 @@ const Pillars = () => {
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Geo-Fencing</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Set Guidelines</h3>
                   <p className="text-gray-600">
-Automatically adjust device settings when you are leaving or arriving home                  </p>
+Automatically adjust appliance and  device settings when you are leaving or arriving home                  </p>
                 </div>
               </div>
               <p className="text-lg text-gray-500 leading-relaxed">

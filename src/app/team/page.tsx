@@ -32,11 +32,10 @@ const TeamPage = () => {
 
     Alexander holds a single GCSE in mathematics and a BTEC in Automotive Engineering has a great vision for the future and infinite appetite for scientific knowledge around the worlds health, technical innovations and trends.
     He engages with his local community to make a positive impact .
-    Alexander is always looking for new opportunities to get involved and make a difference.
+    Alexander is always looking for new opportunities to get involved and
+     make a difference.
 
-    With a professional background that includes serving as Commercial Director at Alfa Power and founding different sustainibilty companies.
-    Alexander demonstrates his entreprenurial sprint and commitment to leave a positive impact. His dedication to personal and professional development is evident in his efforts to learn Arabic and Portugese,
-    recognising the importance of language skills in international business.`
+    With a professional background that includes serving as Commercial Director at Alfa Power and founding different sustainibilty companies. Alexander demonstrates his entreprenurial sprint and commitment to leave a positive impact. His dedication to personal and professional development is evident in his efforts to learn Arabic and Portugese, recognising the importance of language skills in international business.`
 
   },
   {
@@ -181,7 +180,7 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-    <div className="bg-green-50 py-12 md:py-20 min-h-[570px] flex items-center">
+<div className="bg-green-50 py-16 md:py-24 lg:py-32 min-h-[570px] flex items-center">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
     <h1 className="text-4xl sm:text-5xl lg:text-6xl mt-15 font-extralight text-gray-900 flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-3">
       <span>One</span>
@@ -189,17 +188,16 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
       <span>Team</span>
     </h1>
     
-    <div className="mt-6 md:mt-8 mx-auto max-w-3xl lg:max-w-4xl xl:max-w-5xl">
+    <div className="mt-8 md:mt-10 mx-auto max-w-3xl lg:max-w-4xl xl:max-w-5xl">
       <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-600 leading-relaxed sm:leading-relaxed md:leading-relaxed">
         At Power, our success is driven by a diverse team of passionate innovators, engineers, and industry experts who are dedicated to revolutionizing the energy sector. Each member of our team brings unique expertise and a commitment to excellence, working collaboratively to develop cutting-edge solutions that lead the way in sustainable energy management.
       </p>
-      <p className="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-600 leading-relaxed sm:leading-relaxed md:leading-relaxed">
+      <p className="mt-6 sm:mt-7 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-600 leading-relaxed sm:leading-relaxed md:leading-relaxed">
         We believe in fostering a culture of continuous learning, creativity and integrity, where every idea is valued and every challenge is met with determination. Together, we&apos;re not just building technology — we&apos;re shaping the future of energy.
       </p>
     </div>
   </div>
 </div>
-
       {/* Tabs Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="border-b border-gray-200">

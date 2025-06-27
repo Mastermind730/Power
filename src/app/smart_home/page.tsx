@@ -109,8 +109,8 @@ const SmartHomePage = () => {
   <div>
     <h2 className="text-4xl md:text-5xl font-light leading-tight tracking-tight text-gray-900">
       EMBRACE<br />
-      ENERGY<br />
-      <span className="text-emerald-500">INTELLIGENCE</span>
+   <span className="text-emerald-500">   ENERGY<br />
+      INTELLIGENCE</span>
     </h2>
   </div>
 

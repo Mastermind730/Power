@@ -26,7 +26,7 @@ export default function ContactPage() {
           <div className="text-6xl flex font-light text-gray-700 mb-15">
             Coming <span className="text-green-500 font-extralight ml-2">Soon</span>
           </div>
-          <p className="text-gray-400 mb-13 text-2xl ml-8 tracking-widest uppercase leading-relaxed px-4">
+          <p className="text-gray-400 mb-13 text-xl ml-8 tracking-widest uppercase leading-relaxed px-4">
 WE&apos;RE EXCITED TO HEAR FROM YOU AND ASSIST IN ANY WAY WE CAN          </p>
         </div>
 

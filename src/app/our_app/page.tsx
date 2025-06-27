@@ -251,7 +251,7 @@ export default function PowerApplication() {
                     alt="Energy dashboard mobile app showing usage statistics"
                     width={320}
                     height={640}
-                    className="w-full h-full p-2 rounded-2xl object-cover"
+                    className="w-full h-full p-2 rounded-4xl object-cover"
                     quality={100}
                   />
                 </div>
