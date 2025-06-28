@@ -27,6 +27,11 @@ const inter = Sofia_Sans({
 export const metadata: Metadata = {
   title: "Power",
   description: "Power | Clover",
+  // icons: {
+  //           icon: [
+  //             { url: '/logo.png' },
+  //           ]
+  //         }
 };
 
 export default function RootLayout({
@@ -36,6 +41,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+     <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png"
+    />
+   
       <body
         className={`${sofiaPro.variable} ${sofiaPro.className}  antialiased`}
         >

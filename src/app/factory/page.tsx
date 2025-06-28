@@ -423,7 +423,7 @@ Start powering your business into a smarter and more sustainable future. Earn re
 
         <div className="max-w-7xl mt-20 mx-auto text-center">
           <h3 className="text-5xl text-gray-700 font-light mb-6">
-            Powering the <span className='text-green-500 uppercase'>Future of Production</span>
+ <span className='text-green-500 uppercase'>Future of Production</span>
           </h3>
           <p className="text-gray-600 text-xl md:text-2xl  leading-relaxed">
             In today&apos;s competitive landscape, manufacturing excellence demands more than just automation. It requires intelligence. Power&apos;s Smart Factory solutions transform your production facility into a connected, data-driven environment, unlocking unprecedented levels of efficiency, productivity, and operational insight. Move beyond traditional manufacturing and embrace the future of industry.
