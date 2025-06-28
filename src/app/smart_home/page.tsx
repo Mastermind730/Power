@@ -77,8 +77,8 @@ const SmartHomePage = () => {
       <section className="bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-6xl mt-15 text-gray-700 md:text-8xl font-extralight mb-6 tracking-tight">
-              SMART <span className="text-emerald-500 font-extralight">HOME</span>
+            <h1 className="text-6xl mt-25 text-gray-700 md:text-8xl font-extralight mb-6 tracking-tight">
+              SMART <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">HOME</span>
             </h1>
             <p className="text-gray-600 max-w-6xl mx-auto text-2xl leading-relaxed">
               Power revolutionises home energy management, integrating seamlessly with your home. It monitors energy usage in real-time, offers AI-driven analytics, and evolves through machine learning.

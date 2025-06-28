@@ -7,8 +7,8 @@ export default function EVChargingPage() {
     <div className="min-h-screen mt-10 bg-white">
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl text-center font-light text-gray-800 leading-tight">
-          BUSINESS & <span className="text-green-400 font-normal">LANDOWNERS</span>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl text-center font-extralight text-gray-800 leading-tight">
+          BUSINESS 
         </h1>
       </div>
 

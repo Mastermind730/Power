@@ -22,9 +22,9 @@ export default function EVCharging() {
       <div className="lg:w-1/2">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-extralight leading-tight">
           <span className="text-gray-700">Embrace </span>{' '}
-                    <span className="text-green-500">Intelligent </span>{' '}
+                    <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">Intelligent </span>{' '}
 
-          <span className="text-green-500"> Charging</span>
+          <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent"> Charging</span>
         </h1>
       </div>
       

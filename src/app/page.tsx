@@ -176,7 +176,7 @@ const EnergyLandingPage = () => {
                 {/* <p className="text-xl text-gray-600 leading-relaxed mb-8">
                   Our AI-assisted intervention capabilities take energy management to the next level by proactively identifying opportunities to reduce carbon emissions.
                 </p> */}
-                <p className="text-lg text-gray-500 leading-relaxed">
+                <p className="text-xl text-gray-500 leading-relaxed">
 This streamlined approach eliminates the need for multiple apps, accounts,  and devices, making it a convenient and 
 user-friendly solution for consumers.
                 </p>

@@ -30,10 +30,7 @@ const TeamPage = () => {
     imagePosition: 'left',
     content: `Alexander is a driven and charismatic individual with a strong passion for sustainibility and driving positive change and innovation.
 
-    Alexander holds a single GCSE in mathematics and a BTEC in Automotive Engineering has a great vision for the future and infinite appetite for scientific knowledge around the worlds health, technical innovations and trends.
-    He engages with his local community to make a positive impact .
-    Alexander is always looking for new opportunities to get involved and
-     make a difference.
+    Alexander holds a single GCSE in mathematics and a BTEC in Automotive Engineering has a great vision for the future and infinite appetite for scientific knowledge around the worlds health, technical innovations and trends. He engages with his local community to make a positive impact . Alexander is always looking for new opportunities to get involved and make a difference.
 
     With a professional background that includes serving as Commercial Director at Alfa Power and founding different sustainibilty companies. Alexander demonstrates his entreprenurial sprint and commitment to leave a positive impact. His dedication to personal and professional development is evident in his efforts to learn Arabic and Portugese, recognising the importance of language skills in international business.`
 
@@ -184,7 +181,7 @@ Raj is also Consulting Editor for 3.0 TV and Digilah, Singapore, and was awarded
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
     <h1 className="text-4xl sm:text-5xl lg:text-6xl mt-15 font-extralight text-gray-900 flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-3">
       <span>One</span>
-      <span className="text-green-600">Connected</span>
+      <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">Connected</span>
       <span>Team</span>
     </h1>
     

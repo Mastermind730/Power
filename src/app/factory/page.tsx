@@ -78,7 +78,7 @@ const SmartFactoryPage = () => {
       <section className="bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-6xl mt-20 text-gray-700 md:text-8xl font-extralight mb-6 tracking-tight">
+            <h1 className="text-6xl mt-25 text-gray-700 md:text-8xl font-extralight mb-6 tracking-tight">
               <span className="text-green-500 font-extralight">SMART</span> FACTORY
             </h1>
             <p className="text-gray-600 max-w-6xl mx-auto text-2xl leading-relaxed">
@@ -404,7 +404,7 @@ const SmartFactoryPage = () => {
 
         <div className="text-center mb-30">
     <h2 className="text-3xl text-gray-600 md:text-5xl font-light mb-4">
-      ENERGY <span className="text-emerald-500">EFFICIENCY REWARDS</span>
+      ENERGY <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">EFFICIENCY </span>REWARDS 
     </h2>
     <p className="text-gray-600 max-w-7xl mx-auto text-xl md:text-2xl leading-relaxed">
 Start powering your business into a smarter and more sustainable future. Earn rewards whilst your reducing consumption, and creating cleaner air-zones for future generations.    </p>
@@ -423,7 +423,7 @@ Start powering your business into a smarter and more sustainable future. Earn re
 
         <div className="max-w-7xl mt-20 mx-auto text-center">
           <h3 className="text-5xl text-gray-700 font-light mb-6">
-            Powering the <span className='text-green-500'>Future of Production</span>
+            Powering the <span className='text-green-500 uppercase'>Future of Production</span>
           </h3>
           <p className="text-gray-600 text-xl md:text-2xl  leading-relaxed">
             In today&apos;s competitive landscape, manufacturing excellence demands more than just automation. It requires intelligence. Power&apos;s Smart Factory solutions transform your production facility into a connected, data-driven environment, unlocking unprecedented levels of efficiency, productivity, and operational insight. Move beyond traditional manufacturing and embrace the future of industry.

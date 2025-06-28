@@ -208,7 +208,7 @@ export default function PowerApplication() {
                   </p>
                   <ul className="text-xl lg:text-2xl text-gray-800 leading-relaxed space-y-4 mb-8">
                     <li className="flex items-center">
-                      <Car className="w-5 h-5 mr-3 text-blue-500" />
+                      <Car className="w-5 h-5 mr-3 text-green-500" />
                       Charge your EV while you&apos;re shopping or running errands
                     </li>
                     <li className="flex items-center">
