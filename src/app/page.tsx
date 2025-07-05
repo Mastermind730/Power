@@ -185,6 +185,19 @@ user-friendly solution for consumers.
           </div>
         </div>
       </section>
+
+ <section className="w-full bg-black flex p-20">
+  <div>
+    <Image
+      src={"/grok.jpg"}
+      alt='grok logo'
+      width={1000}
+      height={500}
+      className='object-fill'
+    />
+  </div>
+</section>
+
     </div>
   );
 };
