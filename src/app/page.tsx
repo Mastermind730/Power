@@ -187,13 +187,13 @@ user-friendly solution for consumers.
       </section>
 
  <section className="w-full bg-black flex p-20">
-  <div>
+  <div className='mt-30 mb-30'>
     <Image
       src={"/grok.jpg"}
       alt='grok logo'
-      width={1000}
+      width={700}
       height={500}
-      className='object-fill'
+      className='object-cover object-center'
     />
   </div>
 </section>
