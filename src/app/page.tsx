@@ -186,7 +186,7 @@ user-friendly solution for consumers.
         </div>
       </section>
 
- <section className="w-full bg-black flex p-20">
+ <section className="w-full flex items-center justify-center bg-black  p-20">
   <div className='mt-30 mb-30'>
     <Image
       src={"/grok.jpg"}
