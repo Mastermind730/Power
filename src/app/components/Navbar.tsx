@@ -104,12 +104,12 @@ export default function Navbar() {
             >
               Charging
             </Link>
-            <Link
+            {/* <Link
               href="/factory"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
             >
               Manufactory
-            </Link>
+            </Link> */}
             <Link
               href="/team"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
@@ -196,7 +196,7 @@ export default function Navbar() {
               { href: "/smart_home", label: "Home" },
 
               { href: "/charging", label: "Charging" },
-              { href: "/factory", label: "Manufactory" },
+              // { href: "/factory", label: "Manufactory" },
               { href: "/team", label: "Team" },
 
               {
