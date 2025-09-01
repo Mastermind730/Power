@@ -26,7 +26,7 @@ const TeamPage = () => {
     id: 1,
     name: 'Alexander Owers',
     title: 'Founder',
-    image: '/alex.png',
+    image: '/new_alex.jpg',
     imagePosition: 'left',
     content: `Alexander is a driven and charismatic individual with a strong passion for sustainibility and driving positive change and innovation.
 
