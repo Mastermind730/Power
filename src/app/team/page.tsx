@@ -133,7 +133,7 @@ Harrison married Angela Copeman in 1981. After their divorce, he married Susan S
     title: '  Adviser',
     image: '/abdul.jpg',
     imagePosition: 'right',
-    content:``
+    content:`ROOTS is the first venture studio in Saudi Arabia with a mission to build ventures that address the most pressing sustainability challenges, through utilizing its resources of capital, knowledge, and network of partners and enablers to create impactful ventures.through utilizing its resources of capital, knowledge, and network of partners and enablers to create impactful ventures.`
   },
 
 ],

@@ -6,12 +6,37 @@
 :root {
   --font-sofia-pro: 'Sofia Pro', sans-serif;
 }
-
-/* Apply Sofia Pro as default font */
-body {
-  font-family: var(--font-sofia-pro);
+/* Hide the Google Translate banner */
+/* Hide the main Google Translate banner and its associated styles */
+/* Hide the Google Translate iframe banner by its ID */
+#\\30 \\.container {
+  display: none !important;
 }
 
+/* Ensure no blank space is left at the top of the body */
+body {
+  top: 0px !important;
+  margin-top: 0px !important;
+}
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Ensure no gap is left at the top of the body element */
+body {
+  top: 0px !important;
+  margin-top: 0px !important;
+}
+
+/* Hide the smaller language chooser gadget that may appear */
+.goog-te-gadget {
+  display: none !important;
+}
+
+/* Hide the 'Powered by Google Translate' link if it appears separately */
+.goog-logo-link {
+  display: none !important;
+}
 /* Utility classes for different weights */
 .font-ultralight { font-weight: 200; }
 .font-extralight { font-weight: 300; }
