@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { LanguageSwitcher } from "./LangSwitcher";
+// ...existing code...
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -143,7 +143,7 @@ export default function Navbar() {
               </svg>
             </Link>
 
-            <LanguageSwitcher/>
+            {/* Removed LanguageSwitcher from Navbar */}
           </div>
 
           {/* Mobile menu section */}

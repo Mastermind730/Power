@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 /* styles/globals.css */
+.skiptranslate {
+  display: none !important;
+}
 
 /* Make Sofia Pro available globally */
 :root {
