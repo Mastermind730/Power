@@ -110,16 +110,16 @@ const LanguageSwitcher = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50">
+        <div className="absolute bottom-full right-0 mb-2 w-40 origin-bottom-right bg-white rounded-md shadow-xl border border-gray-200 ring-1 ring-black ring-opacity-5 z-50">
           <div className="py-1">
             {languageConfig.languages.map((ld: LanguageDescriptor) => (
               <button
                 key={`l_s_${ld.name}`}
                 onClick={switchLanguage(ld.name)}
-                className={`block w-full text-left px-4 py-2 text-sm ${
+                className={`block w-full text-left px-4 py-2 text-sm transition-colors duration-150 ${
                   currentLanguage === ld.name
-                    ? "bg-gray-100 text-gray-900"
-                    : "text-gray-700 hover:bg-gray-100"
+                    ? "bg-blue-50 text-blue-700 font-medium"
+                    : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                 }`}
               >
                 {ld.title}
