@@ -37,12 +37,12 @@ export default function Footer() {
             >
               Partners
             </Link> */}
-            <Link
+            {/* <Link
               href="/poem"
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
               Poem
-            </Link>
+            </Link> */}
           </nav>
         </div>
       </div>
