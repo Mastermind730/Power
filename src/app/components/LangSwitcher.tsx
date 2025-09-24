@@ -89,11 +89,24 @@ const LanguageSwitcher = () => {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
-        className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
+        className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white hover:text-gray-300 hover:bg-white/10 rounded-lg transition-all duration-200 border border-white/20 backdrop-blur-sm"
       >
+        <svg
+          className="w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
+          />
+        </svg>
         {currentLangTitle || "Language"}
         <svg
-          className={`w-4 h-4 transition-transform ${
+          className={`w-4 h-4 transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""
           }`}
           fill="none"
@@ -110,19 +123,45 @@ const LanguageSwitcher = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute bottom-full right-0 mb-2 w-40 origin-bottom-right bg-white rounded-md shadow-xl border border-gray-200 ring-1 ring-black ring-opacity-5 z-50">
+        <div className="absolute top-full right-0 mt-2 w-48 origin-top-right bg-white rounded-lg shadow-xl border border-gray-200 ring-1 ring-black ring-opacity-5 z-50 overflow-hidden">
           <div className="py-1">
             {languageConfig.languages.map((ld: LanguageDescriptor) => (
               <button
                 key={`l_s_${ld.name}`}
                 onClick={switchLanguage(ld.name)}
-                className={`block w-full text-left px-4 py-2 text-sm transition-colors duration-150 ${
+                className={`flex items-center w-full text-left px-4 py-3 text-sm transition-all duration-150 ${
                   currentLanguage === ld.name
-                    ? "bg-blue-50 text-blue-700 font-medium"
+                    ? "bg-green-50 text-green-700 font-medium border-r-2 border-green-500"
                     : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                 }`}
               >
+                <svg
+                  className="w-4 h-4 mr-3 opacity-60"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
+                  />
+                </svg>
                 {ld.title}
+                {currentLanguage === ld.name && (
+                  <svg
+                    className="w-4 h-4 ml-auto text-green-500"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                )}
               </button>
             ))}
           </div>

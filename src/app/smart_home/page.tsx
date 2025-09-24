@@ -57,7 +57,7 @@ const SmartHomePage = () => {
         { feature: "Water Leak Detection", essential: false, light: false, trinity: true },
         { feature: "Smart Water Value", essential: false, light: false, trinity: true },
         { feature: "Temperature Sensor", essential: false, light: false, trinity: true },
-    { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
+    // { feature: "Smart Thermostat", essential: false, light: false, trinity: true },
     { feature: "Window Sensors", essential: false, light: false, trinity: true },
     { feature: "Occupancy Sensors", essential: false, light: false, trinity: true },
     // { feature: "Smart Plugs", essential: false, light: false, trinity: true }

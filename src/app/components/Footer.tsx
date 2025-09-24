@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Link from "next/link";
 import { LanguageSwitcher } from "./LangSwitcher";
 
@@ -12,9 +13,9 @@ export default function Footer() {
               Power Global © 2025
             </span>
             {/* Language Switcher */}
-            <div className="border border-gray-300 rounded-md">
+            {/* <div className="border border-gray-300 rounded-md">
               <LanguageSwitcher />
-            </div>
+            </div> */}
           </div>
 
           {/* Right side - Navigation links */}
@@ -37,12 +38,12 @@ export default function Footer() {
             >
               Partners
             </Link> */}
-            {/* <Link
-              href="/poem"
+            <Link
+              href="/mission"
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
-              Poem
-            </Link> */}
+              Mission
+            </Link>
           </nav>
         </div>
       </div>
