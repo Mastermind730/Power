@@ -42,7 +42,7 @@ export default function Footer() {
               href="/mission"
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
-              Mission
+              Our Commitment
             </Link>
           </nav>
         </div>
