@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { LanguageSwitcher } from "./LangSwitcher";
-// ...existing code...
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -106,12 +105,6 @@ export default function Navbar() {
             >
               Charging
             </Link>
-            {/* <Link
-              href="/factory"
-              className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
-            >
-              Manufactory
-            </Link> */}
             <Link
               href="/team"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
@@ -128,8 +121,8 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Contact Button - Desktop */}
-          <div className="hidden lg:flex items-center">
+          {/* Contact Button & Language Switcher - Desktop */}
+          <div className="hidden lg:flex items-center space-x-4">
             <Link
               href="/contact_us"
               className="group flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300"
@@ -143,19 +136,22 @@ export default function Navbar() {
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>
             </Link>
-
-              <LanguageSwitcher/>
-            {/* Removed LanguageSwitcher from Navbar */}
+            <LanguageSwitcher/>
           </div>
 
           {/* Mobile menu section */}
-          <div className="lg:hidden flex items-center space-x-3">
+          <div className="lg:hidden flex items-center space-x-2">
+            {/* Mobile Language Switcher */}
+            <div className="scale-90">
+              <LanguageSwitcher />
+            </div>
+            
             {/* Contact Button - Mobile */}
             <Link
               href="/contact_us"
-              className="flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-300"
+              className="flex items-center space-x-1 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-2 py-1.5 rounded-full text-xs font-medium transition-all duration-300"
             >
-              <span>Contact</span>
+              <span className="hidden sm:inline">Contact</span>
               <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>
@@ -199,11 +195,8 @@ export default function Navbar() {
               { href: "/pillars", label: "About" },
               { href: "/our_app", label: "App" },
               { href: "/smart_home", label: "Home" },
-
               { href: "/charging", label: "Charging" },
-              // { href: "/factory", label: "Manufactory" },
               { href: "/team", label: "Team" },
-
               {
                 href: "https://clover.energy/",
                 label: "Clover",
