@@ -56,6 +56,9 @@ Dwayne is also interested in making sure knowledge is accessible to all walks of
     content:`Saurabh Tiwari, Founder with over a decade of experience in technology and entrepreneurship, has played pivotal roles in scaling Thinkerplace (as CEO) and serving as Vice President for WFR India. As co-founder of SNP Innovations and Inno91 Green Technologies, he has demonstrated innovation leadership in emerging technologies like AI, Blockchain, and IoT. His expertise extends to intellectual property with 3 international and 9 national patents, while his strategic contributions include a blockchain project for UK government initiatives and collaboration with renowned technologist Dr. Vijay Bhatkar.
    
     An active mentor for INEE-USA, IIT Bombay Eureka, and NITI Aayog's ATL Lab, Tiwari combines technical vision with business acumen to transform ideas into market-ready solutions. His leadership spans from building companies from concept to market success (Thinkerplace, Water Freedom Revolution) to advising organizations like Successive Technologies, consistently driving innovation that addresses market gaps through cutting-edge technological advancements.
+    Saurabh had the honour of being a Speaker at the MSME Chamber of Commerce and Industry Summit, sharing insights on “Building a Responsible and Impactful Blockchain Ecosystem in India.”
+
+Truly inspiring to share the stage with eminent leaders and change makers, while representing both India Blockchain Alliance (IBA) and Inno91 Green Technologies – our collective effort towards driving Blockchain adoption and Sustainability with ESG impact.
     `
 },
   {
