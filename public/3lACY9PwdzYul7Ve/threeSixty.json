@@ -1,0 +1,27 @@
+{
+  "version": "3.60.26947.0",
+  "course_id": "5iKW7WQushb",
+  "title": "Access to HE_Unit 1_decision matrix",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5xtj9FA5rap",
+      "title": "Untitled Slide",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 658
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
