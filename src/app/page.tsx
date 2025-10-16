@@ -28,18 +28,34 @@ const EnergyLandingPage = () => {
   </div>
 </div>
 
-<section className="w-full">
-  <video 
-    className="w-full h-auto object-cover"
-    autoPlay 
-    muted 
-    loop
-    playsInline
-  >
-    <source src="/main.mp4" type="video/mp4" />
-    <source src="/main.webm" type="video/webm" />
-    Your browser does not support the video tag.
-  </video>
+<section className="w-full bg-black">
+  {/* Desktop Video */}
+  <div className="hidden md:block w-full">
+    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src="https://www.youtube.com/embed/67-6C-ZBNo0?autoplay=1&mute=1&loop=1&playlist=67-6C-ZBNo0"
+        title="YouTube video player - Desktop"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
+    </div>
+  </div>
+
+  {/* Mobile Video */}
+  <div className="block md:hidden w-full">
+    <div className="relative w-full" style={{ paddingBottom: '177.78%' }}>
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src="https://www.youtube.com/embed/XTLMBBcpI-U?autoplay=1&mute=1&loop=1&playlist=XTLMBBcpI-U"
+        title="YouTube video player - Mobile"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
+    </div>
+  </div>
 </section>
 
       {/* Hero Section */}
