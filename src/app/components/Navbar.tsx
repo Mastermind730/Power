@@ -106,7 +106,7 @@ export default function Navbar() {
               Charging
             </Link>
             <Link
-              href="/education"
+              href="https://education-power.vercel.app/"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
             >
               Education
@@ -202,7 +202,7 @@ export default function Navbar() {
               { href: "/our_app", label: "App" },
               { href: "/smart_home", label: "Home" },
               { href: "/charging", label: "Charging" },
-              { href: "/education", label: "Education" },
+              { href: "https://education-power.vercel.app/", label: "Education" },
               { href: "/team", label: "Team" },
               {
                 href: "https://clover.energy/",
