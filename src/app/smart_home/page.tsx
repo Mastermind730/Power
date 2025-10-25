@@ -60,7 +60,7 @@ const SmartHomePage = () => {
       <section className="bg-white py-12 md:py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-gray-700 font-extralight mb-4 md:mb-6 tracking-tight">
+            <h1 className="text-4xl mt-8 sm:text-5xl md:text-6xl lg:text-8xl text-gray-700 font-extralight mb-4 md:mb-6 tracking-tight">
               SMART <span className="bg-gradient-to-r font-extralight from-green-400 to-emerald-500 bg-clip-text text-transparent">HOME</span>
             </h1>
             <p className="text-gray-600 max-w-6xl mx-auto text-lg sm:text-xl md:text-2xl leading-relaxed px-4">

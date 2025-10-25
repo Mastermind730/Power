@@ -97,14 +97,14 @@ export default function Navbar() {
               href="/smart_home"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
             >
-              Home
+             Smart Home
             </Link>
-            <Link
+            {/* <Link
               href="/charging"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
             >
               Charging
-            </Link>
+            </Link> */}
             {/* <Link
               href="https://education-power.vercel.app/"
               className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
@@ -142,15 +142,15 @@ export default function Navbar() {
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>
             </Link>
-            <LanguageSwitcher/>
+            {/* <LanguageSwitcher/> */}
           </div>
 
           {/* Mobile menu section */}
           <div className="lg:hidden flex items-center space-x-2">
             {/* Mobile Language Switcher */}
-            <div className="scale-90">
+            {/* <div className="scale-90">
               <LanguageSwitcher />
-            </div>
+            </div> */}
             
             {/* Contact Button - Mobile */}
             <Link
@@ -200,8 +200,8 @@ export default function Navbar() {
             {[
               { href: "/pillars", label: "About" },
               { href: "/our_app", label: "App" },
-              { href: "/smart_home", label: "Home" },
-              { href: "/charging", label: "Charging" },
+              { href: "/smart_home", label: "Smart Home" },
+              // { href: "/charging", label: "Charging" },
               // { href: "https://education-power.vercel.app/", label: "Education" },
               { href: "/team", label: "Team" },
               {
