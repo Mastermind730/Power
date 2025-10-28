@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { LanguageSwitcher } from "./LangSwitcher";
+// import { LanguageSwitcher } from "./LangSwitcher";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
